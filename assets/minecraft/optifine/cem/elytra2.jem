@@ -1,0 +1,80 @@
+{
+	"credit": "Made with Blockbench",
+	"texture": "./cit/elytras/modeled_elytras/airplane_wings/texture.png",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "right_wing",
+			"id": "right_wing",
+			"invertAxis": "xy",
+			"translate": [-5, 0, 0],
+			"boxes": [
+				{"coordinates": [-5, -20, -1, 0, 0, 0], "textureOffset": [0, 0]}
+			]
+		},
+		{
+			"part": "left_wing",
+			"id": "left_wing",
+			"invertAxis": "xy",
+			"translate": [5, 0, 0],
+			"submodels": [
+				{
+					"id": "bone",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"rotate": [0, -7.5, -10],
+					"boxes": [
+						{"coordinates": [6, -13, -1, 26, 6, 1], "textureOffset": [0, 0]},
+						{"coordinates": [1, -13, -1, 5, 6, 1], "textureOffset": [12, 0]},
+						{"coordinates": [0, -7, -1, 5, 6, 1], "textureOffset": [0, 31]},
+						{"coordinates": [5, -7, -1, 22, 1, 1], "textureOffset": [0, 7]},
+						{"coordinates": [5, -6, -1, 18, 1, 1], "textureOffset": [0, 9]},
+						{"coordinates": [5, -5, -1, 14, 1, 1], "textureOffset": [22, 11]},
+						{"coordinates": [5, -4, -1, 10, 1, 1], "textureOffset": [22, 13]},
+						{"coordinates": [5, -3, -1, 6, 1, 1], "textureOffset": [22, 15]},
+						{"coordinates": [5, -2, -1, 2, 1, 1], "textureOffset": [22, 17]}
+					]
+				},
+				{
+					"id": "bone3",
+					"invertAxis": "xy",
+					"translate": [0, 0, 1],
+					"rotate": [0, -180, 0],
+					"submodels": [
+						{
+							"id": "bone2",
+							"invertAxis": "xy",
+							"translate": [-0.05, 0, 0],
+							"rotate": [0, 7.5, -10],
+							"boxes": [
+								{"coordinates": [6, -13, 1, 26, 6, 1], "textureOffset": [0, 0]},
+								{"coordinates": [1, -13, 1, 5, 6, 1], "textureOffset": [17, 0]},
+								{"coordinates": [0, -7, 1, 5, 6, 1], "textureOffset": [0, 31]},
+								{"coordinates": [6, -13, 1, 26, 6, 1], "textureOffset": [0, 0]},
+								{"coordinates": [5, -7, 1, 22, 1, 1], "textureOffset": [0, 7]},
+								{"coordinates": [5, -6, 1, 18, 1, 1], "textureOffset": [0, 9]},
+								{"coordinates": [5, -5, 1, 14, 1, 1], "textureOffset": [22, 11]},
+								{"coordinates": [5, -4, 1, 10, 1, 1], "textureOffset": [22, 13]},
+								{"coordinates": [5, -3, 1, 6, 1, 1], "textureOffset": [22, 15]},
+								{"coordinates": [5, -2, 1, 2, 1, 1], "textureOffset": [22, 17]}
+							]
+						}
+					]
+				}
+			],
+			"boxes": [
+				{"coordinates": [12, -11, -3, 4, 9, 4], "textureOffset": [18, 21]},
+				{"coordinates": [13, -14, -2, 2, 3, 2], "textureOffset": [0, 26]},
+				{"coordinates": [-16, -11, -3, 4, 9, 4], "textureOffset": [18, 21]},
+				{"coordinates": [-15, -14, -2, 2, 3, 2], "textureOffset": [0, 26]}
+			],
+			"animations": [
+				{
+					"left_wing.rz": 0,
+					"left_wing.rx": "left_wing.rx-torad(15)",
+					"left_wing.ry": 0
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"credit": "Made with Blockbench",
+	"texture": "./cit/elytras/capes/mojang/minecon_2019/minecon_2019_cape_wing.png",
+	"textureSize": [64, 32],
+	"models": [
+		{
+			"part": "right_wing",
+			"id": "right_wing",
+			"invertAxis": "xy",
+			"translate": [-5, 0, 0],
+			"boxes": [
+				{"coordinates": [-4, -36, 0, 0, 0, 0], "textureOffset": [0, 0]}
+			]
+		},
+		{
+			"part": "left_wing",
+			"id": "left_wing",
+			"invertAxis": "xy",
+			"translate": [5, 0, 0],
+			"boxes": [
+				{
+					"coordinates": [-5, -16, 0.25, 10, 16, 1],
+					"uvNorth": [12, 1, 22, 17],
+					"uvEast": [11, 1, 12, 17],
+					"uvSouth": [1, 1, 11, 17],
+					"uvWest": [0, 1, 1, 17],
+					"uvUp": [1, 1, 11, 0],
+					"uvDown": [11, 0, 21, 1]
+				}
+			],
+			"animations": [
+				{
+					"left_wing.rz": "torad(var.counter3 * -7)",
+					"left_wing.rx": "left_wing.rx-torad(10)+ var.counter1 + var.counter2",
+					"var.counter1": "if(move_forward, clamp(var.counter1 + (0.005*sin(time)*is_on_ground)+0.005,0,(0.7+0.05*is_on_ground*sin(time*0.8))), clamp(var.counter1 * 0.98,0,1))",
+					"var.counter2": "if(abs(move_strafing) > 0.1, clamp(var.counter2 + 0.0025*sin(time)+0.0025,0,(0.7+0.025*sin(time*0.8))), clamp(var.counter2 * 0.98,0,1))",
+					"var.counter3": "if(abs(move_strafing) > 0.1, clamp(var.counter3 + move_strafing*0.01,0,1), clamp(var.counter3 * 0.98,0,1))",
+					"left_wing.ry": 0
+				}
+			]
+		}
+	]
+}

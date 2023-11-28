@@ -1,0 +1,43 @@
+{
+	"credit": "Made with Blockbench",
+	"texture": "textures/entity/chapulin_elytra/e.png",
+	"textureSize": [64, 32],
+	"models": [
+		{
+			"part": "right_wing",
+			"id": "right_wing",
+			"invertAxis": "xy",
+			"translate": [-5, 0, 0],
+			"boxes": [
+				{
+					"coordinates": [-5, -20, 0, 10, 20, 2],
+					"uvNorth": [52, 2, 42, 22],
+					"uvEast": [54, 2, 52, 22],
+					"uvSouth": [64, 2, 54, 22],
+					"uvWest": [42, 2, 40, 22],
+					"uvUp": [42, 2, 52, 0],
+					"uvDown": [52, 0, 62, 2],
+					"sizeAdd": 1
+				}
+			]
+		},
+		{
+			"part": "left_wing",
+			"id": "left_wing",
+			"invertAxis": "xy",
+			"translate": [5, 0, 0],
+			"boxes": [
+				{
+					"coordinates": [-5, -20, 0, 10, 20, 2],
+					"uvNorth": [2, 2, 12, 22],
+					"uvEast": [0, 2, 2, 22],
+					"uvSouth": [14, 2, 24, 22],
+					"uvWest": [12, 2, 14, 22],
+					"uvUp": [12, 2, 2, 0],
+					"uvDown": [22, 0, 12, 2],
+					"sizeAdd": 1
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"credit": "Made with Blockbench",
+	"texture": "./cit/elytras/mojang_elytras/birthday/elytra.png",
+	"textureSize": [64, 32],
+	"models": [
+		{
+			"part": "right_wing",
+			"id": "right_wing",
+			"invertAxis": "xy",
+			"translate": [-5, 0, 0],
+			"boxes": [
+				{"coordinates": [-4, -36, 0, 0, 0, 0], "textureOffset": [0, 0]}
+			]
+		},
+		{
+			"part": "left_wing",
+			"id": "left_wing",
+			"invertAxis": "xy",
+			"translate": [5, 0, 0],
+			"boxes": [
+				{
+					"coordinates": [-5, -16, 0.25, 10, 16, 1],
+					"uvNorth": [12, 1, 22, 17],
+					"uvEast": [11, 1, 12, 17],
+					"uvSouth": [1, 1, 11, 17],
+					"uvWest": [0, 1, 1, 17],
+					"uvUp": [1, 0, 11, 1],
+					"uvDown": [11, 0, 21, 1]
+				}
+			],
+			"animations": [
+				{
+					"left_wing.rz": "0",
+					"left_wing.rx": "left_wing.rx-torad(10) + ((torad(15)-left_wing.rx)/15)*sin(time*1.4)*2",
+					"left_wing.ry": 0
+				}
+			]
+		}
+	]
+}
