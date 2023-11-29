@@ -30,8 +30,8 @@
 			],
 			"animations": [
 				{
-					"left_wing.rz": "torad(var.counter3 * -7)",
-					"left_wing.rx": "left_wing.rx-torad(10)+ var.counter1 + var.counter2",
+					"left_wing.rz": "0",
+					"left_wing.rx": "left_wing.rx-torad(10)+ limb_speed*0.8+(limb_speed*0.05*is_on_ground*sin(time*0.8))",
 					"var.counter1": "if(move_forward, clamp(var.counter1 + (0.005*sin(time)*is_on_ground)+0.005,0,(0.7+0.05*is_on_ground*sin(time*0.8))), clamp(var.counter1 * 0.98,0,1))",
 					"var.counter2": "if(abs(move_strafing) > 0.1, clamp(var.counter2 + 0.0025*sin(time)+0.0025,0,(0.7+0.025*sin(time*0.8))), clamp(var.counter2 * 0.98,0,1))",
 					"var.counter3": "if(abs(move_strafing) > 0.1, clamp(var.counter3 + move_strafing*0.01,0,1), clamp(var.counter3 * 0.98,0,1))",
