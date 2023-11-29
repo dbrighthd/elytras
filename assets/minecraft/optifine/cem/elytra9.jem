@@ -2207,7 +2207,12 @@
 			"animations": [
 				{
 					"left_wing.rz": 0,
-					"left_wing.rx": "left_wing.rx-torad(15)"
+					"left_wing.rx": "left_wing.rx-torad(15)",
+					"left_wing.sx": "var.counter2",
+					"left_wing.sy": "var.counter2",
+					"left_wing.sz": "var.counter2",
+					"var.counter1": "rule_index-15",
+					"var.counter2": "if(var.counter1>0, clamp(var.counter2+0.01,0,1),clamp(var.counter2-0.01,0,1))"
 				}
 			]
 		}
