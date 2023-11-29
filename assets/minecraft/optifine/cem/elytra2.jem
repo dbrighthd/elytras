@@ -17,6 +17,12 @@
 			"id": "left_wing",
 			"invertAxis": "xy",
 			"translate": [5, 0, 0],
+			"boxes": [
+				{"coordinates": [12, -11, -3, 4, 9, 4], "textureOffset": [18, 21]},
+				{"coordinates": [13, -14, -2, 2, 3, 2], "textureOffset": [0, 26]},
+				{"coordinates": [-16, -11, -3, 4, 9, 4], "textureOffset": [18, 21]},
+				{"coordinates": [-15, -14, -2, 2, 3, 2], "textureOffset": [0, 26]}
+			],
 			"submodels": [
 				{
 					"id": "bone",
@@ -61,12 +67,6 @@
 						}
 					]
 				}
-			],
-			"boxes": [
-				{"coordinates": [12, -11, -3, 4, 9, 4], "textureOffset": [18, 21]},
-				{"coordinates": [13, -14, -2, 2, 3, 2], "textureOffset": [0, 26]},
-				{"coordinates": [-16, -11, -3, 4, 9, 4], "textureOffset": [18, 21]},
-				{"coordinates": [-15, -14, -2, 2, 3, 2], "textureOffset": [0, 26]}
 			],
 			"animations": [
 				{
