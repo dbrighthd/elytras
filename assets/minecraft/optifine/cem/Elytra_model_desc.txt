@@ -1,0 +1,11 @@
+1-default elytra
+2-Airplane
+3-Flapping default
+4-pod racers/warp nnacelles
+5-Fersh animate
+6-cape
+7-Moth/butterfly
+8-independent left/right texture
+9-tie fighter
+10-
+11-Star trek red angel
