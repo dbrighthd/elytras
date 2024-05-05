@@ -1,6 +1,5 @@
 {
 	"credit": "Made with Blockbench",
-	"texture": "./cit/elytras/modeled_elytras/tiefighter/e.png",
 	"textureSize": [318, 20],
 	"models": [
 		{

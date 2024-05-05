@@ -1,6 +1,5 @@
 {
 	"credit": "Made with Blockbench",
-	"texture": "./cit/elytras/modeled_elytras/airplane_wings/texture.png",
 	"textureSize": [64, 64],
 	"models": [
 		{

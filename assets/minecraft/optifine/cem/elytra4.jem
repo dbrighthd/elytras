@@ -1,6 +1,5 @@
 {
 	"credit": "Made with Blockbench",
-	"texture": "./cit/elytras/misc_elytras/startrekengines/i.png",
 	"textureSize": [64, 32],
 	"models": [
 		{

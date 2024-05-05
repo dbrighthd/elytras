@@ -1,6 +1,5 @@
 {
 	"credit": "Made with Blockbench",
-	"texture": "textures/entity/chapulin_elytra/e.png",
 	"textureSize": [64, 32],
 	"models": [
 		{
