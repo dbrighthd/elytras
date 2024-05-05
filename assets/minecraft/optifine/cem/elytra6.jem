@@ -37,6 +37,7 @@
 			"animations": [
 				{
 					"left_wing.rz": "0",
+					"var.onground": "if(is_on_ground, 1, 0)",
 					"bone.rz": "var.counter18*torad(10)",
 					"var.counter1": "rule_index-11",
 					"var.counter2": "if(var.counter1>0, clamp(var.counter2+0.02,0,1),clamp(var.counter2-0.02,0,1))",
@@ -49,7 +50,7 @@
 					"var.counter16": "atan2(sin(var.counter13-var.counter12),cos(var.counter13-var.counter12))",
 					"var.counter14": "if(abs(var.counter16) < torad(120), 1, if(var.counter5 > 1, -1, 0))",
 					"var.counter15": "clamp(var.counter15+0.05*var.counter14,0,1)",
-					"var.counter6": "clamp(var.counter7+left_wing.rx-torad(10)+ (limb_speed)*var.counter15*0.8+(pow(limb_speed,4)*0.05*is_on_ground* var.counter15*sin(time*0.8)),0,6)",
+					"var.counter6": "clamp(var.counter7+left_wing.rx-torad(10)+ (limb_speed)*var.counter15*0.8+(pow(limb_speed,4)*0.05*var.onground* var.counter15*sin(time*0.8)),0,6)",
 					"left_wing.rx": "lerp(var.counter2,clamp(var.counter6,0,1.2),left_wing.rx-torad(10) + ((torad(15)-left_wing.rx)/15)*sin(time*1.4)*2)",
 					"left_wing.ry": "0",
 					"bone.tx": -5,
