@@ -1,6 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textureSize": [64, 64],
+	"texture": "testtexture.png",
 	"models": [
 		{
 			"part": "right_wing",
@@ -17,27 +18,45 @@
 				{
 					"id": "Butterfly",
 					"invertAxis": "xy",
-					"translate": [0, 0, 0],
+					"translate": [0, 0, 1],
 					"submodels": [
 						{
 							"id": "Rwing",
 							"invertAxis": "xy",
-							"translate": [0, -4, 1],
+							"translate": [0, -4, -0.5],
 							"submodels": [
 								{
 									"id": "Rtop",
 									"invertAxis": "xy",
-									"translate": [0, 3, 0.5],
+									"translate": [0, 3, 0],
 									"boxes": [
-										{"coordinates": [0, 0, -1, 22, 14, 2], "textureOffset": [0, 0]}
+										{
+											"coordinates": [0, 0, 0.15, 22, 14, 0],
+											"uvNorth": [2, 2, 24, 16],
+											"uvEast": [1, 2, 2, 16],
+											"uvSouth": [26, 2, 48, 16],
+											"uvWest": [24, 2, 25, 16],
+											"uvUp": [24, 2, 2, 1],
+											"uvDown": [46, 2, 24, 1],
+											"sizeAdd": 0.1
+										}
 									]
 								},
 								{
 									"id": "Rbottom",
 									"invertAxis": "xy",
-									"translate": [0, -1, 0.5],
+									"translate": [0, -1, 0],
 									"boxes": [
-										{"coordinates": [0, -16, -2, 14, 20, 2], "textureOffset": [0, 42]}
+										{
+											"coordinates": [0, -16, 0, 14, 20, 0],
+											"uvNorth": [2, 44, 16, 64],
+											"uvEast": [1, 44, 2, 64],
+											"uvSouth": [18, 44, 32, 64],
+											"uvWest": [16, 44, 17, 64],
+											"uvUp": [16, 43, 2, 44],
+											"uvDown": [30, 43, 16, 44],
+											"sizeAdd": 0.1
+										}
 									]
 								}
 							]
@@ -45,22 +64,40 @@
 						{
 							"id": "Lwing",
 							"invertAxis": "xy",
-							"translate": [0, -4, 1],
+							"translate": [0, -4, -0.5],
 							"submodels": [
 								{
 									"id": "Ltop",
 									"invertAxis": "xy",
-									"translate": [0, 3, 0.5],
+									"translate": [0, 3, 0],
 									"boxes": [
-										{"coordinates": [-22, 0, -1, 22, 14, 2], "textureOffset": [0, 16]}
+										{
+											"coordinates": [-22, 0, 0.15, 22, 14, 0],
+											"uvNorth": [2, 18, 24, 32],
+											"uvEast": [1, 18, 2, 32],
+											"uvSouth": [26, 18, 48, 32],
+											"uvWest": [24, 18, 25, 32],
+											"uvUp": [24, 18, 2, 17],
+											"uvDown": [46, 17, 24, 18],
+											"sizeAdd": 0.1
+										}
 									]
 								},
 								{
 									"id": "Lbottom",
 									"invertAxis": "xy",
-									"translate": [0, -1, 0.5],
+									"translate": [0, -1, 0],
 									"boxes": [
-										{"coordinates": [-14, -16, -2, 14, 20, 2], "textureOffset": [32, 42]}
+										{
+											"coordinates": [-14, -16, 0, 14, 20, 0],
+											"uvNorth": [34, 44, 48, 64],
+											"uvEast": [33, 44, 34, 64],
+											"uvSouth": [50, 44, 64, 64],
+											"uvWest": [48, 44, 49, 64],
+											"uvUp": [48, 44, 34, 43],
+											"uvDown": [62, 43, 48, 44],
+											"sizeAdd": 0.1
+										}
 									]
 								}
 							]
@@ -73,8 +110,8 @@
 					"Ltop.rz": "left_wing.rz+torad(90)",
 					"Rtop.rz": "right_wing.rz-torad(90)",
 					"var.print": "print(TEST, 60, todeg(left_wing.rz))",
-					"Rwing.ry": "if(todeg(right_wing.rz)!=15.000008, if(todeg(left_wing.rz)<-44.999985, torad((sin(time)*50)+30), torad((sin(0.125*time)*50)+30)), torad(10))",
-					"Lwing.ry": "if(todeg(left_wing.rz)!=-15.000008, if(todeg(left_wing.rz)<-44.999985, torad((-sin(time)*50)-30), torad((-sin(0.125*time)*50)-30)), torad(-10))",
+					"Rwing.ry": "if(todeg(right_wing.rz)!=15.000008, if(todeg(left_wing.rz)<-44.999985, torad((sin(time)*50)+30), torad((sin(0.125*time)*40)+40)), torad(10))",
+					"Lwing.ry": "if(todeg(left_wing.rz)!=-15.000008, if(todeg(left_wing.rz)<-44.999985, torad((-sin(time)*50)-30), torad((-sin(0.125*time)*40)-50)), torad(-10))",
 					"left_wing.rz": 0,
 					"left_wing.rx": "left_wing.rx-torad(15)"
 				}
