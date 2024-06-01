@@ -18,7 +18,7 @@
 				{
 					"id": "Butterfly",
 					"invertAxis": "xy",
-					"translate": [0, -1, 1],
+					"translate": [0, 0, 1],
 					"submodels": [
 						{
 							"id": "Rwing",
@@ -45,10 +45,10 @@
 								{
 									"id": "Rbottom",
 									"invertAxis": "xy",
-									"translate": [0, -1, 0],
+									"translate": [0, 3, 0],
 									"boxes": [
 										{
-											"coordinates": [0, -16, 0, 14, 20, 0],
+											"coordinates": [0, -20, 0, 14, 20, 0],
 											"uvNorth": [2, 44, 16, 64],
 											"uvEast": [1, 44, 2, 64],
 											"uvSouth": [18, 44, 32, 64],
@@ -86,10 +86,10 @@
 								{
 									"id": "Lbottom",
 									"invertAxis": "xy",
-									"translate": [0, -1, 0],
+									"translate": [0, 3, 0],
 									"boxes": [
 										{
-											"coordinates": [-14, -16, 0, 14, 20, 0],
+											"coordinates": [-14, -20, 0, 14, 20, 0],
 											"uvNorth": [34, 44, 48, 64],
 											"uvEast": [33, 44, 34, 64],
 											"uvSouth": [50, 44, 64, 64],
@@ -107,8 +107,10 @@
 			],
 			"animations": [
 				{
-					"Ltop.rz": "left_wing.rz+torad(90)",
-					"Rtop.rz": "right_wing.rz-torad(90)",
+					"Ltop.rz": "left_wing.rz+torad(100)",
+					"Rtop.rz": "right_wing.rz-torad(100)",
+					"Lbottom.rz": "(left_wing.rz*0.3)+torad(4)",
+					"Rbottom.rz": "(right_wing.rz*0.3)-torad(4)",
 					"var.print": "print(TEST, 60, todeg(left_wing.rz))",
 					"Rwing.ry": "if(todeg(right_wing.rz)!=15.000008, if(todeg(left_wing.rz)<-44.999985, torad((sin(time)*50)+30), torad((sin(0.125*time)*40)+40)), torad(10))",
 					"Lwing.ry": "if(todeg(left_wing.rz)!=-15.000008, if(todeg(left_wing.rz)<-44.999985, torad((-sin(time)*50)-30), torad((-sin(0.125*time)*40)-50)), torad(-10))",
