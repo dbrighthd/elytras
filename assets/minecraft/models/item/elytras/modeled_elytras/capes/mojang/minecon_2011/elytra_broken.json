@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/elytras/modeled_elytras/capes/mojang/minecon_2011/broken_elytra"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/elytras/color_elytra/brown_elytra/m_wings_icon"
+  }
+}

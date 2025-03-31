@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/elytras/glider_elytras/icon_emerald/broken_elytra"
+  }
+}

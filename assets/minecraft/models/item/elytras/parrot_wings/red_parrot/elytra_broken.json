@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/elytras/parrot_wings/red_parrot/broken_elytra"
+  }
+}
