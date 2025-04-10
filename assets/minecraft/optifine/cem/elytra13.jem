@@ -86,7 +86,7 @@
 					"rcontrail.tx": "lerp(var.elytra_spread,-4,6)",
 					"lcontrail.sx": "clamp(var.fallflying * (1-var.onground) * 13*var.defactospeed - 8 - abs(100*var.rotxlerp),0, 100)",
 					"lcontrail.rz": "right_wing.rz+torad(90)",
-					"lcontrail.rx": "-left_wing.rx",
+					"lcontrail.rx": "left_wing.rx",
 					"lcontrail.ry": "-var.rotxlerp",
 					"lcontrail.tx": "lerp(var.elytra_spread,4,-6)",
 					"var.counter4": "var.counter4prev",
