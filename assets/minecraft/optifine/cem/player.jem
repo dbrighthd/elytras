@@ -17,7 +17,13 @@
 					"var.player_rotx": "rot_x",
 					"var.player_bodyroty": "body.ry",
 					"var.player_bodyrotx": "body.rx",
-					"var.player_bodyrotz": "body.rz"
+					"var.player_bodyrotz": "body.rz",
+					"var.right_arm_rx": "right_arm.rx",
+					"var.right_arm_ry": "right_arm.ry",
+					"var.right_arm_rz": "right_arm.rz",
+					"var.left_arm_rx": "left_arm.rx",
+					"var.left_arm_ry": "left_arm.ry",
+					"var.left_arm_rz": "left_arm.rz"
 				}
 			]
 		},
