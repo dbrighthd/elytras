@@ -9,6 +9,49 @@
 			"translate": [-5, 0, 0],
 			"boxes": [
 				{"coordinates": [-5, -20, -1, 0, 0, 0], "textureOffset": [0, 0]}
+			],
+			"animations": [
+				{
+					"left_wing.rz": 0,
+					"left_wing.rx": "left_wing.rx-torad(15)",
+					"left_wing.ry": 0,
+					"var.rotxspeed": "(var.player_rotxcur-var.player_rotx)/frame_time",
+					"var.yspeed": "(var.counter4-pos_y)/(frame_time)",
+					"var.zspeed": "((var.counter9-pos_z)/(frame_time))",
+					"var.xspeed": "((var.counter8-pos_x)/(frame_time))",
+					"var.speed": "sqrt((var.xspeed*var.xspeed)+(var.yspeed*var.yspeed)+(var.zspeed*var.zspeed))/20",
+					"var.rotationxcoord": "cos(-var.player_rotx)*cos(var.player_roty)",
+					"var.rotationycoord": "sin(-var.player_rotx)",
+					"var.rotationzcoord": "cos(-var.player_rotx)*sin(var.player_roty)",
+					"var.totalspeed": "sqrt((var.xspeed * var.xspeed) + (var.yspeed * var.yspeed) + (var.zspeed * var.zspeed))",
+					"var.onground": "if(is_on_ground, 1, 0)",
+					"var.fallflying": "if(rule_index > 10, 1, 0)",
+					"var.normalizedy": "var.yspeed / var.totalspeed",
+					"var.normalizedx": "var.xspeed / var.totalspeed",
+					"var.normalizedz": "var.zspeed / var.totalspeed",
+					"var.pitchdiff": "asin(var.normalizedy)-var.player_rotx",
+					"var.elytra_spread": "(right_wing.rz-0.261799)/(1.57067-0.261799)",
+					"var.rotxlerp": "var.rotxlerp * 0.9 + var.rotxspeed/300",
+					"var.defactospeed": "if(var.fallflying > 0, if(var.speed > var.defactospeed, var.defactospeed + 0.02, var.defactospeed - 0.02), 0)",
+					"rcontrail.sx": "clamp(var.fallflying * (1-var.onground) * 13*var.defactospeed - 8- abs(100*var.rotxlerp),0, 100)",
+					"rcontrail.rz": "0",
+					"rcontrail.rx": "-left_wing.rx+torad(90)-player_rot_x",
+					"rcontrail.ry": "-var.pitchdiff",
+					"lcontrail.sx": "clamp(var.fallflying * (1-var.onground) * 13*var.defactospeed - 8 - abs(100*var.rotxlerp),0, 100)",
+					"lcontrail.rz": "0",
+					"lcontrail.rx": "left_wing.rx-torad(90)+player_rot_x",
+					"lcontrail.ry": "-var.pitchdiff",
+					"var.counter4": "var.counter4prev",
+					"var.counter4prev": "pos_y",
+					"var.counter8": "var.counter8prev",
+					"var.counter8prev": "pos_x",
+					"var.counter9": "var.counter9prev",
+					"var.speed2": "var.speed2prev",
+					"var.speed2prev": "var.speed",
+					"var.counter9prev": "pos_z",
+					"var.player_rotxcur": "var.player_rotxprev",
+					"var.player_rotxprev": "var.player_rotx"
+				}
 			]
 		},
 		{
@@ -23,6 +66,81 @@
 				{"coordinates": [-15, -14, -2, 2, 3, 2], "textureOffset": [0, 26]}
 			],
 			"submodels": [
+				{
+					"id": "bone5",
+					"invertAxis": "xy",
+					"translate": [29, -18.5, 3],
+					"rotate": [0, 0, 90],
+					"submodels": [
+						{
+							"id": "lcontrail",
+							"invertAxis": "xy",
+							
+							"texture" : "contrail.png",
+							"translate": [0.25, 58, 1],
+							"submodels": [
+								{
+									"id": "rconspin2",
+									"invertAxis": "xy",
+									"translate": [0, 0, 0],
+									"boxes": [
+										{
+											"coordinates": [-1, -0.5, 0, 1, 1, 0],
+											"uvNorth": [64, 0, 0, 32],
+											"uvEast": [0, 0, 0, 0],
+											"uvSouth": [0, 0, 64, 32],
+											"uvWest": [0, 0, 0, 0],
+											"uvUp": [0, 0, 0, 0],
+											"uvDown": [0, 0, 0, 0],
+											"sizeAdd": 0.01
+										}
+									],
+									"submodels": [
+										{
+											"id": "bone6",
+											"invertAxis": "xy",
+											"translate": [-1, -1, 0.5],
+											"rotate": [-90, 0, 0]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "rcontrail",
+							"invertAxis": "xy",
+							"texture" : "contrail.png",
+							"translate": [0.25, 0, 1],
+							"submodels": [
+								{
+									"id": "rconspin",
+									"invertAxis": "xy",
+									"translate": [0, 0, 0],
+									"boxes": [
+										{
+											"coordinates": [-1, -0.5, 0, 1, 1, 0],
+											"uvNorth": [64, 0, 0, 32],
+											"uvEast": [0, 0, 0, 0],
+											"uvSouth": [0, 0, 64, 32],
+											"uvWest": [0, 0, 0, 0],
+											"uvUp": [0, 0, 0, 0],
+											"uvDown": [0, 0, 0, 0],
+											"sizeAdd": 0.01
+										}
+									],
+									"submodels": [
+										{
+											"id": "bone4",
+											"invertAxis": "xy",
+											"translate": [-1, -1, 0.5],
+											"rotate": [-90, 0, 0]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
 				{
 					"id": "bone",
 					"invertAxis": "xy",
@@ -65,13 +183,6 @@
 							]
 						}
 					]
-				}
-			],
-			"animations": [
-				{
-					"left_wing.rz": 0,
-					"left_wing.rx": "left_wing.rx-torad(15)",
-					"left_wing.ry": 0
 				}
 			]
 		}
