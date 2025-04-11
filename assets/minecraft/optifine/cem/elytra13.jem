@@ -1,4 +1,4 @@
- {
+{
 	"credit": "Made with Blockbench",
 	"textureSize": [64, 32],
 	"models": [
@@ -22,35 +22,33 @@
 			"submodels": [
 				{
 					"id": "rcontrail",
-					"texture": "contrail.png",
 					"invertAxis": "xy",
 					"translate": [-6, -20.5, 3],
-					"boxes": [
-						{
-							"coordinates": [-1, -0.5, 0, 1, 1, 0],
-							"uvNorth": [11, 0, 8, 5],
-							"uvEast": [0, 0, 0, 1],
-							"uvSouth": [0, 0, 64, 32],
-							"uvWest": [0, 0, 0, 1],
-							"uvUp": [0, 31, 22, 31],
-							"uvDown": [0, 31, 22, 31]
-						}
-					],
+					"texture": "contrail.png",
+					"textureSize": [64, 32],
 					"submodels": [
 						{
-							"id": "bone",
+							"id": "rconspin",
 							"invertAxis": "xy",
-							"translate": [-1, -1, 0.5],
-							"rotate": [-90, 0, 0],
+							"translate": [0, 0, 0],
 							"boxes": [
 								{
-									"coordinates": [0, 0, 1, 1, 1, 0],
-									"uvNorth": [13, 0, 12, 1],
-									"uvEast": [0, 0, 0, 1],
+									"coordinates": [-1, -0.5, 0, 1, 1, 0],
+									"uvNorth": [64, 0, 0, 32],
+									"uvEast": [0, 0, 0, 0],
 									"uvSouth": [0, 0, 64, 32],
-									"uvWest": [0, 0, 0, 1],
-									"uvUp": [0, 31, 22, 31],
-									"uvDown": [0, 31, 22, 31]
+									"uvWest": [0, 0, 0, 0],
+									"uvUp": [0, 0, 0, 0],
+									"uvDown": [0, 0, 0, 0],
+									"sizeAdd": 0.01
+								}
+							],
+							"submodels": [
+								{
+									"id": "bone",
+									"invertAxis": "xy",
+									"translate": [-1, -1, 0.5],
+									"rotate": [-90, 0, 0]
 								}
 							]
 						}
@@ -77,28 +75,23 @@
 					"var.rotxlerp": "var.rotxlerp * 0.9 + var.rotxspeed/300",
 					"var.rotzlerp": "var.rotzlerp * 0.9 + var.rotzspeed/300",
 					"var.rotylerp": "var.rotylerp * 0.9 + var.rotyspeed/300",
-
-
-					"var.rotationxcoord" : "cos(-var.player_rotx)*cos(var.player_roty)",
-					"var.rotationycoord" : "sin(-var.player_rotx)",
-					"var.rotationzcoord" : "cos(-var.player_rotx)*sin(var.player_roty)",
-
-					"var.totalspeed" : "sqrt((var.xspeed * var.xspeed) + (var.yspeed * var.yspeed) + (var.zspeed * var.zspeed))",
-
-					"var.normalizedy" : "var.yspeed / var.totalspeed",
-					"var.normalizedx" : "var.xspeed / var.totalspeed",
-					"var.normalizedz" : "var.zspeed / var.totalspeed",
-
-					"var.pitchdiff" : "asin(var.normalizedy)-var.player_rotx",
+					"var.rotationxcoord": "cos(-var.player_rotx)*cos(var.player_roty)",
+					"var.rotationycoord": "sin(-var.player_rotx)",
+					"var.rotationzcoord": "cos(-var.player_rotx)*sin(var.player_roty)",
+					"var.totalspeed": "sqrt((var.xspeed * var.xspeed) + (var.yspeed * var.yspeed) + (var.zspeed * var.zspeed))",
+					"var.normalizedy": "var.yspeed / var.totalspeed",
+					"var.normalizedx": "var.xspeed / var.totalspeed",
+					"var.normalizedz": "var.zspeed / var.totalspeed",
+					"var.pitchdiff": "asin(var.normalizedy)-var.player_rotx",
 					"var.elytra_spread": "(right_wing.rz-0.261799)/(1.57067-0.261799)",
 					"rcontrail.sx": "clamp(var.fallflying * (1-var.onground) * 13*var.defactospeed - 8 - abs(100*var.rotxlerp),0, 100)",
 					"rcontrail.rz": "-right_wing.rz+torad(90)",
-					"rcontrail.rx": "-left_wing.rx",
+					"rcontrail.rx": "-left_wing.rx+torad(90)-player_rot_x",
 					"rcontrail.ry": "-var.pitchdiff",
 					"rcontrail.tx": "lerp(var.elytra_spread,-4,6)",
 					"lcontrail.sx": "clamp(var.fallflying * (1-var.onground) * 13*var.defactospeed - 8 - abs(100*var.rotxlerp),0, 100)",
 					"lcontrail.rz": "right_wing.rz+torad(90)",
-					"lcontrail.rx": "left_wing.rx",
+					"lcontrail.rx": "left_wing.rx-torad(90)+player_rot_x",
 					"lcontrail.ry": "-var.pitchdiff",
 					"lcontrail.tx": "lerp(var.elytra_spread,4,-6)",
 					"var.counter4": "var.counter4prev",
@@ -138,18 +131,20 @@
 			"submodels": [
 				{
 					"id": "lcontrail",
-					"texture": "contrail.png",
 					"invertAxis": "xy",
 					"translate": [-6, -20.5, 3],
+					"texture": "contrail.png",
+					"textureSize": [64, 32],
 					"boxes": [
 						{
 							"coordinates": [-1, -0.5, 0, 1, 1, 0],
-							"uvNorth": [11, 0, 8, 5],
-							"uvEast": [0, 0, 0, 1],
+							"uvNorth": [64, 0, 0, 32],
+							"uvEast": [0, 0, 0, 0],
 							"uvSouth": [0, 0, 64, 32],
-							"uvWest": [0, 0, 0, 1],
-							"uvUp": [0, 31, 22, 31],
-							"uvDown": [0, 31, 22, 31]
+							"uvWest": [0, 0, 0, 0],
+							"uvUp": [0, 0, 0, 0],
+							"uvDown": [0, 0, 0, 0],
+							"sizeAdd": 0.01
 						}
 					],
 					"submodels": [
@@ -157,18 +152,7 @@
 							"id": "bone2",
 							"invertAxis": "xy",
 							"translate": [-1, -1, 0.5],
-							"rotate": [-90, 0, 0],
-							"boxes": [
-								{
-									"coordinates": [0, 0, 1, 1, 1, 0],
-									"uvNorth": [13, 0, 12, 1],
-									"uvEast": [0, 0, 0, 1],
-									"uvSouth": [0, 0, 64, 32],
-									"uvWest": [0, 0, 0, 1],
-									"uvUp": [0, 31, 22, 31],
-									"uvDown": [0, 31, 22, 31]
-								}
-							]
+							"rotate": [-90, 0, 0]
 						}
 					]
 				}
