@@ -2207,7 +2207,7 @@
 				{
 					"left_wing.rz": 0,
 					"left_wing.rx": "left_wing.rx-torad(15)",
-					"var.fallflying": "rule_index-16",
+					"var.fallflying": "if(nbt(FallFlying,raw:1b),1,0)",
 					"var.anim": "if(var.fallflying > 0, clamp(var.anim + 3*frame_time, 0,1), clamp(var.anim - 3*frame_time,0,1))",
 					"fighter.sx": "lerp(var.anim,0,1)",
 					"fighter.sz": "lerp(var.anim,0,1)",

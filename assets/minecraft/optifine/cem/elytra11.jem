@@ -173,7 +173,7 @@
 					"left_wing.rz": 0,
 					"left_wing.rx": "left_wing.rx-torad(15)",
 					"left_wing.ry": 0,
-					"var.counter1": "rule_index-19",
+					"var.counter1": "if(nbt(FallFlying,raw:1b),1,0)",
 					"var.counter2": "if(var.counter1>0, clamp(var.counter2+0.02,0,1),clamp(var.counter2-0.02,0,1))",
 					"bone6.ry": "lerp(var.counter2,0,torad(15))",
 					"bone12.ry": "lerp(var.counter2,0,-torad(15))"

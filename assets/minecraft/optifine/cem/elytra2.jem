@@ -25,7 +25,7 @@
 					"var.rotationzcoord": "cos(-var.player_rotx)*sin(var.player_roty)",
 					"var.totalspeed": "sqrt((var.xspeed * var.xspeed) + (var.yspeed * var.yspeed) + (var.zspeed * var.zspeed))",
 					"var.onground": "if(is_on_ground, 1, 0)",
-					"var.fallflying": "if(rule_index > 10, 1, 0)",
+					"var.fallflying": "if(nbt(FallFlying,raw:1b),1,0)",
 					"var.normalizedy": "var.yspeed / var.totalspeed",
 					"var.normalizedx": "var.xspeed / var.totalspeed",
 					"var.normalizedz": "var.zspeed / var.totalspeed",

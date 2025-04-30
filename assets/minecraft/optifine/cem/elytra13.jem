@@ -58,7 +58,7 @@
 			"animations": [
 				{
 					"var.onground": "if(is_on_ground, 1, 0)",
-					"var.fallflying": "rule_index - 24",
+					"var.fallflying": "if(nbt(FallFlying,raw:1b),1,0)",
 					"var.yspeed": "(var.counter4-pos_y)/(frame_time)",
 					"var.zspeed": "((var.counter9-pos_z)/(frame_time))",
 					"var.xspeed": "((var.counter8-pos_x)/(frame_time))",
