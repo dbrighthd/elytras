@@ -1,2 +1,29 @@
-- name: Automatically copy elytras to ETF format
-  run: dotnet run --project autoElytraETF/autoElytraETF.csproj
+name: Run Elytra Project
+
+on:
+  push:
+    branches:
+      - main
+      - your-branch-name  # or any branches you want to test on
+
+jobs:
+  build-and-run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.x'
+
+      - name: Restore dependencies
+        run: dotnet restore autoElytraETF/autoElytraETF.csproj
+
+      - name: Build project
+        run: dotnet build autoElytraETF/autoElytraETF.csproj --configuration Release --no-restore
+
+      - name: Run the project
+        run: dotnet run --project autoElytraETF/autoElytraETF.csproj
