@@ -1,0 +1,2 @@
+- name: Automatically copy elytras to ETF format
+  run: dotnet run --project autoElytraETF/autoElytraETF.csproj
