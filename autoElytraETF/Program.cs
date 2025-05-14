@@ -130,7 +130,7 @@ class Program
                     displayName = line.Substring("nbt.display.Name=".Length - offset);
                 }
             }
-            string texturePath = directory + "\\" + texture;
+            string texturePath = directory + "/" + texture;
             CitElytra citItem = new CitElytra(displayName, texturePath, displayNameRaw);
             return citItem;
         }
