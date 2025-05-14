@@ -25,5 +25,8 @@ jobs:
       - name: Build project
         run: dotnet build autoElytraETF/autoElytraETF.csproj --configuration Release --no-restore
 
+      - name: Create destination directory if dont exist
+        run: mkdir -p assets/minecraft/optifine/random/entity/equipment/wings
+
       - name: Run the project
         run: dotnet run --project autoElytraETF/autoElytraETF.csproj
