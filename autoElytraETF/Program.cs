@@ -50,6 +50,7 @@ class Program
 
                     }
                     File.Copy(elytra.texturePath, destinationPath, overwrite: true);
+                    Console.WriteLine("Copied elytra: " + elytra.texturePath);
                     writer.Write(buildElytraString(elytra));
                     id++;
                 }
