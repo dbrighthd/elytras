@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/elytras/modeled_elytras/capes/mojang/mojang_new/newmojang_wings_icon"
+  }
+}

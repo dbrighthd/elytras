@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/elytras/block_elytras/sandstone_elytra/elytra_item"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/elytras/pride_elytras/lesbian/lesbian_elytra_icon"
+  }
+}

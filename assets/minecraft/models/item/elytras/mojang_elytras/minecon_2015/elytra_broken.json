@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/elytras/mojang_elytras/minecon_2015/broken_elytra"
+  }
+}

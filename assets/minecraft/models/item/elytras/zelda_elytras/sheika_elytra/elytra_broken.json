@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/elytras/zelda_elytras/sheika_elytra/broken_elytra"
+  }
+}

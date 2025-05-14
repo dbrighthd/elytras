@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/elytras/block_elytras/minerals/iron/1.17ore/elytra"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/elytras/mojang_elytras/minecon_2019/wing_minecon_2019_cape"
+  }
+}
