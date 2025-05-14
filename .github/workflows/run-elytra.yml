@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      - your-branch-name  # or any branches you want to test on
+      - github-actions-test
 
 jobs:
   build-and-run:
