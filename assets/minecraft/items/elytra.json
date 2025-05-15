@@ -906,6 +906,26 @@
       },
       {
         "when": [
+          "Blue Crab Elytra",
+          "blue crab elytra",
+          "ipattern:Blue Crab Elytra",
+          "iregex:.*Blue Crab Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/crab_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/crab_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
           "Christmas Wings",
           "christmas wings",
           "ipattern:christmas wings",
@@ -4626,6 +4646,26 @@
       },
       {
         "when": [
+          "Elephant Hawk Moth Elytra",
+          "elephant hawk moth elytra",
+          "ipattern:Elephant Hawk Moth Elytra",
+          "iregex:.*Elephant Hawk Moth Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/bug_elytra/mothwings/elephanthawkmoth/elephant_hawk_moth/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/bug_elytra/mothwings/elephanthawkmoth/elephant_hawk_moth/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
           "Black Moth Elytra",
           "black moth elytra",
           "ipattern:Black Moth Elytra",
@@ -5521,6 +5561,26 @@
           "on_true": {
             "type": "minecraft:model",
             "model": "minecraft:item/elytras/mojang_elytras/scrolls/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Oak Log Elytra",
+          "oak log elytra",
+          "ipattern:oak log elytra",
+          "iregex:.*Oak Log Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/balatro_elytra/clubs/blanks/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/balatro_elytra/clubs/blanks/elytra_broken"
           }
         }
       },
