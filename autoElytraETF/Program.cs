@@ -128,6 +128,7 @@ class Program
                 }
                 else if (line.Contains("nbt.display.Name="))
                 {
+                    displayNameRaw = line.Substring("nbt.display.Name=".Length - offset);
                     displayName = line.Substring("nbt.display.Name=".Length - offset);
                 }
             }
