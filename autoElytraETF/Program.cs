@@ -109,7 +109,7 @@ class Program
                 else if (line.Contains("nbt.display.Name=ipattern:"))
                 {
                     displayName = line.Substring("nbt.display.Name=ipattern:".Length - offset).Replace("*", ".*");
-                    displayNameRaw = line.Substring("nbt.display.Name=pattern:".Length - offset).Replace("*", ".*");
+                    displayNameRaw = line.Substring("nbt.display.Name=ipattern:".Length - offset).Replace("*", ".*");
                 }
                 else if (line.Contains("nbt.display.Name=pattern:"))
                 {
@@ -144,7 +144,7 @@ class Program
 
     public static string buildElytraString(CitElytra elytra)
     {
-        string output = "\ntextures." + id + "=" + id + "\r\nnbt." + id + ".equipment.chest=raw:iregex:.*((" + elytra.displayName + ")|("+elytra.displayNameRaw +").*\n";
+        string output = "\ntextures." + id + "=" + id + "\r\nnbt." + id + ".equipment.chest=raw:iregex:.*((" + elytra.displayName + ")|("+elytra.displayNameRaw +")).*\n";
         return output;
     }
 
