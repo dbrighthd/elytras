@@ -17,7 +17,7 @@ class Program
     static void Main()
     {
         string destinationTexturePath = Path.Combine(repoRoot, "assets", "minecraft", "textures", "item");
-        string[] excludedTextureExtensions = { ".json", ".properties"};
+        string[] excludedTextureExtensions = { ".json", ".properties" };
         string[] excludedModelExtensions = { ".png", ".properties" };
 
         try
@@ -33,13 +33,14 @@ class Program
             Console.WriteLine($"Error: {ex.Message}");
         }
         JObject pumpkinsJson = CreateJson("elytra");
+        items = reOrderElytra();
         foreach (var item in items)
         {
             if (item != null)
             {
                 AddCase(pumpkinsJson, CapitalizeWords(item.displayName), item.displayNameRaw, "minecraft:item/" + item.modelPath.Replace("\\", "/"));
-                
-                if(item.displayName.ToLower().Contains("cape"))
+
+                if (item.displayName.ToLower().Contains("cape"))
                 {
                     AddCase(pumpkinsJson, CapitalizeWords(item.displayName) + " Elytra", item.displayNameRaw + "*elytra*", "minecraft:item/" + item.modelPath.Replace("\\", "/"));
                 }
@@ -153,9 +154,9 @@ class Program
             int offset = 0;
             foreach (string line in lines)
             {
-                if(line.Contains("type="))
+                if (line.Contains("type="))
                 {
-                    type = line.Substring("type=".Length-offset);
+                    type = line.Substring("type=".Length - offset);
                     if (type != "item")
                     {
                         return null;
@@ -163,7 +164,7 @@ class Program
                 }
                 else if (line.Contains("items="))
                 {
-                    items = line.Substring("items=".Length -offset);
+                    items = line.Substring("items=".Length - offset);
                 }
                 else if (line.Contains("texture="))
                 {
@@ -179,7 +180,7 @@ class Program
                 }
                 else if (line.Contains("nbt.display.Name=ipattern:"))
                 {
-                    displayName = line.Substring("nbt.display.Name=ipattern:".Length - offset).Replace("*","");
+                    displayName = line.Substring("nbt.display.Name=ipattern:".Length - offset).Replace("*", "");
                 }
                 else if (line.Contains("nbt.display.Name=pattern:"))
                 {
@@ -208,7 +209,7 @@ class Program
             }
             string modelPath = relativePath + "/" + "elytra";
             string absoluteJsonPath = Path.Combine(Path.Combine(destinationModelPath, relativePath), "elytra.json");
-            string textures = Path.Combine(relativePath,citTexture);
+            string textures = Path.Combine(relativePath, citTexture);
             CitItem citItem = new CitItem(type, items, model, displayName, modelPath, textures, absoluteJsonPath, displayNameRaw);
             return citItem;
         }
@@ -320,7 +321,7 @@ class Program
                 {
                     string value = property.Value.ToString();
                     if (value.StartsWith("./"))
-                     {
+                    {
                         value = value.Substring(2);
                     }
                     if (!value.StartsWith("block"))
@@ -414,7 +415,7 @@ class Program
     }
     static string findMostBasicRegex(string input)
     {
-        return ExtractFirstTerm(input).Replace(".*","").Replace("(","").Replace(")", "").Replace("?", "").Replace("batmanelytra", "batman cape elytra").Replace("missing texture", "missing texture elytra");
+        return ExtractFirstTerm(input).Replace(".*", "").Replace("(", "").Replace(")", "").Replace("?", "").Replace("batmanelytra", "batman cape elytra").Replace("missing texture", "missing texture elytra");
     }
     static string ExtractFirstTerm(string input)
     {
@@ -424,14 +425,14 @@ class Program
         {
             thePartThatSwiftMadeMeCheckForWithHisHats = input.Substring(lastIndex + 1);
         }
-        var pattern = @"\(([^()]*\([^()]*\)[^()]*)\|"; 
+        var pattern = @"\(([^()]*\([^()]*\)[^()]*)\|";
         var match = Regex.Match(input, pattern);
 
         if (match.Success)
         {
             return ExtractTerm(match.Groups[1].Value);
         }
-        return input.Split('|')[0]+ thePartThatSwiftMadeMeCheckForWithHisHats;
+        return input.Split('|')[0] + thePartThatSwiftMadeMeCheckForWithHisHats;
     }
 
     static string ExtractTerm(string input)
@@ -467,7 +468,7 @@ class Program
 
     static string printElytraJson(CitItem citItem)
     {
-        return "{\r\n  \"parent\": \"minecraft:item/generated\",\r\n  \"textures\": {\r\n    \"layer0\": \"minecraft:item/" + citItem.texturePath.Replace("\\", "/") +"\"\r\n  }\r\n}";
+        return "{\r\n  \"parent\": \"minecraft:item/generated\",\r\n  \"textures\": {\r\n    \"layer0\": \"minecraft:item/" + citItem.texturePath.Replace("\\", "/") + "\"\r\n  }\r\n}";
     }
     static void DeleteAllContents(string folderPath)
     {
@@ -496,5 +497,29 @@ class Program
         {
             Console.WriteLine($"Error deleting contents from {folderPath}: {ex.Message}");
         }
+    }
+    public static List<CitItem> reOrderElytra()
+    {
+        List<CitItem> newElytras = new List<CitItem>();
+        foreach(var elytra in items)
+        {
+            bool hasMatch = false;
+            foreach (var newElytra in newElytras)
+            {
+                if (newElytra != null && elytra != null && newElytra.displayName.ToLower().Contains(elytra.displayName.ToLower()))
+                {
+                    hasMatch = true;
+                }
+            }
+            if (!hasMatch)
+            {
+                newElytras.Insert(0,elytra);
+            }
+            else
+            {
+                newElytras.Add(elytra);
+            }
+        }
+        return newElytras;
     }
 }
