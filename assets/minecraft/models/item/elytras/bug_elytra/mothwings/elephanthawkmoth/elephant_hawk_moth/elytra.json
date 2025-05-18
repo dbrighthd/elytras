@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "item/elytras/bug_elytra/mothwings/elephanthawkmoth/elephant_hawk_moth/item/elytras/bug_elytra/mothwings/elephanthawkmoth/elephant_hawk_moth/minecraft:item/elytras/bug_elytra/mothwings/elephanthawkmoth/elephant_hawk_moth/elephanthawkmoth"
+    "layer0": "item/elytras/bug_elytra/mothwings/elephanthawkmoth/elephant_hawk_moth/item/elytras/bug_elytra/mothwings/elephanthawkmoth/elephant_hawk_moth/item/elytras/bug_elytra/mothwings/elephanthawkmoth/elephant_hawk_moth/minecraft:item/elytras/bug_elytra/mothwings/elephanthawkmoth/elephant_hawk_moth/elephanthawkmoth"
   }
 }
