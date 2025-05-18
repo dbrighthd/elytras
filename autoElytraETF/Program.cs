@@ -14,16 +14,16 @@ class Program
     {
         DeleteAllContents(oldDestinationElytraPath);
         string filePath = Path.Combine(destinationElytraPath,"elytra_texture.properties");
-        try
-        {
-            ProcessElytraPropertyDirectories(sourcePath);
-        }
         int eltyraNum = 2;
 
         while(File.Exists(Path.Combine(destinationElytraPath, "elytra_texture" + eltyraNum + ".png")))
         {
             File.Delete(Path.Combine(destinationElytraPath, "elytra_texture" + eltyraNum + ".png"));
             eltyraNum++;
+        }
+        try
+        {
+            ProcessElytraPropertyDirectories(sourcePath);
         }
         catch (Exception ex)
         {
