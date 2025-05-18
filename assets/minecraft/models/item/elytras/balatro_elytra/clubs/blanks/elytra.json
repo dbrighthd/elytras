@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "item/elytras/balatro_elytra/clubs/blanks/minecraft:item/elytras/balatro_elytra/clubs/blanks/elytra_item"
-  }
-}

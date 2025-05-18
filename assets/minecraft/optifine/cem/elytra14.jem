@@ -1,7 +1,6 @@
 {
 	"credit": "Made with Blockbench",
 	"textureSize": [64, 32],
-	"texture": "elytra_texture.png",
 	"models": [
 		{
 			"part": "right_wing",
@@ -11,12 +10,12 @@
 			"boxes": [
 				{
 					"coordinates": [-5, -20, 0, 10, 20, 2],
-					"uvNorth": [52, 2, 42, 22],
-					"uvEast": [54, 2, 52, 22],
-					"uvSouth": [64, 2, 54, 22],
-					"uvWest": [42, 2, 40, 22],
-					"uvUp": [42, 2, 52, 0],
-					"uvDown": [52, 0, 62, 2],
+					"uvNorth": [34, 2, 24, 22],
+					"uvEast": [36, 2, 34, 22],
+					"uvSouth": [46, 2, 36, 22],
+					"uvWest": [24, 2, 22, 22],
+					"uvUp": [24, 2, 34, 0],
+					"uvDown": [34, 0, 44, 2],
 					"sizeAdd": 1
 				}
 			]
@@ -29,12 +28,12 @@
 			"boxes": [
 				{
 					"coordinates": [-5, -20, 0, 10, 20, 2],
-					"uvNorth": [2, 2, 12, 22],
-					"uvEast": [0, 2, 2, 22],
-					"uvSouth": [14, 2, 24, 22],
-					"uvWest": [12, 2, 14, 22],
-					"uvUp": [12, 2, 2, 0],
-					"uvDown": [22, 0, 12, 2],
+					"uvNorth": [24, 2, 34, 22],
+					"uvEast": [22, 2, 24, 22],
+					"uvSouth": [36, 2, 46, 22],
+					"uvWest": [34, 2, 36, 22],
+					"uvUp": [34, 2, 24, 0],
+					"uvDown": [44, 0, 34, 2],
 					"sizeAdd": 1
 				}
 			]
