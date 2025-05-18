@@ -1,6 +1,7 @@
 {
 	"credit": "Made with Blockbench",
-	"textureSize": [64, 64],
+	"textureSize": [64, 32],
+	"texture": "elytra_texture.png",
 	"models": [
 		{
 			"part": "right_wing",
@@ -75,9 +76,9 @@
 						{
 							"id": "lcontrail",
 							"invertAxis": "xy",
-							
-							"texture" : "contrail.png",
 							"translate": [0.25, 58, 1],
+							"texture": "contrail.png",
+							"textureSize": [64, 64],
 							"submodels": [
 								{
 									"id": "rconspin2",
@@ -109,8 +110,9 @@
 						{
 							"id": "rcontrail",
 							"invertAxis": "xy",
-							"texture" : "contrail.png",
 							"translate": [0.25, 0, 1],
+							"texture": "contrail.png",
+							"textureSize": [64, 64],
 							"submodels": [
 								{
 									"id": "rconspin",

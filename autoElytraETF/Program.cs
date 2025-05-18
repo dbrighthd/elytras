@@ -6,16 +6,24 @@ class Program
 
     static string sourcePath = Path.Combine(repoRoot, "assets", "minecraft", "optifine", "cit");
     
-    static string destinationElytraPath = Path.Combine(repoRoot, "assets", "minecraft", "optifine", "random", "entity", "equipment", "wings");
+    static string oldDestinationElytraPath = Path.Combine(repoRoot, "assets", "minecraft", "optifine", "random", "entity", "equipment", "wings");
+    static string destinationElytraPath = Path.Combine(repoRoot, "assets", "minecraft", "optifine", "cem");
     static List<CitElytra> elytras = new List<CitElytra>();
     static int id = 2;
     static void Main()
     {
-        DeleteAllContents(destinationElytraPath);
-        string filePath = Path.Combine(destinationElytraPath,"elytra.properties");
+        DeleteAllContents(oldDestinationElytraPath);
+        string filePath = Path.Combine(destinationElytraPath,"elytra_texture.properties");
         try
         {
             ProcessElytraPropertyDirectories(sourcePath);
+        }
+        int eltyraNum = 2;
+
+        while(File.Exists(Path.Combine(destinationElytraPath, "elytra_texture" + eltyraNum + ".png")))
+        {
+            File.Delete(Path.Combine(destinationElytraPath, "elytra_texture" + eltyraNum + ".png"));
+            eltyraNum++;
         }
         catch (Exception ex)
         {
@@ -28,8 +36,8 @@ class Program
             {
                 if(elytra != null)
                 {
-                    string destinationPath = Path.Combine(destinationElytraPath, "elytra" + id + ".png");
-                    string destinationEmissivePath = Path.Combine(destinationElytraPath, "elytra" + id + "_e.png");
+                    string destinationPath = Path.Combine(destinationElytraPath, "elytra_texture" + id + ".png");
+                    string destinationEmissivePath = Path.Combine(destinationElytraPath, "elytra_texture" + id + "_e.png");
                     string sourceEmissivePath = elytra.texturePath.Replace(".png", "_e.png");
                     try
                     {
@@ -39,7 +47,7 @@ class Program
                     {
                         
                     }
-                    string destinationPBREmissivePath = Path.Combine(destinationElytraPath, "elytra" + id + "_s.png");
+                    string destinationPBREmissivePath = Path.Combine(destinationElytraPath, "elytra_texture" + id + "_s.png");
                     string sourcePBREmissivePath = elytra.texturePath.Replace(".png", "_s.png");
                     try
                     {
