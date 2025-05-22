@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"textureSize": [64, 32],
+	"textureSize": [64, 64],
 	"texture": "elytra_texture.png",
 	"models": [
 		{
@@ -78,7 +78,6 @@
 							"invertAxis": "xy",
 							"translate": [0.25, 58, 1],
 							"texture": "contrail.png",
-							"textureSize": [64, 64],
 							"submodels": [
 								{
 									"id": "rconspin2",
@@ -112,7 +111,6 @@
 							"invertAxis": "xy",
 							"translate": [0.25, 0, 1],
 							"texture": "contrail.png",
-							"textureSize": [64, 64],
 							"submodels": [
 								{
 									"id": "rconspin",
