@@ -1,7 +1,6 @@
 {
 	"credit": "Made with Blockbench",
 	"textureSize": [64, 32],
-	"texture": "elytra_texture.png",
 	"models": [
 		{
 			"part": "right_wing",
@@ -14,6 +13,8 @@
 			"id": "left_wing",
 			"invertAxis": "xy",
 			"translate": [5, 0, 0],
+			"texture": "elytra_texture.png",
+			"textureSize": [318, 20],
 			"submodels": [
 				{
 					"id": "fighter",

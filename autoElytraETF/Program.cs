@@ -15,7 +15,10 @@ class Program
         DeleteAllContents(oldDestinationElytraPath);
         string filePath = Path.Combine(destinationElytraPath,"elytra_texture.properties");
         int eltyraNum = 2;
-
+        if(File.Exists(filePath))
+        {
+            File.Delete(filePath);
+        }
         while(File.Exists(Path.Combine(destinationElytraPath, "elytra_texture" + eltyraNum + ".png")))
         {
             File.Delete(Path.Combine(destinationElytraPath, "elytra_texture" + eltyraNum + ".png"));
