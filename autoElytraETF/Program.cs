@@ -111,7 +111,12 @@ class Program
             if(line.StartsWith("to="))
             {
                 string newPath = "optifine/cem/";
-                newPath = newPath + pathToNum[line.Substring("to=".Length)] + ".png";
+                string oldPath = line.Substring("to=".Length);
+                if(!pathToNum.ContainsKey(oldPath))
+                {
+                    Console.WriteLine("file not found in dictionary: " + oldPath)
+                }
+                newPath = newPath + pathToNum[oldPath] + ".png";
                 sb.AppendLine("to=" + newPath);
             }
             else
