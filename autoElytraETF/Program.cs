@@ -61,6 +61,7 @@ class Program
                     {
                         
                     }
+                    recordInAnimDict(elytra.texturePath,id);
                     string destinationPBREmissivePath = Path.Combine(destinationElytraPath, "elytra_texture" + id + "_s.png");
                     string sourcePBREmissivePath = elytra.texturePath.Replace(".png", "_s.png");
                     try
