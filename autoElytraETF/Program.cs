@@ -18,6 +18,15 @@ class Program
         DeleteAllContents(oldDestinationElytraPath);
         string filePath = Path.Combine(destinationElytraPath,"elytra_texture.properties");
         int eltyraNum = 2;
+        var animaticaPropertiesFiles = Directory.GetFiles(animaticaPath, "*.properties");
+        foreach(var animaticaPropertiesPath in animaticaPropertiesFiles)
+        {
+            if (animaticaPropertiesPath.Contains("_vanilla"))
+            {
+                File.Delete(animaticaPropertiesPath);
+                continue;
+            }
+        }
         if(File.Exists(filePath))
         {
             File.Delete(filePath);
@@ -104,8 +113,7 @@ class Program
             Console.WriteLine("found animatica properties file" + propertiesPath);
             if (propertiesPath.Contains("_vanilla"))
             {
-                Console.WriteLine(propertiesPath + "was from a previous conversion, deleting.");
-                File.Delete(propertiesPath);
+                Console.WriteLine(propertiesPath + "was from a previous conversion, ignoring.");
                 continue;
             }
             copyAnimaticaPropertiesFile(propertiesPath);
