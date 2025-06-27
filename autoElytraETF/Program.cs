@@ -1,4 +1,5 @@
 ﻿using autoElytraETF;
+using System.Text;
 
 class Program
 {
@@ -8,19 +9,38 @@ class Program
     
     static string oldDestinationElytraPath = Path.Combine(repoRoot, "assets", "minecraft", "optifine", "random", "entity", "equipment", "wings");
     static string destinationElytraPath = Path.Combine(repoRoot, "assets", "minecraft", "optifine", "cem");
+    static string animaticaPath = Path.Combine(repoRoot, "assets", "minecraft", "optifine", "anim");
     static List<CitElytra> elytras = new List<CitElytra>();
+    static Dictionary<string,string> pathToNum = new Dictionary<string,string>(); 
     static int id = 2;
     static void Main()
     {
         DeleteAllContents(oldDestinationElytraPath);
         string filePath = Path.Combine(destinationElytraPath,"elytra_texture.properties");
         int eltyraNum = 2;
+        var animaticaPropertiesFiles = Directory.GetFiles(animaticaPath, "*.properties");
+        foreach(var animaticaPropertiesPath in animaticaPropertiesFiles)
+        {
+            if (animaticaPropertiesPath.Contains("_vanilla"))
+            {
+                File.Delete(animaticaPropertiesPath);
+                continue;
+            }
+        }
         if(File.Exists(filePath))
         {
             File.Delete(filePath);
         }
         while(File.Exists(Path.Combine(destinationElytraPath, "elytra_texture" + eltyraNum + ".png")))
         {
+            if(File.Exists(Path.Combine(destinationElytraPath, "elytra_texture" + eltyraNum + "_e.png")))
+            {
+                File.Delete(Path.Combine(destinationElytraPath, "elytra_texture" + eltyraNum + "_e.png"));
+            }
+            if(File.Exists(Path.Combine(destinationElytraPath, "elytra_texture" + eltyraNum + "_s.png")))
+            {
+                File.Delete(Path.Combine(destinationElytraPath, "elytra_texture" + eltyraNum + "_s.png"));
+            }
             File.Delete(Path.Combine(destinationElytraPath, "elytra_texture" + eltyraNum + ".png"));
             eltyraNum++;
         }
@@ -50,6 +70,7 @@ class Program
                     {
                         
                     }
+                    recordInAnimDict(elytra.texturePath,id);
                     string destinationPBREmissivePath = Path.Combine(destinationElytraPath, "elytra_texture" + id + "_s.png");
                     string sourcePBREmissivePath = elytra.texturePath.Replace(".png", "_s.png");
                     try
@@ -67,8 +88,63 @@ class Program
                 }
             }
         }
+
+        AnimaticaConversion();
     }
 
+    static void recordInAnimDict(string elytraTexturePath, int elytraID)
+    {
+        string regularPath = elytraTexturePath;
+        string emmisivePath = elytraTexturePath.Replace(".png","_e.png");
+        int optifineIndex = elytraTexturePath.IndexOf("optifine");
+        if(optifineIndex >= 0)
+        {
+            regularPath = regularPath.Substring(optifineIndex);
+            emmisivePath = emmisivePath.Substring(optifineIndex);
+        }
+        pathToNum[regularPath] = elytraID.ToString();
+        pathToNum[emmisivePath] = elytraID.ToString() + "_e";
+    }
+    static void AnimaticaConversion()
+    {
+        var propertiesFiles = Directory.GetFiles(animaticaPath, "*.properties");
+        foreach(var propertiesPath in propertiesFiles)
+        {
+            Console.WriteLine("found animatica properties file" + propertiesPath);
+            if (propertiesPath.Contains("_vanilla"))
+            {
+                Console.WriteLine(propertiesPath + "was from a previous conversion, ignoring.");
+                continue;
+            }
+            copyAnimaticaPropertiesFile(propertiesPath);
+        }
+    }
+    static void copyAnimaticaPropertiesFile(string animaticaPropertiesPath)
+    {
+        var sb = new StringBuilder();
+        Console.WriteLine("reading file" + animaticaPropertiesPath);
+        foreach (string line in File.ReadLines(animaticaPropertiesPath))
+        {
+            
+            if(line.StartsWith("to="))
+            {
+                string newPath = "optifine/cem/";
+                string oldPath = line.Substring("to=".Length);
+                if(!pathToNum.ContainsKey(oldPath))
+                {
+                    Console.WriteLine("file not found in dictionary: " + oldPath);
+                    continue;
+                }
+                newPath = newPath + "elytra_texture" + pathToNum[oldPath] + ".png";
+                sb.AppendLine("to=" + newPath);
+            }
+            else
+            {
+                sb.AppendLine(line);
+            }
+        }
+        File.WriteAllText(animaticaPropertiesPath.Replace(".properties","_vanilla.properties"), sb.ToString());
+    }
     static void ProcessElytraPropertyDirectories(string directory)
     {
         var jsonFiles = Directory.GetFiles(directory, "*.json");
