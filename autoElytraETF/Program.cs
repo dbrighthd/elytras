@@ -24,6 +24,14 @@ class Program
         }
         while(File.Exists(Path.Combine(destinationElytraPath, "elytra_texture" + eltyraNum + ".png")))
         {
+            if(File.Exists(Path.Combine(destinationElytraPath, "elytra_texture" + eltyraNum + "_e.png")))
+            {
+                File.Delete(Path.Combine(destinationElytraPath, "elytra_texture" + eltyraNum + "_e.png"));
+            }
+            if(File.Exists(Path.Combine(destinationElytraPath, "elytra_texture" + eltyraNum + "_s.png")))
+            {
+                File.Delete(Path.Combine(destinationElytraPath, "elytra_texture" + eltyraNum + "_s.png"));
+            }
             File.Delete(Path.Combine(destinationElytraPath, "elytra_texture" + eltyraNum + ".png"));
             eltyraNum++;
         }
@@ -45,7 +53,6 @@ class Program
                     string destinationPath = Path.Combine(destinationElytraPath, "elytra_texture" + id + ".png");
                     string destinationEmissivePath = Path.Combine(destinationElytraPath, "elytra_texture" + id + "_e.png");
                     string sourceEmissivePath = elytra.texturePath.Replace(".png", "_e.png");
-                    recordInAnimDict(elytra.texturePath, id);
                     try
                     {
                         File.Copy(sourceEmissivePath, destinationEmissivePath, overwrite: true);
