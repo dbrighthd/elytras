@@ -114,7 +114,7 @@ class Program
                 string oldPath = line.Substring("to=".Length);
                 if(!pathToNum.ContainsKey(oldPath))
                 {
-                    Console.WriteLine("file not found in dictionary: " + oldPath)
+                    Console.WriteLine("file not found in dictionary: " + oldPath);
                 }
                 newPath = newPath + pathToNum[oldPath] + ".png";
                 sb.AppendLine("to=" + newPath);
