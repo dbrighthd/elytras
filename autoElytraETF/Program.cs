@@ -8,7 +8,9 @@ class Program
     
     static string oldDestinationElytraPath = Path.Combine(repoRoot, "assets", "minecraft", "optifine", "random", "entity", "equipment", "wings");
     static string destinationElytraPath = Path.Combine(repoRoot, "assets", "minecraft", "optifine", "cem");
+    static string animaticaPath = Path.Combine(repoRoot, "assets", "minecraft", "optifine", "anim");
     static List<CitElytra> elytras = new List<CitElytra>();
+    static Dictionary<string,string> pathToNum = new Dictionary<string,string>(); 
     static int id = 2;
     static void Main()
     {
@@ -42,6 +44,7 @@ class Program
                     string destinationPath = Path.Combine(destinationElytraPath, "elytra_texture" + id + ".png");
                     string destinationEmissivePath = Path.Combine(destinationElytraPath, "elytra_texture" + id + "_e.png");
                     string sourceEmissivePath = elytra.texturePath.Replace(".png", "_e.png");
+                    recordInAnimDict(elytra.texturePath, id);
                     try
                     {
                         File.Copy(sourceEmissivePath, destinationEmissivePath, overwrite: true);
@@ -67,8 +70,56 @@ class Program
                 }
             }
         }
+
+        AnimaticaConversion();
     }
 
+    static void recordInAnimDict(string elytraTexturePath, int elytraID)
+    {
+        string regularPath = elytraTexturePath;
+        string emmisivePath = elytraTexturePath.Replace(".png","_e.png");
+        int optifineIndex = elytraTexturePath.IndexOf("optifine");
+        if(optifineIndex >= 0)
+        {
+            regularPath = regularPath.Substring(optifineIndex);
+            emmisivePath = emmisivePath.Substring(optifineIndex);
+        }
+        pathToNum[regularPath] = elytraID;
+        pathToNum[emmisivePath] = elytraID + "_e";
+    }
+    static void AnimaticaConversion()
+    {
+        var propertiesFiles = animaticaPath.GetFiles(directory, "*.properties");
+        foreach(var propertiesPath in propertiesFiles)
+        {
+            if (propertiesPath.contains("_vanilla"))
+            {
+                File.Delete(propertiesPath);
+                continue;
+            }
+
+        }
+    }
+    static void copyAnimaticaPropertiesFile(string animaticaPropertiesPath)
+    {
+        var sb = new StringBuilder();
+
+        foreach (string line in File.ReadLines(animaticaPropertiesPath))
+        {
+            
+            if(line.StartsWith("to="))
+            {
+                string newPath = "optifine/cem/";
+                newPath = newPath + pathToNum[line.Substring("to=")] + ".png";
+                sb.AppendLine("to=" + newPath);
+            }
+            else
+            {
+                sb.AppendLine(line);
+            }
+        }
+        File.WriteAllText(animaticaPropertiesPath.Replace(".properties","_vanilla.properties"), sb.ToString());
+    }
     static void ProcessElytraPropertyDirectories(string directory)
     {
         var jsonFiles = Directory.GetFiles(directory, "*.json");
