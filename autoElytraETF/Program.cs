@@ -101,8 +101,10 @@ class Program
         var propertiesFiles = Directory.GetFiles(animaticaPath, "*.properties");
         foreach(var propertiesPath in propertiesFiles)
         {
+            Console.WriteLine("found animatica properties file" + propertiesPath);
             if (propertiesPath.Contains("_vanilla"))
             {
+                Console.WriteLine(propertiesPath + "was from a previous conversion, deleting.");
                 File.Delete(propertiesPath);
                 continue;
             }
@@ -112,7 +114,7 @@ class Program
     static void copyAnimaticaPropertiesFile(string animaticaPropertiesPath)
     {
         var sb = new StringBuilder();
-
+        Console.WriteLine("reading file" + propertiesPath);
         foreach (string line in File.ReadLines(animaticaPropertiesPath))
         {
             
