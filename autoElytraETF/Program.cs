@@ -111,10 +111,6 @@ class Program
     }
     static void copyAnimaticaPropertiesFile(string animaticaPropertiesPath)
     {
-        foreach (string key in pathToNum.Keys)
-        {
-            Console.WriteLine(key);
-        }
         var sb = new StringBuilder();
 
         foreach (string line in File.ReadLines(animaticaPropertiesPath))
