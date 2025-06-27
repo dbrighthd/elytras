@@ -93,7 +93,7 @@ class Program
         var propertiesFiles = Directory.GetFiles(animaticaPath, "*.properties");
         foreach(var propertiesPath in propertiesFiles)
         {
-            if (propertiesPath.contains("_vanilla"))
+            if (propertiesPath.Contains("_vanilla"))
             {
                 File.Delete(propertiesPath);
                 continue;
