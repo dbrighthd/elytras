@@ -98,7 +98,7 @@ class Program
                 File.Delete(propertiesPath);
                 continue;
             }
-
+            copyAnimaticaPropertiesFile(propertiesPath);
         }
     }
     static void copyAnimaticaPropertiesFile(string animaticaPropertiesPath)
