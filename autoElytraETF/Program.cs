@@ -114,7 +114,7 @@ class Program
     static void copyAnimaticaPropertiesFile(string animaticaPropertiesPath)
     {
         var sb = new StringBuilder();
-        Console.WriteLine("reading file" + propertiesPath);
+        Console.WriteLine("reading file" + animaticaPropertiesPath);
         foreach (string line in File.ReadLines(animaticaPropertiesPath))
         {
             
