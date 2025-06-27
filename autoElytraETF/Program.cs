@@ -117,7 +117,7 @@ class Program
                     Console.WriteLine("file not found in dictionary: " + oldPath);
                     continue;
                 }
-                newPath = newPath + pathToNum[oldPath] + ".png";
+                newPath = newPath + "elytra_texture" + pathToNum[oldPath] + ".png";
                 sb.AppendLine("to=" + newPath);
             }
             else
