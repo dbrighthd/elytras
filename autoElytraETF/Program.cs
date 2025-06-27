@@ -1,4 +1,5 @@
 ﻿using autoElytraETF;
+using System.Text;
 
 class Program
 {
@@ -84,12 +85,12 @@ class Program
             regularPath = regularPath.Substring(optifineIndex);
             emmisivePath = emmisivePath.Substring(optifineIndex);
         }
-        pathToNum[regularPath] = elytraID;
-        pathToNum[emmisivePath] = elytraID + "_e";
+        pathToNum[regularPath] = elytraID.ToString();
+        pathToNum[emmisivePath] = elytraID.ToString() + "_e";
     }
     static void AnimaticaConversion()
     {
-        var propertiesFiles = animaticaPath.GetFiles(directory, "*.properties");
+        var propertiesFiles = Directory.GetFiles(animaticaPath, "*.properties");
         foreach(var propertiesPath in propertiesFiles)
         {
             if (propertiesPath.contains("_vanilla"))
@@ -110,7 +111,7 @@ class Program
             if(line.StartsWith("to="))
             {
                 string newPath = "optifine/cem/";
-                newPath = newPath + pathToNum[line.Substring("to=")] + ".png";
+                newPath = newPath + pathToNum[line.Substring("to=".Length)] + ".png";
                 sb.AppendLine("to=" + newPath);
             }
             else
