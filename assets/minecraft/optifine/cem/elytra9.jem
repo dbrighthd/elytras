@@ -13,7 +13,7 @@
 			"id": "left_wing",
 			"invertAxis": "xy",
 			"translate": [5, 0, 0],
-			"texture": "elytra_texture.png",
+			"texture": "tiefighter.png",
 			"textureSize": [318, 20],
 			"submodels": [
 				{
