@@ -726,6 +726,46 @@
       },
       {
         "when": [
+          "Pancape Cape",
+          "pancape cape",
+          "ipattern:*Pancape cape*",
+          "iregex:.*Pancape Cape.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/pancape/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/pancape/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Pancape Cape Elytra",
+          "pancape cape elytra",
+          "ipattern:*Pancape cape**elytra*",
+          "iregex:.*Pancape Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/pancape/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/pancape/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
           "Cherry Cape",
           "cherry cape",
           "ipattern:cherry cape*",
@@ -8020,46 +8060,6 @@
           "on_true": {
             "type": "minecraft:model",
             "model": "minecraft:item/elytras/modeled_elytras/capes/default/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Pancape",
-          "pancape",
-          "ipattern:*Pancape*",
-          "iregex:.*Pancape.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/pancape/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/pancape/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Pancape Elytra",
-          "pancape elytra",
-          "ipattern:*Pancape**elytra*",
-          "iregex:.*Pancape Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/pancape/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/pancape/elytra_broken"
           }
         }
       }
