@@ -728,7 +728,7 @@
         "when": [
           "Pancape Cape",
           "pancape cape",
-          "ipattern:*Pancape cape*",
+          "ipattern:Pancape cape*",
           "iregex:.*Pancape Cape.*"
         ],
         "model": {
@@ -748,7 +748,7 @@
         "when": [
           "Pancape Cape Elytra",
           "pancape cape elytra",
-          "ipattern:*Pancape cape**elytra*",
+          "ipattern:Pancape cape**elytra*",
           "iregex:.*Pancape Cape Elytra.*"
         ],
         "model": {
