@@ -2206,6 +2206,26 @@
       },
       {
         "when": [
+          "Tie Fighter",
+          "tie fighter",
+          "ipattern:*tie fighter*",
+          "iregex:.*Tie Fighter.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/tie_fighter/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/tie_fighter/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
           "Mexico Wings",
           "mexico wings",
           "ipattern:mexico wings",
