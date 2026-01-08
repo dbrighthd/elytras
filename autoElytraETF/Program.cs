@@ -265,7 +265,7 @@ class Program
     static string NormalizeName(string s)
     {
     if (string.IsNullOrEmpty(s)) return "";
-    return s.Replace(".*", "").Replace("*", "").Replace("(", "").Replace(")", "")..Trim();
+    return s.Replace(".*", "").Replace("*", "").Replace("(", "").Replace(")", "").Trim();
     }
 
     static void DeleteAllContents(string folderPath)
