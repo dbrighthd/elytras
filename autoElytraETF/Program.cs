@@ -155,7 +155,8 @@ class Program
         }
         foreach (var propertiesPath in propertiesFiles)
         {
-            elytras.Add(ReadPropertiesFile(propertiesPath, directory));
+            var e = ReadPropertiesFile(propertiesPath, directory);
+            if (e != null) elytras.Add(e);
         }
 
         
@@ -244,7 +245,7 @@ class Program
             bool hasMatch = false;
             foreach (var newElytra in newElytras)
             {
-                if (newElytra != null && elytra != null && newElytra.displayName.ToLower().Contains(elytra.displayName.ToLower()))
+                if (newElytra != null && elytra != null && NormalizeName(newElytra.displayName.ToLower()).Contains(NormalizeName(elytra.displayName.ToLower())))
                 {
                     hasMatch = true;
                 }
@@ -259,6 +260,12 @@ class Program
             }
         }
         return newElytras;
+    }
+
+    static string NormalizeName(string s)
+    {
+    if (string.IsNullOrEmpty(s)) return "";
+    return s.Replace(".*", "").Replace("*", "").Trim();
     }
 
     static void DeleteAllContents(string folderPath)
