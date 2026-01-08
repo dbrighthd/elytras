@@ -246,6 +246,26 @@
       },
       {
         "when": [
+          "Prismarine Elytra",
+          "prismarine elytra",
+          "ipattern:prismarine elytra",
+          "iregex:.*Prismarine Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/mojang_elytras/prismarine/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/mojang_elytras/prismarine/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
           "MineCon 2013 Elytra",
           "minecon 2013 elytra",
           "ipattern:minecon 2013 elytra",
@@ -421,26 +441,6 @@
           "on_true": {
             "type": "minecraft:model",
             "model": "minecraft:item/elytras/mojang_elytras/crowdin/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Pancake Elytra",
-          "pancake elytra",
-          "ipattern:Pancake Elytra",
-          "iregex:.*Pancake Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/mojang_elytras/pancape/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/mojang_elytras/pancape/elytra_broken"
           }
         }
       },
@@ -726,6 +726,26 @@
       },
       {
         "when": [
+          "Gray Elytra",
+          "gray elytra",
+          "ipattern:gray elytra",
+          "iregex:.*Gray Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/color_elytra/gray_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/color_elytra/gray_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
           "Jeb_",
           "jeb_",
           "iregex:.*Jeb_.*"
@@ -1005,6 +1025,26 @@
       },
       {
         "when": [
+          "Blue Elytra",
+          "blue elytra",
+          "ipattern:blue elytra",
+          "iregex:.*Blue Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/color_elytra/blue_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/color_elytra/blue_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
           "Cyan Elytra",
           "cyan elytra",
           "ipattern:cyan elytra",
@@ -1145,26 +1185,6 @@
       },
       {
         "when": [
-          "Light Blue Wool Elytra",
-          "light blue wool elytra",
-          "ipattern:light blue wool elytra",
-          "iregex:.*Light Blue Wool Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/color_elytra/wool_elytra/light_blue/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/color_elytra/wool_elytra/light_blue/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
           "Green Wool Elytra",
           "green wool elytra",
           "ipattern:green wool elytra",
@@ -1180,26 +1200,6 @@
           "on_true": {
             "type": "minecraft:model",
             "model": "minecraft:item/elytras/color_elytra/wool_elytra/green/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Light Gray Wool Elytra",
-          "light gray wool elytra",
-          "ipattern:light gray wool elytra",
-          "iregex:.*Light Gray Wool Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/color_elytra/wool_elytra/light_grey/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/color_elytra/wool_elytra/light_grey/elytra_broken"
           }
         }
       },
@@ -1425,26 +1425,6 @@
       },
       {
         "when": [
-          "Yellow Elytra",
-          "yellow elytra",
-          "ipattern:yellow elytra",
-          "iregex:.*Yellow Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/color_elytra/yellow_elytra/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/color_elytra/yellow_elytra/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
           "Red Elytra",
           "red elytra",
           "ipattern:red elytra",
@@ -1505,6 +1485,26 @@
       },
       {
         "when": [
+          "Jungle Log Elytra",
+          "jungle log elytra",
+          "ipattern:jungle log elytra",
+          "iregex:.*Jungle Log Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/jungle/log/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/jungle/log/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
           "Stripped Jungle Log Elytra",
           "stripped jungle log elytra",
           "ipattern:stripped jungle log elytra",
@@ -1520,6 +1520,26 @@
           "on_true": {
             "type": "minecraft:model",
             "model": "minecraft:item/elytras/block_elytras/wood_elytra/jungle/stripped/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Acacia Log Elytra",
+          "acacia log elytra",
+          "ipattern:acacia log elytra",
+          "iregex:.*Acacia Log Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/acacia/log/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/acacia/log/elytra_broken"
           }
         }
       },
@@ -1545,21 +1565,41 @@
       },
       {
         "when": [
-          "Stripped Oak Log Elytra",
-          "stripped oak log elytra",
-          "ipattern:stripped oak log elytra",
-          "iregex:.*Stripped Oak Log Elytra.*"
+          "Oak Log Elytra",
+          "oak log elytra",
+          "ipattern:oak log elytra",
+          "iregex:.*Oak Log Elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/wood_elytra/oak/strippedoak/elytra"
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/oak/oakwood/elytra"
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/wood_elytra/oak/strippedoak/elytra_broken"
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/oak/oakwood/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Birch Log Elytra",
+          "birch log elytra",
+          "ipattern:birch log elytra",
+          "iregex:.*Birch Log Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/birch/birchlog/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/birch/birchlog/elytra_broken"
           }
         }
       },
@@ -1580,6 +1620,26 @@
           "on_true": {
             "type": "minecraft:model",
             "model": "minecraft:item/elytras/block_elytras/wood_elytra/birch/birchstripped/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Crimson Stem Elytra",
+          "crimson stem elytra",
+          "ipattern:crimson stem elytra",
+          "iregex:.*Crimson Stem Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/crimson/log/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/crimson/log/elytra_broken"
           }
         }
       },
@@ -1640,26 +1700,6 @@
           "on_true": {
             "type": "minecraft:model",
             "model": "minecraft:item/elytras/block_elytras/wood_elytra/planks/crimson_elytra/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Dark Oak Wood Elytra",
-          "dark oak wood elytra",
-          "ipattern:dark oak wood elytra",
-          "iregex:.*Dark Oak Wood Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/wood_elytra/planks/dark_oak_elytra/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/wood_elytra/planks/dark_oak_elytra/elytra_broken"
           }
         }
       },
@@ -1805,6 +1845,26 @@
       },
       {
         "when": [
+          "Dark Oak Log Elytra",
+          "dark oak log elytra",
+          "ipattern:dark oak log elytra",
+          "iregex:.*Dark Oak Log Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/darkoak/log/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/darkoak/log/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
           "Stripped Dark Oak Log Elytra",
           "stripped dark oak log elytra",
           "ipattern:stripped dark oak log elytra",
@@ -1820,6 +1880,26 @@
           "on_true": {
             "type": "minecraft:model",
             "model": "minecraft:item/elytras/block_elytras/wood_elytra/darkoak/stripped/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Mangrove Log Elytra",
+          "mangrove log elytra",
+          "ipattern:mangrove log elytra",
+          "iregex:.*Mangrove Log Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/mangrove/mangrovewood/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/mangrove/mangrovewood/elytra_broken"
           }
         }
       },
@@ -1845,6 +1925,26 @@
       },
       {
         "when": [
+          "Spruce Log Elytra",
+          "spruce log elytra",
+          "ipattern:spruce log elytra",
+          "iregex:.*Spruce Log Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/spruce/log/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/spruce/log/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
           "Stripped Spruce Log Elytra",
           "stripped spruce log elytra",
           "ipattern:stripped spruce log elytra",
@@ -1860,6 +1960,26 @@
           "on_true": {
             "type": "minecraft:model",
             "model": "minecraft:item/elytras/block_elytras/wood_elytra/spruce/stripped/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Warped Stem Elytra",
+          "warped stem elytra",
+          "ipattern:warped stem elytra",
+          "iregex:.*Warped Stem Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/warped/log/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/warped/log/elytra_broken"
           }
         }
       },
@@ -1965,21 +2085,21 @@
       },
       {
         "when": [
-          "Chiseled Quartz Elytra",
-          "chiseled quartz elytra",
-          "ipattern:chiseled quartz elytra",
-          "iregex:.*Chiseled Quartz Elytra.*"
+          "Quartz Elytra",
+          "quartz elytra",
+          "ipattern:quartz elytra",
+          "iregex:.*Quartz Elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/chiseled_quartz_elytra/elytra"
+            "model": "minecraft:item/elytras/block_elytras/quartz_block_elytra/elytra"
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/chiseled_quartz_elytra/elytra_broken"
+            "model": "minecraft:item/elytras/block_elytras/quartz_block_elytra/elytra_broken"
           }
         }
       },
@@ -2065,46 +2185,6 @@
       },
       {
         "when": [
-          "Deepslate Diamond Ore Elytra",
-          "deepslate diamond ore elytra",
-          "ipattern:deepslate diamond ore elytra",
-          "iregex:.*Deepslate Diamond Ore Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/diamond/1.17deepslate/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/diamond/1.17deepslate/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Old Diamond Ore Elytra",
-          "old diamond ore elytra",
-          "ipattern:old diamond ore elytra",
-          "iregex:.*Old Diamond Ore Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/diamond/old_ore/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/diamond/old_ore/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
           "Diamond Ore Elytra",
           "diamond ore elytra",
           "ipattern:diamond ore elytra",
@@ -2125,26 +2205,6 @@
       },
       {
         "when": [
-          "Deepslate Lapis Ore Elytra",
-          "deepslate lapis ore elytra",
-          "ipattern:deepslate lapis ore elytra",
-          "iregex:.*Deepslate Lapis Ore Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/lapis/1.17deepslate/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/lapis/1.17deepslate/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
           "Lapis Block Elytra",
           "lapis block elytra",
           "ipattern:lapis block elytra",
@@ -2160,26 +2220,6 @@
           "on_true": {
             "type": "minecraft:model",
             "model": "minecraft:item/elytras/block_elytras/minerals/lapis/block/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Old Lapis Ore Elytra",
-          "old lapis ore elytra",
-          "ipattern:old lapis ore elytra",
-          "iregex:.*Old Lapis Ore Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/lapis/old_ore/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/lapis/old_ore/elytra_broken"
           }
         }
       },
@@ -2245,41 +2285,21 @@
       },
       {
         "when": [
-          "Deepslate Gold Ore Elytra",
-          "deepslate gold ore elytra",
-          "ipattern:deepslate gold ore elytra",
-          "iregex:.*Deepslate Gold Ore Elytra.*"
+          "Gold Ore Elytra",
+          "gold ore elytra",
+          "ipattern:gold ore elytra",
+          "iregex:.*Gold Ore Elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/gold/1.17deepslate/elytra"
+            "model": "minecraft:item/elytras/block_elytras/minerals/gold/1.17ore/elytra"
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/gold/1.17deepslate/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Old Gold Ore Elytra",
-          "old gold ore elytra",
-          "ipattern:old gold ore elytra",
-          "iregex:.*Old Gold Ore Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/gold/old_ore/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/gold/old_ore/elytra_broken"
+            "model": "minecraft:item/elytras/block_elytras/minerals/gold/1.17ore/elytra_broken"
           }
         }
       },
@@ -2300,6 +2320,26 @@
           "on_true": {
             "type": "minecraft:model",
             "model": "minecraft:item/elytras/block_elytras/minerals/gold/nether/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Copper Ore Elytra",
+          "copper ore elytra",
+          "ipattern:copper ore elytra",
+          "iregex:.*Copper Ore Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/copper/copper_ore/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/copper/copper_ore/elytra_broken"
           }
         }
       },
@@ -2345,26 +2385,6 @@
       },
       {
         "when": [
-          "Deepslate Coal Ore Elytra",
-          "deepslate coal ore elytra",
-          "ipattern:deepslate coal ore elytra",
-          "iregex:.*Deepslate Coal Ore Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/coal/1.17deepslate/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/coal/1.17deepslate/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
           "Coal Block Elytra",
           "coal block elytra",
           "ipattern:coal block elytra",
@@ -2380,26 +2400,6 @@
           "on_true": {
             "type": "minecraft:model",
             "model": "minecraft:item/elytras/block_elytras/minerals/coal/block/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Old Coal Ore Elytra",
-          "old coal ore elytra",
-          "ipattern:old coal ore elytra",
-          "iregex:.*Old Coal Ore Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/coal/old_ore/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/coal/old_ore/elytra_broken"
           }
         }
       },
@@ -2425,26 +2425,6 @@
       },
       {
         "when": [
-          "Deepslate Iron Ore Elytra",
-          "deepslate iron ore elytra",
-          "ipattern:deepslate iron ore elytra",
-          "iregex:.*Deepslate Iron Ore Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/iron/1.17deepslate/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/iron/1.17deepslate/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
           "Iron Block Elytra",
           "iron block elytra",
           "ipattern:iron block elytra",
@@ -2460,26 +2440,6 @@
           "on_true": {
             "type": "minecraft:model",
             "model": "minecraft:item/elytras/block_elytras/minerals/iron/iron_block_elytra/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Old Iron Ore Elytra",
-          "old iron ore elytra",
-          "ipattern:old iron ore elytra",
-          "iregex:.*Old Iron Ore Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/iron/old_ore/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/iron/old_ore/elytra_broken"
           }
         }
       },
@@ -2505,26 +2465,6 @@
       },
       {
         "when": [
-          "Deepslate Emerald Ore Elytra",
-          "deepslate emerald ore elytra",
-          "ipattern:deepslate emerald ore elytra",
-          "iregex:.*Deepslate Emerald Ore Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/emerald/1.17deepslate/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/emerald/1.17deepslate/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
           "Emerald Block Elytra",
           "emerald block elytra",
           "ipattern:emerald block elytra",
@@ -2540,26 +2480,6 @@
           "on_true": {
             "type": "minecraft:model",
             "model": "minecraft:item/elytras/block_elytras/minerals/emerald/block/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Old Emerald Ore Elytra",
-          "old emerald ore elytra",
-          "ipattern:old emerald ore elytra",
-          "iregex:.*Old Emerald Ore Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/emerald/old_ore/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/emerald/old_ore/elytra_broken"
           }
         }
       },
@@ -2600,106 +2520,6 @@
           "on_true": {
             "type": "minecraft:model",
             "model": "minecraft:item/elytras/block_elytras/minerals/redstone/redstone_block_elytra/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Powered Deepslate Redstone Ore Elytra",
-          "powered deepslate redstone ore elytra",
-          "ipattern:powered deepslate redstone ore elytra",
-          "iregex:.*Powered Deepslate Redstone Ore Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/redstone/1.17deepslate/powered/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/redstone/1.17deepslate/powered/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Deepslate Redstone Ore Elytra",
-          "deepslate redstone ore elytra",
-          "ipattern:deepslate redstone ore elytra",
-          "iregex:.*Deepslate Redstone Ore Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/redstone/1.17deepslate/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/redstone/1.17deepslate/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Powered Old Redstone Ore Elytra",
-          "powered old redstone ore elytra",
-          "ipattern:powered old redstone ore elytra",
-          "iregex:.*Powered Old Redstone Ore Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/redstone/old_ore/powered/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/redstone/old_ore/powered/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Old Redstone Ore Elytra",
-          "old redstone ore elytra",
-          "ipattern:old redstone ore elytra",
-          "iregex:.*Old Redstone Ore Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/redstone/old_ore/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/redstone/old_ore/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Powered Redstone Ore Elytra",
-          "powered redstone ore elytra",
-          "ipattern:powered redstone ore elytra",
-          "iregex:.*Powered Redstone Ore Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/redstone/1.17ore/powered/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/redstone/1.17ore/powered/elytra_broken"
           }
         }
       },
@@ -3200,6 +3020,26 @@
           "on_true": {
             "type": "minecraft:model",
             "model": "minecraft:item/elytras/bug_elytra/butterflies/meadow_fritillary/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Bee Wings",
+          "bee wings",
+          "ipattern:bee wings",
+          "iregex:.*Bee Wings.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/bug_elytra/bee/bee/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/bug_elytra/bee/bee/elytra_broken"
           }
         }
       },
@@ -3985,6 +3825,26 @@
       },
       {
         "when": [
+          "Black Moth Elytra",
+          "black moth elytra",
+          "ipattern:Black Moth Elytra",
+          "iregex:.*Black Moth Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/bug_elytra/mothwings/blackmoth/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/bug_elytra/mothwings/blackmoth/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
           "Madagascan Sunset Moth Elytra",
           "madagascan sunset moth elytra",
           "ipattern:Madagascan Sunset Moth Elytra",
@@ -4060,26 +3920,6 @@
           "on_true": {
             "type": "minecraft:model",
             "model": "minecraft:item/elytras/bug_elytra/mothwings/galliumsphinxmoth/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Light Blue Parrot Wings",
-          "light blue parrot wings",
-          "ipattern:light blue parrot wings",
-          "iregex:.*Light Blue Parrot Wings.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/parrot_wings/blue_and_yellow_parrot/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/parrot_wings/blue_and_yellow_parrot/elytra_broken"
           }
         }
       },
@@ -4185,86 +4025,6 @@
       },
       {
         "when": [
-          "No-Winglet Glider Wings",
-          "no-winglet glider wings",
-          "ipattern:no-winglet glider wings",
-          "iregex:.*No-Winglet Glider Wings.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/glider_elytras/glider_wings_no_winglets/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/glider_elytras/glider_wings_no_winglets/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Diamond Logo Glider Wings",
-          "diamond logo glider wings",
-          "ipattern:diamond logo glider wings",
-          "iregex:.*Diamond Logo Glider Wings.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/glider_elytras/icon_diamond/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/glider_elytras/icon_diamond/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Netherite Logo Glider Wings",
-          "netherite logo glider wings",
-          "ipattern:netherite logo glider wings",
-          "iregex:.*Netherite Logo Glider Wings.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/glider_elytras/icon_netherite/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/glider_elytras/icon_netherite/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Gold Logo Glider Wings",
-          "gold logo glider wings",
-          "ipattern:gold logo glider wings",
-          "iregex:.*Gold Logo Glider Wings.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/glider_elytras/icon_gold/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/glider_elytras/icon_gold/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
           "F/A 18 Camo Wings",
           "f/a 18 camo wings",
           "ipattern:f/a 18 camo wings",
@@ -4285,41 +4045,21 @@
       },
       {
         "when": [
-          "Emerald Logo Glider Wings",
-          "emerald logo glider wings",
-          "ipattern:emerald logo glider wings",
-          "iregex:.*Emerald Logo Glider Wings.*"
+          "Glider Wings",
+          "glider wings",
+          "ipattern:glider wings",
+          "iregex:.*Glider Wings.*"
         ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/glider_elytras/icon_emerald/elytra"
+            "model": "minecraft:item/elytras/glider_elytras/glider_wings/elytra"
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/glider_elytras/icon_emerald/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Iron Logo Glider Wings",
-          "iron logo glider wings",
-          "ipattern:iron logo glider wings",
-          "iregex:.*Iron Logo Glider Wings.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/glider_elytras/icon_iron/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/glider_elytras/icon_iron/elytra_broken"
+            "model": "minecraft:item/elytras/glider_elytras/glider_wings/elytra_broken"
           }
         }
       },
@@ -4445,161 +4185,21 @@
       },
       {
         "when": [
-          "Black Shulker Elytra",
-          "black shulker elytra",
-          "ipattern:black shulker elytra",
-          "iregex:.*Black Shulker Elytra.*"
+          "Shulker Elytra",
+          "shulker elytra",
+          "ipattern:shulker elytra",
+          "iregex:.*Shulker Elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/shulker_elytras/black/elytra"
+            "model": "minecraft:item/elytras/shulker_elytras/shulker/elytra"
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/shulker_elytras/black/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Cyan Shulker Elytra",
-          "cyan shulker elytra",
-          "ipattern:cyan shulker elytra",
-          "iregex:.*Cyan Shulker Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/shulker_elytras/cyan/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/shulker_elytras/cyan/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Brown Shulker Elytra",
-          "brown shulker elytra",
-          "ipattern:brown shulker elytra",
-          "iregex:.*Brown Shulker Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/shulker_elytras/brown/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/shulker_elytras/brown/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Yellow Shulker Elytra",
-          "yellow shulker elytra",
-          "ipattern:yellow shulker elytra",
-          "iregex:.*Yellow Shulker Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/shulker_elytras/yellow/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/shulker_elytras/yellow/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Light Blue Shulker Elytra",
-          "light blue shulker elytra",
-          "ipattern:light blue shulker elytra",
-          "iregex:.*Light Blue Shulker Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/shulker_elytras/light_blue/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/shulker_elytras/light_blue/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Green Shulker Elytra",
-          "green shulker elytra",
-          "ipattern:green shulker elytra",
-          "iregex:.*Green Shulker Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/shulker_elytras/green/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/shulker_elytras/green/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Pink Shulker Elytra",
-          "pink shulker elytra",
-          "ipattern:pink shulker elytra",
-          "iregex:.*Pink Shulker Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/shulker_elytras/pink/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/shulker_elytras/pink/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "White Shulker Elytra",
-          "white shulker elytra",
-          "ipattern:white shulker elytra",
-          "iregex:.*White Shulker Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/shulker_elytras/white/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/shulker_elytras/white/elytra_broken"
+            "model": "minecraft:item/elytras/shulker_elytras/shulker/elytra_broken"
           }
         }
       },
@@ -4865,81 +4465,41 @@
       },
       {
         "when": [
-          "New Moon Elytra",
-          "new moon elytra",
-          "ipattern:new moon elytra",
-          "iregex:.*New Moon Elytra.*"
+          "Fire Elytra",
+          "fire elytra",
+          "ipattern:fire elytra",
+          "iregex:.*Fire Elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/misc_elytras/moon/new_moon/elytra"
+            "model": "minecraft:item/elytras/misc_elytras/fire_elytra/elytra"
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/misc_elytras/moon/new_moon/elytra_broken"
+            "model": "minecraft:item/elytras/misc_elytras/fire_elytra/elytra_broken"
           }
         }
       },
       {
         "when": [
-          "Crescent Moon Elytra",
-          "crescent moon elytra",
-          "ipattern:crescent moon elytra",
-          "iregex:.*Crescent Moon Elytra.*"
+          "Moon Elytra",
+          "moon elytra",
+          "ipattern:moon elytra",
+          "iregex:.*Moon Elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/misc_elytras/moon/crescent/elytra"
+            "model": "minecraft:item/elytras/misc_elytras/moon/animoon/elytra"
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/misc_elytras/moon/crescent/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Quarter Moon Elytra",
-          "quarter moon elytra",
-          "ipattern:quarter moon elytra",
-          "iregex:.*Quarter Moon Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/misc_elytras/moon/quarter/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/misc_elytras/moon/quarter/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Full Moon Elytra",
-          "full moon elytra",
-          "ipattern:full moon elytra",
-          "iregex:.*Full Moon Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/misc_elytras/moon/full/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/misc_elytras/moon/full/elytra_broken"
+            "model": "minecraft:item/elytras/misc_elytras/moon/animoon/elytra_broken"
           }
         }
       },
@@ -7445,26 +7005,6 @@
       },
       {
         "when": [
-          "Deminonbinary Pride Elytra",
-          "deminonbinary pride elytra",
-          "ipattern:deminonbinary pride elytra",
-          "iregex:.*Deminonbinary Pride Elytra.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/pride_elytras/deminonbinary/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/pride_elytras/deminonbinary/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
           "Omnisexual Pride Elytra",
           "omnisexual pride elytra",
           "ipattern:omnisexual pride elytra",
@@ -7645,61 +7185,101 @@
       },
       {
         "when": [
-          "Moon Elytra",
-          "moon elytra",
-          "ipattern:moon elytra",
-          "iregex:.*Moon Elytra.*"
+          "Deminonbinary Pride Elytra",
+          "deminonbinary pride elytra",
+          "ipattern:deminonbinary pride elytra",
+          "iregex:.*Deminonbinary Pride Elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/misc_elytras/moon/animoon/elytra"
+            "model": "minecraft:item/elytras/pride_elytras/deminonbinary/elytra"
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/misc_elytras/moon/animoon/elytra_broken"
+            "model": "minecraft:item/elytras/pride_elytras/deminonbinary/elytra_broken"
           }
         }
       },
       {
         "when": [
-          "Fire Elytra",
-          "fire elytra",
-          "ipattern:fire elytra",
-          "iregex:.*Fire Elytra.*"
+          "Full Moon Elytra",
+          "full moon elytra",
+          "ipattern:full moon elytra",
+          "iregex:.*Full Moon Elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/misc_elytras/fire_elytra/elytra"
+            "model": "minecraft:item/elytras/misc_elytras/moon/full/elytra"
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/misc_elytras/fire_elytra/elytra_broken"
+            "model": "minecraft:item/elytras/misc_elytras/moon/full/elytra_broken"
           }
         }
       },
       {
         "when": [
-          "Shulker Elytra",
-          "shulker elytra",
-          "ipattern:shulker elytra",
-          "iregex:.*Shulker Elytra.*"
+          "Quarter Moon Elytra",
+          "quarter moon elytra",
+          "ipattern:quarter moon elytra",
+          "iregex:.*Quarter Moon Elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/shulker_elytras/shulker/elytra"
+            "model": "minecraft:item/elytras/misc_elytras/moon/quarter/elytra"
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/shulker_elytras/shulker/elytra_broken"
+            "model": "minecraft:item/elytras/misc_elytras/moon/quarter/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Crescent Moon Elytra",
+          "crescent moon elytra",
+          "ipattern:crescent moon elytra",
+          "iregex:.*Crescent Moon Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/moon/crescent/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/moon/crescent/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "New Moon Elytra",
+          "new moon elytra",
+          "ipattern:new moon elytra",
+          "iregex:.*New Moon Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/moon/new_moon/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/moon/new_moon/elytra_broken"
           }
         }
       },
@@ -7725,361 +7305,781 @@
       },
       {
         "when": [
-          "Glider Wings",
-          "glider wings",
-          "ipattern:glider wings",
-          "iregex:.*Glider Wings.*"
+          "White Shulker Elytra",
+          "white shulker elytra",
+          "ipattern:white shulker elytra",
+          "iregex:.*White Shulker Elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/glider_elytras/glider_wings/elytra"
+            "model": "minecraft:item/elytras/shulker_elytras/white/elytra"
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/glider_elytras/glider_wings/elytra_broken"
+            "model": "minecraft:item/elytras/shulker_elytras/white/elytra_broken"
           }
         }
       },
       {
         "when": [
-          "Black Moth Elytra",
-          "black moth elytra",
-          "ipattern:Black Moth Elytra",
-          "iregex:.*Black Moth Elytra.*"
+          "Pink Shulker Elytra",
+          "pink shulker elytra",
+          "ipattern:pink shulker elytra",
+          "iregex:.*Pink Shulker Elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/bug_elytra/mothwings/blackmoth/elytra"
+            "model": "minecraft:item/elytras/shulker_elytras/pink/elytra"
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/bug_elytra/mothwings/blackmoth/elytra_broken"
+            "model": "minecraft:item/elytras/shulker_elytras/pink/elytra_broken"
           }
         }
       },
       {
         "when": [
-          "Bee Wings",
-          "bee wings",
-          "ipattern:bee wings",
-          "iregex:.*Bee Wings.*"
+          "Green Shulker Elytra",
+          "green shulker elytra",
+          "ipattern:green shulker elytra",
+          "iregex:.*Green Shulker Elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/bug_elytra/bee/bee/elytra"
+            "model": "minecraft:item/elytras/shulker_elytras/green/elytra"
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/bug_elytra/bee/bee/elytra_broken"
+            "model": "minecraft:item/elytras/shulker_elytras/green/elytra_broken"
           }
         }
       },
       {
         "when": [
-          "Copper Ore Elytra",
-          "copper ore elytra",
-          "ipattern:copper ore elytra",
-          "iregex:.*Copper Ore Elytra.*"
+          "Light Blue Shulker Elytra",
+          "light blue shulker elytra",
+          "ipattern:light blue shulker elytra",
+          "iregex:.*Light Blue Shulker Elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/copper/copper_ore/elytra"
+            "model": "minecraft:item/elytras/shulker_elytras/light_blue/elytra"
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/copper/copper_ore/elytra_broken"
+            "model": "minecraft:item/elytras/shulker_elytras/light_blue/elytra_broken"
           }
         }
       },
       {
         "when": [
-          "Gold Ore Elytra",
-          "gold ore elytra",
-          "ipattern:gold ore elytra",
-          "iregex:.*Gold Ore Elytra.*"
+          "Yellow Shulker Elytra",
+          "yellow shulker elytra",
+          "ipattern:yellow shulker elytra",
+          "iregex:.*Yellow Shulker Elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/gold/1.17ore/elytra"
+            "model": "minecraft:item/elytras/shulker_elytras/yellow/elytra"
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/minerals/gold/1.17ore/elytra_broken"
+            "model": "minecraft:item/elytras/shulker_elytras/yellow/elytra_broken"
           }
         }
       },
       {
         "when": [
-          "Quartz Elytra",
-          "quartz elytra",
-          "ipattern:quartz elytra",
-          "iregex:.*Quartz Elytra.*"
+          "Brown Shulker Elytra",
+          "brown shulker elytra",
+          "ipattern:brown shulker elytra",
+          "iregex:.*Brown Shulker Elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/quartz_block_elytra/elytra"
+            "model": "minecraft:item/elytras/shulker_elytras/brown/elytra"
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/quartz_block_elytra/elytra_broken"
+            "model": "minecraft:item/elytras/shulker_elytras/brown/elytra_broken"
           }
         }
       },
       {
         "when": [
-          "Warped Stem Elytra",
-          "warped stem elytra",
-          "ipattern:warped stem elytra",
-          "iregex:.*Warped Stem Elytra.*"
+          "Cyan Shulker Elytra",
+          "cyan shulker elytra",
+          "ipattern:cyan shulker elytra",
+          "iregex:.*Cyan Shulker Elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/wood_elytra/warped/log/elytra"
+            "model": "minecraft:item/elytras/shulker_elytras/cyan/elytra"
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/wood_elytra/warped/log/elytra_broken"
+            "model": "minecraft:item/elytras/shulker_elytras/cyan/elytra_broken"
           }
         }
       },
       {
         "when": [
-          "Spruce Log Elytra",
-          "spruce log elytra",
-          "ipattern:spruce log elytra",
-          "iregex:.*Spruce Log Elytra.*"
+          "Black Shulker Elytra",
+          "black shulker elytra",
+          "ipattern:black shulker elytra",
+          "iregex:.*Black Shulker Elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/wood_elytra/spruce/log/elytra"
+            "model": "minecraft:item/elytras/shulker_elytras/black/elytra"
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/wood_elytra/spruce/log/elytra_broken"
+            "model": "minecraft:item/elytras/shulker_elytras/black/elytra_broken"
           }
         }
       },
       {
         "when": [
-          "Mangrove Log Elytra",
-          "mangrove log elytra",
-          "ipattern:mangrove log elytra",
-          "iregex:.*Mangrove Log Elytra.*"
+          "Iron Logo Glider Wings",
+          "iron logo glider wings",
+          "ipattern:iron logo glider wings",
+          "iregex:.*Iron Logo Glider Wings.*"
         ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/wood_elytra/mangrove/mangrovewood/elytra"
+            "model": "minecraft:item/elytras/glider_elytras/icon_iron/elytra"
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/wood_elytra/mangrove/mangrovewood/elytra_broken"
+            "model": "minecraft:item/elytras/glider_elytras/icon_iron/elytra_broken"
           }
         }
       },
       {
         "when": [
-          "Dark Oak Log Elytra",
-          "dark oak log elytra",
-          "ipattern:dark oak log elytra",
-          "iregex:.*Dark Oak Log Elytra.*"
+          "Emerald Logo Glider Wings",
+          "emerald logo glider wings",
+          "ipattern:emerald logo glider wings",
+          "iregex:.*Emerald Logo Glider Wings.*"
         ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/wood_elytra/darkoak/log/elytra"
+            "model": "minecraft:item/elytras/glider_elytras/icon_emerald/elytra"
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/wood_elytra/darkoak/log/elytra_broken"
+            "model": "minecraft:item/elytras/glider_elytras/icon_emerald/elytra_broken"
           }
         }
       },
       {
         "when": [
-          "Crimson Stem Elytra",
-          "crimson stem elytra",
-          "ipattern:crimson stem elytra",
-          "iregex:.*Crimson Stem Elytra.*"
+          "Gold Logo Glider Wings",
+          "gold logo glider wings",
+          "ipattern:gold logo glider wings",
+          "iregex:.*Gold Logo Glider Wings.*"
         ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/wood_elytra/crimson/log/elytra"
+            "model": "minecraft:item/elytras/glider_elytras/icon_gold/elytra"
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/wood_elytra/crimson/log/elytra_broken"
+            "model": "minecraft:item/elytras/glider_elytras/icon_gold/elytra_broken"
           }
         }
       },
       {
         "when": [
-          "Birch Log Elytra",
-          "birch log elytra",
-          "ipattern:birch log elytra",
-          "iregex:.*Birch Log Elytra.*"
+          "Netherite Logo Glider Wings",
+          "netherite logo glider wings",
+          "ipattern:netherite logo glider wings",
+          "iregex:.*Netherite Logo Glider Wings.*"
         ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/wood_elytra/birch/birchlog/elytra"
+            "model": "minecraft:item/elytras/glider_elytras/icon_netherite/elytra"
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/wood_elytra/birch/birchlog/elytra_broken"
+            "model": "minecraft:item/elytras/glider_elytras/icon_netherite/elytra_broken"
           }
         }
       },
       {
         "when": [
-          "Oak Log Elytra",
-          "oak log elytra",
-          "ipattern:oak log elytra",
-          "iregex:.*Oak Log Elytra.*"
+          "Diamond Logo Glider Wings",
+          "diamond logo glider wings",
+          "ipattern:diamond logo glider wings",
+          "iregex:.*Diamond Logo Glider Wings.*"
         ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/wood_elytra/oak/oakwood/elytra"
+            "model": "minecraft:item/elytras/glider_elytras/icon_diamond/elytra"
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/wood_elytra/oak/oakwood/elytra_broken"
+            "model": "minecraft:item/elytras/glider_elytras/icon_diamond/elytra_broken"
           }
         }
       },
       {
         "when": [
-          "Acacia Log Elytra",
-          "acacia log elytra",
-          "ipattern:acacia log elytra",
-          "iregex:.*Acacia Log Elytra.*"
+          "No-Winglet Glider Wings",
+          "no-winglet glider wings",
+          "ipattern:no-winglet glider wings",
+          "iregex:.*No-Winglet Glider Wings.*"
         ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/wood_elytra/acacia/log/elytra"
+            "model": "minecraft:item/elytras/glider_elytras/glider_wings_no_winglets/elytra"
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/wood_elytra/acacia/log/elytra_broken"
+            "model": "minecraft:item/elytras/glider_elytras/glider_wings_no_winglets/elytra_broken"
           }
         }
       },
       {
         "when": [
-          "Jungle Log Elytra",
-          "jungle log elytra",
-          "ipattern:jungle log elytra",
-          "iregex:.*Jungle Log Elytra.*"
+          "Light Blue Parrot Wings",
+          "light blue parrot wings",
+          "ipattern:light blue parrot wings",
+          "iregex:.*Light Blue Parrot Wings.*"
         ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/wood_elytra/jungle/log/elytra"
+            "model": "minecraft:item/elytras/parrot_wings/blue_and_yellow_parrot/elytra"
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/block_elytras/wood_elytra/jungle/log/elytra_broken"
+            "model": "minecraft:item/elytras/parrot_wings/blue_and_yellow_parrot/elytra_broken"
           }
         }
       },
       {
         "when": [
-          "Blue Elytra",
-          "blue elytra",
-          "ipattern:blue elytra",
-          "iregex:.*Blue Elytra.*"
+          "Powered Redstone Ore Elytra",
+          "powered redstone ore elytra",
+          "ipattern:powered redstone ore elytra",
+          "iregex:.*Powered Redstone Ore Elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/color_elytra/blue_elytra/elytra"
+            "model": "minecraft:item/elytras/block_elytras/minerals/redstone/1.17ore/powered/elytra"
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/color_elytra/blue_elytra/elytra_broken"
+            "model": "minecraft:item/elytras/block_elytras/minerals/redstone/1.17ore/powered/elytra_broken"
           }
         }
       },
       {
         "when": [
-          "Gray Elytra",
-          "gray elytra",
-          "ipattern:gray elytra",
-          "iregex:.*Gray Elytra.*"
+          "Old Redstone Ore Elytra",
+          "old redstone ore elytra",
+          "ipattern:old redstone ore elytra",
+          "iregex:.*Old Redstone Ore Elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/color_elytra/gray_elytra/elytra"
+            "model": "minecraft:item/elytras/block_elytras/minerals/redstone/old_ore/elytra"
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/color_elytra/gray_elytra/elytra_broken"
+            "model": "minecraft:item/elytras/block_elytras/minerals/redstone/old_ore/elytra_broken"
           }
         }
       },
       {
         "when": [
-          "Prismarine Elytra",
-          "prismarine elytra",
-          "ipattern:prismarine elytra",
-          "iregex:.*Prismarine Elytra.*"
+          "Powered Old Redstone Ore Elytra",
+          "powered old redstone ore elytra",
+          "ipattern:powered old redstone ore elytra",
+          "iregex:.*Powered Old Redstone Ore Elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/mojang_elytras/prismarine/elytra"
+            "model": "minecraft:item/elytras/block_elytras/minerals/redstone/old_ore/powered/elytra"
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "minecraft:item/elytras/mojang_elytras/prismarine/elytra_broken"
+            "model": "minecraft:item/elytras/block_elytras/minerals/redstone/old_ore/powered/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Deepslate Redstone Ore Elytra",
+          "deepslate redstone ore elytra",
+          "ipattern:deepslate redstone ore elytra",
+          "iregex:.*Deepslate Redstone Ore Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/redstone/1.17deepslate/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/redstone/1.17deepslate/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Powered Deepslate Redstone Ore Elytra",
+          "powered deepslate redstone ore elytra",
+          "ipattern:powered deepslate redstone ore elytra",
+          "iregex:.*Powered Deepslate Redstone Ore Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/redstone/1.17deepslate/powered/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/redstone/1.17deepslate/powered/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Old Emerald Ore Elytra",
+          "old emerald ore elytra",
+          "ipattern:old emerald ore elytra",
+          "iregex:.*Old Emerald Ore Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/emerald/old_ore/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/emerald/old_ore/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Deepslate Emerald Ore Elytra",
+          "deepslate emerald ore elytra",
+          "ipattern:deepslate emerald ore elytra",
+          "iregex:.*Deepslate Emerald Ore Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/emerald/1.17deepslate/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/emerald/1.17deepslate/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Old Iron Ore Elytra",
+          "old iron ore elytra",
+          "ipattern:old iron ore elytra",
+          "iregex:.*Old Iron Ore Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/iron/old_ore/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/iron/old_ore/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Deepslate Iron Ore Elytra",
+          "deepslate iron ore elytra",
+          "ipattern:deepslate iron ore elytra",
+          "iregex:.*Deepslate Iron Ore Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/iron/1.17deepslate/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/iron/1.17deepslate/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Old Coal Ore Elytra",
+          "old coal ore elytra",
+          "ipattern:old coal ore elytra",
+          "iregex:.*Old Coal Ore Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/coal/old_ore/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/coal/old_ore/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Deepslate Coal Ore Elytra",
+          "deepslate coal ore elytra",
+          "ipattern:deepslate coal ore elytra",
+          "iregex:.*Deepslate Coal Ore Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/coal/1.17deepslate/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/coal/1.17deepslate/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Old Gold Ore Elytra",
+          "old gold ore elytra",
+          "ipattern:old gold ore elytra",
+          "iregex:.*Old Gold Ore Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/gold/old_ore/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/gold/old_ore/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Deepslate Gold Ore Elytra",
+          "deepslate gold ore elytra",
+          "ipattern:deepslate gold ore elytra",
+          "iregex:.*Deepslate Gold Ore Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/gold/1.17deepslate/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/gold/1.17deepslate/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Old Lapis Ore Elytra",
+          "old lapis ore elytra",
+          "ipattern:old lapis ore elytra",
+          "iregex:.*Old Lapis Ore Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/lapis/old_ore/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/lapis/old_ore/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Deepslate Lapis Ore Elytra",
+          "deepslate lapis ore elytra",
+          "ipattern:deepslate lapis ore elytra",
+          "iregex:.*Deepslate Lapis Ore Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/lapis/1.17deepslate/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/lapis/1.17deepslate/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Old Diamond Ore Elytra",
+          "old diamond ore elytra",
+          "ipattern:old diamond ore elytra",
+          "iregex:.*Old Diamond Ore Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/diamond/old_ore/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/diamond/old_ore/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Deepslate Diamond Ore Elytra",
+          "deepslate diamond ore elytra",
+          "ipattern:deepslate diamond ore elytra",
+          "iregex:.*Deepslate Diamond Ore Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/diamond/1.17deepslate/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/minerals/diamond/1.17deepslate/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Chiseled Quartz Elytra",
+          "chiseled quartz elytra",
+          "ipattern:chiseled quartz elytra",
+          "iregex:.*Chiseled Quartz Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/chiseled_quartz_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/chiseled_quartz_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Dark Oak Wood Elytra",
+          "dark oak wood elytra",
+          "ipattern:dark oak wood elytra",
+          "iregex:.*Dark Oak Wood Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/planks/dark_oak_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/planks/dark_oak_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Stripped Oak Log Elytra",
+          "stripped oak log elytra",
+          "ipattern:stripped oak log elytra",
+          "iregex:.*Stripped Oak Log Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/oak/strippedoak/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/oak/strippedoak/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Yellow Elytra",
+          "yellow elytra",
+          "ipattern:yellow elytra",
+          "iregex:.*Yellow Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/color_elytra/yellow_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/color_elytra/yellow_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Light Gray Wool Elytra",
+          "light gray wool elytra",
+          "ipattern:light gray wool elytra",
+          "iregex:.*Light Gray Wool Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/color_elytra/wool_elytra/light_grey/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/color_elytra/wool_elytra/light_grey/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Light Blue Wool Elytra",
+          "light blue wool elytra",
+          "ipattern:light blue wool elytra",
+          "iregex:.*Light Blue Wool Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/color_elytra/wool_elytra/light_blue/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/color_elytra/wool_elytra/light_blue/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Pancake Elytra",
+          "pancake elytra",
+          "ipattern:Pancake Elytra",
+          "iregex:.*Pancake Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/mojang_elytras/pancape/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/mojang_elytras/pancape/elytra_broken"
           }
         }
       }
