@@ -79,7 +79,7 @@
 					"var.pitchdiff": "asin(var.normalizedy)-rot_x - (1-var.elytra_spread) * torad(15)",
 					"var.elytra_spread": "(right_wing.rz-0.261799)/(1.57067-0.261799)",
 					"var.contrail_xrot": "-left_wing.rx+lerp(var.elytra_spread,torad(170),torad(90))+var.pitchdiff",
-					"rcontrail.sx": "clamp(var.fallflying * (1-var.onground) * 22*var.defactospeed - 8 - abs(100*var.rotxlerp),0, 100)",
+					"rcontrail.sx": "clamp(var.fallflying * (1-var.onground) * 13*var.defactospeed - 8 - abs(100*var.rotxlerp),0, 100)",
 					"rcontrail.rz": "-right_wing.rz+torad(90)",
 					"rcontrail.rx": "if(var.is_main_player == 1, var.contrail_xrot + var.elytra_spread * sin(-(player_rot_x+var.pitchdiff)) * cos((player_rot_x+var.pitchdiff)) * clamp(var.rotyspeed, 0, 3 * pi/4), (cos(rot_x) * (-left_wing.rx-(player_rot_x * -signum(rot_y - player_rot_y)))) - (sin(rot_x) * (player_rot_y) + torad(90)))",
 					"rcontrail.ry": "-var.pitchdiff",
@@ -91,16 +91,12 @@
 					"lcontrail.tx": "lerp(var.elytra_spread,4,-6)",
 					"var.counter4": "if(frame_counter == var.prev_frame2, var.counter4, var.counter4prev)",
 					"var.counter4prev": "if(frame_counter == var.prev_frame2, var.counter4prev, pos_y)",
-
 					"var.counter8": "if(frame_counter == var.prev_frame2, var.counter8, var.counter8prev)",
 					"var.counter8prev": "if(frame_counter == var.prev_frame2, var.counter8prev, pos_x)",
-
 					"var.counter9": "if(frame_counter == var.prev_frame2, var.counter9, var.counter9prev)",
 					"var.counter9prev": "if(frame_counter == var.prev_frame2, var.counter9prev, pos_z)",
-
 					"var.speed2": "if(frame_counter == var.prev_frame2, var.speed2, var.speed2prev)",
 					"var.speed2prev": "if(frame_counter == var.prev_frame2, var.speed2prev, var.speed)",
-
 					"var.player_rotxcur": "if(frame_counter == var.prev_frame2, var.player_rotxcur, var.player_rotxprev)",
 					"var.player_rotxprev": "if(frame_counter == var.prev_frame2, var.player_rotxprev, rot_x)",
 					"var.prev_frame2": "frame_counter"
