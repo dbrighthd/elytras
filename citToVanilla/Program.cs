@@ -506,7 +506,7 @@ class Program
             bool hasMatch = false;
             foreach (var newElytra in newElytras)
             {
-                if (elytra != null && newElytra != null && elytra.displayName.ToLower().Contains(newElytra.displayName.ToLower()))
+                if (newElytra != null && elytra != null && newElytra.displayName.ToLower().Contains(elytra.displayName.ToLower()))
                 {
                     hasMatch = true;
                 }
