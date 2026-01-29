@@ -2,5 +2,8 @@
     "required_dependencies": [
         "entity_model_features", "entity_texture_features", "animatica"
     ],
-    "optional_dependencies": []
+    "optional_dependencies": 
+    [
+        "dbrighthd_regex_mod"
+    ]
 }
