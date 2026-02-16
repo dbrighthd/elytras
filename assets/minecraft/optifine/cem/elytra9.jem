@@ -1879,6 +1879,16 @@
 					],
 					"submodels": [
 						{
+							"id": "leftWingTip",
+							"invertAxis": "xy",
+							"translate": [62.04167, 0.78333, 72]
+						},
+						{
+							"id": "rightWingTip",
+							"invertAxis": "xy",
+							"translate": [62.04167, 0.78333, -72]
+						},
+						{
 							"id": "bannerbase1",
 							"invertAxis": "xy",
 							"translate": [-17.95833, 5.78333, 0],

@@ -74,7 +74,7 @@
 					"rotate": [0, 0, 90],
 					"submodels": [
 						{
-							"id": "lcontrail",
+							"id": "leftWingTip",
 							"invertAxis": "xy",
 							"translate": [0.25, 58, 1],
 							"texture": "contrail.png",
@@ -82,27 +82,7 @@
 								{
 									"id": "rconspin2",
 									"invertAxis": "xy",
-									"translate": [0, 0, 0],
-									"boxes": [
-										{
-											"coordinates": [-1, -0.5, 0, 1, 1, 0],
-											"uvNorth": [64, 0, 0, 32],
-											"uvEast": [0, 0, 0, 0],
-											"uvSouth": [0, 0, 64, 32],
-											"uvWest": [0, 0, 0, 0],
-											"uvUp": [0, 0, 0, 0],
-											"uvDown": [0, 0, 0, 0],
-											"sizeAdd": 0.01
-										}
-									],
-									"submodels": [
-										{
-											"id": "bone6",
-											"invertAxis": "xy",
-											"translate": [-1, -1, 0.5],
-											"rotate": [-90, 0, 0]
-										}
-									]
+									"translate": [0, 0, 0]
 								}
 							]
 						},
@@ -113,21 +93,9 @@
 							"texture": "contrail.png",
 							"submodels": [
 								{
-									"id": "rconspin",
+									"id": "rightWingTip",
 									"invertAxis": "xy",
 									"translate": [0, 0, 0],
-									"boxes": [
-										{
-											"coordinates": [-1, -0.5, 0, 1, 1, 0],
-											"uvNorth": [64, 0, 0, 32],
-											"uvEast": [0, 0, 0, 0],
-											"uvSouth": [0, 0, 64, 32],
-											"uvWest": [0, 0, 0, 0],
-											"uvUp": [0, 0, 0, 0],
-											"uvDown": [0, 0, 0, 0],
-											"sizeAdd": 0.01
-										}
-									],
 									"submodels": [
 										{
 											"id": "bone4",

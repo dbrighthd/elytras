@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textureSize": [64, 64],
-	"texture": "elytra_texture.png",
+	"texture": "elytra_texture288.png",
 	"models": [
 		{
 			"part": "right_wing",
@@ -91,6 +91,13 @@
 										{"coordinates": [18.92889, 2, 0.64932, 1, 1, 1], "textureOffset": [12, 28]},
 										{"coordinates": [19.92889, 3, 0.64932, 19, 1, 1], "textureOffset": [0, 2]},
 										{"coordinates": [24.92889, 4, 0.64932, 10, 1, 1], "textureOffset": [21, 21]}
+									],
+									"submodels": [
+										{
+											"id": "rightWingTip",
+											"invertAxis": "xy",
+											"translate": [39, 3.484, 1.1617]
+										}
 									]
 								}
 							]
@@ -162,6 +169,13 @@
 										{"coordinates": [-19.92889, 2, 0.64932, 1, 1, 1], "textureOffset": [12, 28]},
 										{"coordinates": [-38.92889, 3, 0.64932, 19, 1, 1], "textureOffset": [0, 2]},
 										{"coordinates": [-34.92889, 4, 0.64932, 10, 1, 1], "textureOffset": [21, 21]}
+									],
+									"submodels": [
+										{
+											"id": "leftWingTip",
+											"invertAxis": "xy",
+											"translate": [-39, 3.48403, 1.1617]
+										}
 									]
 								}
 							]

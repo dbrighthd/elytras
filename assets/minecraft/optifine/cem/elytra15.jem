@@ -79,6 +79,13 @@
 											"translate": [5, 0, 0.75],
 											"boxes": [
 												{"coordinates": [-4.75, -22.2, -4.25, 8, 22, 4], "textureOffset": [23, 23], "sizeAdd": 0.25}
+											],
+											"submodels": [
+												{
+													"id": "rightWingTip",
+													"invertAxis": "xy",
+													"translate": [-2.8, -22.5, 0.05]
+												}
 											]
 										},
 										{
@@ -87,6 +94,13 @@
 											"translate": [-5, 0, 0.75],
 											"boxes": [
 												{"coordinates": [-3.25, -22.2, -4.25, 8, 22, 4], "textureOffset": [2, 1], "sizeAdd": 0.25}
+											],
+											"submodels": [
+												{
+													"id": "leftWingTip",
+													"invertAxis": "xy",
+													"translate": [2.9, -22.5, 0.05]
+												}
 											]
 										}
 									]

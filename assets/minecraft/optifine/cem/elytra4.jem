@@ -28,6 +28,13 @@
 					"uvUp": [34, 2, 44, 0],
 					"uvDown": [3, 22, 15, 26]
 				}
+			],
+			"submodels": [
+				{
+					"id": "rightWingTip",
+					"invertAxis": "xy",
+					"translate": [-6, -18.8, 1]
+				}
 			]
 		},
 		{
@@ -54,6 +61,13 @@
 					"uvWest": [0, 0, 4, 0],
 					"uvUp": [44, 2, 34, 0],
 					"uvDown": [3, 22, 15, 26]
+				}
+			],
+			"submodels": [
+				{
+					"id": "leftWingTip",
+					"invertAxis": "xy",
+					"translate": [6, -18.8, 1]
 				}
 			]
 		}
