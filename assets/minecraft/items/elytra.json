@@ -2966,6 +2966,45 @@
       },
       {
         "when": [
+          "Jeb_ Cape Elytra",
+          "jeb_ cape elytra",
+          "iregex:.*Jeb_ Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/jeb_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/jeb_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Jeb_ Cape Elytra Elytra",
+          "jeb_ cape elytra elytra",
+          "jeb_ cape elytra*elytra*",
+          "iregex:.*Jeb_ Cape Elytra Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/jeb_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/jeb_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
           "Cyan Cape Elytra",
           "cyan cape elytra",
           "ipattern:cyan cape elytra",
@@ -8640,25 +8679,6 @@
           "on_true": {
             "type": "minecraft:model",
             "model": "minecraft:item/elytras/glider_elytras/glider_wings/elytra_broken"
-          }
-        }
-      },
-      {
-        "when": [
-          "Jeb_",
-          "jeb_",
-          "iregex:.*Jeb_.*"
-        ],
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:broken",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/modeled_elytras/capes/color/jeb_elytra/elytra"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/elytras/modeled_elytras/capes/color/jeb_elytra/elytra_broken"
           }
         }
       },
