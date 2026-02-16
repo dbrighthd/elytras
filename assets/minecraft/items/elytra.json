@@ -2606,6 +2606,646 @@
       },
       {
         "when": [
+          "Green Cape Elytra",
+          "green cape elytra",
+          "ipattern:green cape elytra",
+          "iregex:.*Green Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/green_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/green_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Green Cape Elytra Elytra",
+          "green cape elytra elytra",
+          "ipattern:green cape elytra*elytra*",
+          "iregex:.*Green Cape Elytra Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/green_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/green_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Lime Cape Elytra",
+          "lime cape elytra",
+          "ipattern:lime cape elytra",
+          "iregex:.*Lime Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/lime_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/lime_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Lime Cape Elytra Elytra",
+          "lime cape elytra elytra",
+          "ipattern:lime cape elytra*elytra*",
+          "iregex:.*Lime Cape Elytra Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/lime_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/lime_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Light Gray Cape Elytra",
+          "light gray cape elytra",
+          "ipattern:light gray cape elytra",
+          "iregex:.*Light Gray Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/light_gray_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/light_gray_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Light Gray Cape Elytra Elytra",
+          "light gray cape elytra elytra",
+          "ipattern:light gray cape elytra*elytra*",
+          "iregex:.*Light Gray Cape Elytra Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/light_gray_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/light_gray_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Black Cape Elytra",
+          "black cape elytra",
+          "ipattern:black cape elytra",
+          "iregex:.*Black Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/black_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/black_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Black Cape Elytra Elytra",
+          "black cape elytra elytra",
+          "ipattern:black cape elytra*elytra*",
+          "iregex:.*Black Cape Elytra Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/black_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/black_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Brown Cape Elytra",
+          "brown cape elytra",
+          "ipattern:brown cape elytra",
+          "iregex:.*Brown Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/brown_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/brown_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Brown Cape Elytra Elytra",
+          "brown cape elytra elytra",
+          "ipattern:brown cape elytra*elytra*",
+          "iregex:.*Brown Cape Elytra Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/brown_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/brown_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Magenta Cape Elytra",
+          "magenta cape elytra",
+          "ipattern:magenta cape elytra",
+          "iregex:.*Magenta Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/magenta_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/magenta_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Magenta Cape Elytra Elytra",
+          "magenta cape elytra elytra",
+          "ipattern:magenta cape elytra*elytra*",
+          "iregex:.*Magenta Cape Elytra Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/magenta_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/magenta_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "White Cape Elytra",
+          "white cape elytra",
+          "ipattern:white cape elytra",
+          "iregex:.*White Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/white_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/white_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "White Cape Elytra Elytra",
+          "white cape elytra elytra",
+          "ipattern:white cape elytra*elytra*",
+          "iregex:.*White Cape Elytra Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/white_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/white_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Gray Cape Elytra",
+          "gray cape elytra",
+          "ipattern:gray cape elytra",
+          "iregex:.*Gray Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/gray_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/gray_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Gray Cape Elytra Elytra",
+          "gray cape elytra elytra",
+          "ipattern:gray cape elytra*elytra*",
+          "iregex:.*Gray Cape Elytra Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/gray_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/gray_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Orange Cape Elytra",
+          "orange cape elytra",
+          "ipattern:orange cape elytra",
+          "iregex:.*Orange Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/orange_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/orange_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Orange Cape Elytra Elytra",
+          "orange cape elytra elytra",
+          "ipattern:orange cape elytra*elytra*",
+          "iregex:.*Orange Cape Elytra Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/orange_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/orange_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Cyan Cape Elytra",
+          "cyan cape elytra",
+          "ipattern:cyan cape elytra",
+          "iregex:.*Cyan Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/cyan_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/cyan_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Cyan Cape Elytra Elytra",
+          "cyan cape elytra elytra",
+          "ipattern:cyan cape elytra*elytra*",
+          "iregex:.*Cyan Cape Elytra Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/cyan_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/cyan_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Purple Cape Elytra",
+          "purple cape elytra",
+          "ipattern:purple cape elytra",
+          "iregex:.*Purple Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/purple_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/purple_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Purple Cape Elytra Elytra",
+          "purple cape elytra elytra",
+          "ipattern:purple cape elytra*elytra*",
+          "iregex:.*Purple Cape Elytra Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/purple_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/purple_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Yellow Cape Elytra",
+          "yellow cape elytra",
+          "ipattern:yellow cape elytra",
+          "iregex:.*Yellow Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/yellow_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/yellow_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Yellow Cape Elytra Elytra",
+          "yellow cape elytra elytra",
+          "ipattern:yellow cape elytra*elytra*",
+          "iregex:.*Yellow Cape Elytra Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/yellow_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/yellow_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Red Cape Elytra",
+          "red cape elytra",
+          "ipattern:red cape elytra",
+          "iregex:.*Red Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/red_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/red_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Red Cape Elytra Elytra",
+          "red cape elytra elytra",
+          "ipattern:red cape elytra*elytra*",
+          "iregex:.*Red Cape Elytra Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/red_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/red_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Pink Cape Elytra",
+          "pink cape elytra",
+          "ipattern:pink cape elytra",
+          "iregex:.*Pink Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/pink_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/pink_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Pink Cape Elytra Elytra",
+          "pink cape elytra elytra",
+          "ipattern:pink cape elytra*elytra*",
+          "iregex:.*Pink Cape Elytra Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/pink_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/pink_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Light Blue Cape Elytra",
+          "light blue cape elytra",
+          "ipattern:light blue cape elytra",
+          "iregex:.*Light Blue Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/light_blue_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/light_blue_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Light Blue Cape Elytra Elytra",
+          "light blue cape elytra elytra",
+          "ipattern:light blue cape elytra*elytra*",
+          "iregex:.*Light Blue Cape Elytra Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/light_blue_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/light_blue_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Rainbow Cape Elytra",
+          "rainbow cape elytra",
+          "ipattern:rainbow cape elytra",
+          "iregex:.*Rainbow Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/rainbow_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/rainbow_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Rainbow Cape Elytra Elytra",
+          "rainbow cape elytra elytra",
+          "ipattern:rainbow cape elytra*elytra*",
+          "iregex:.*Rainbow Cape Elytra Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/rainbow_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/rainbow_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
           "Cape Elytra",
           "cape elytra",
           "iregex:cape(( elytra)?)",
@@ -8000,6 +8640,65 @@
           "on_true": {
             "type": "minecraft:model",
             "model": "minecraft:item/elytras/glider_elytras/glider_wings/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Jeb_",
+          "jeb_",
+          "iregex:.*Jeb_.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/jeb_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/jeb_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Blue Cape Elytra",
+          "blue cape elytra",
+          "ipattern:blue cape elytra",
+          "iregex:.*Blue Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/blue_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/blue_elytra/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Blue Cape Elytra Elytra",
+          "blue cape elytra elytra",
+          "ipattern:blue cape elytra*elytra*",
+          "iregex:.*Blue Cape Elytra Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/blue_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/color/blue_elytra/elytra_broken"
           }
         }
       },
