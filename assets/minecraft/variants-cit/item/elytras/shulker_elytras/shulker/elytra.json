@@ -1,0 +1,106 @@
+{
+	"context": "equippable",
+	"items": [
+		"minecraft:elytra"
+	],
+	"modelPrefix": "elytras/shulker_elytras/",
+	"type": "component_data",
+	"parameters": 
+	{
+		"componentType": "custom_name",
+		"expect": "rich_text",
+		"transform": [
+			{
+				"function": "alternative",
+				"alternatives" : [
+					{
+						"regex": "(?i).*(light blue).*shulker.*",
+						"substitution": "light_blue/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(light gray).*shulker.*",
+						"substitution": "light_gray/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(blue).*shulker.*",
+						"substitution": "blue/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(cyan).*shulker.*",
+						"substitution": "cyan/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(green).*shulker.*",
+						"substitution": "green/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(lime).*shulker.*",
+						"substitution": "lime/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(yellow).*shulker.*",
+						"substitution": "yellow/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(orange).*shulker.*",
+						"substitution": "orange/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(brown).*shulker.*",
+						"substitution": "brown/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(red).*shulker.*",
+						"substitution": "red/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(pink).*shulker.*",
+						"substitution": "pink/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(magenta).*shulker.*",
+						"substitution": "magenta/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(purple).*shulker.*",
+						"substitution": "purple/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(white).*shulker.*",
+						"substitution": "white/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(gray).*shulker.*",
+						"substitution": "gray/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(black).*shulker.*",
+						"substitution": "black/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*shulker.*",
+						"substitution": "shulker/elytra",
+						"matchAll": true
+					}
+				]
+			},
+			"sanitize_path"
+		]
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:elytras/block_elytras/minerals/redstone/1.17deepslate/powered/elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+} 

@@ -1,0 +1,21 @@
+{
+	"context": "equippable",
+	"items": [
+		"minecraft:elytra"
+	],
+	"modelPrefix": "elytras/zelda_elytras/sheika_elytra/",
+	"type": "component_data",
+	"parameters": 
+	{
+		"componentType": "custom_name",
+		"expect": "rich_text",
+		"transform": [
+			{
+				"regex": "(?i).*sheikah elytra.*",
+				"substitution": "elytra",
+				"matchAll": true
+			},
+			"sanitize_path"
+		]
+	}
+}

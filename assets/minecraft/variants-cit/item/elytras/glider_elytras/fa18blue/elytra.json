@@ -1,0 +1,21 @@
+{
+	"context": "equippable",
+	"items": [
+		"minecraft:elytra"
+	],
+	"modelPrefix": "elytras/glider_elytras/fa18blue/",
+	"type": "component_data",
+	"parameters": 
+	{
+		"componentType": "custom_name",
+		"expect": "rich_text",
+		"transform": [
+			{
+				"regex": "(?i).*F/A 18 Blue Angel Wings.*",
+				"substitution": "elytra",
+				"matchAll": true
+			},
+			"sanitize_path"
+		]
+	}
+}

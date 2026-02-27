@@ -1,0 +1,21 @@
+{
+	"context": "equippable",
+	"items": [
+		"minecraft:elytra"
+	],
+	"modelPrefix": "elytras/block_elytras/wood_elytra/darkoak/log/",
+	"type": "component_data",
+	"parameters": 
+	{
+		"componentType": "custom_name",
+		"expect": "rich_text",
+		"transform": [
+			{
+				"regex": "(?i)(?:(?!stripped).)*dark oak log elytra.*",
+				"substitution": "elytra",
+				"matchAll": true
+			},
+			"sanitize_path"
+		]
+	}
+}

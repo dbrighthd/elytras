@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:elytras/block_elytras/nether_quartz_ore/elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+} 

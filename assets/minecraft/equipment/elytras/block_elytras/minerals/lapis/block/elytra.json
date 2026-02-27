@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:elytras/block_elytras/minerals/lapis/block/elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+} 

@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:elytras/modeled_elytras/capes/mojang/minecon_2012/elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+} 

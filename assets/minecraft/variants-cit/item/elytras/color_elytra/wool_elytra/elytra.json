@@ -1,0 +1,101 @@
+{
+	"context": "equippable",
+	"items": [
+		"minecraft:elytra"
+	],
+	"modelPrefix": "elytras/color_elytra/wool_elytra/",
+	"type": "component_data",
+	"parameters": 
+	{
+		"componentType": "custom_name",
+		"expect": "rich_text",
+		"transform": [
+			{
+				"function": "alternative",
+				"alternatives" : [
+					{
+						"regex": "(?i).*(light blue).*wool.*",
+						"substitution": "light_blue/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(light gray).*wool.*",
+						"substitution": "light_gray/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(blue).*wool.*",
+						"substitution": "blue/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(cyan).*wool.*",
+						"substitution": "cyan/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(green).*wool.*",
+						"substitution": "green/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(lime).*wool.*",
+						"substitution": "lime/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(yellow).*wool.*",
+						"substitution": "yellow/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(orange).*wool.*",
+						"substitution": "orange/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(brown).*wool.*",
+						"substitution": "brown/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(red).*wool.*",
+						"substitution": "red/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(pink).*wool.*",
+						"substitution": "pink/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(magenta).*wool.*",
+						"substitution": "magenta/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(purple).*wool.*",
+						"substitution": "purple/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(white).*wool.*",
+						"substitution": "white/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(gray).*wool.*",
+						"substitution": "gray/elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(black).*wool.*",
+						"substitution": "black/elytra",
+						"matchAll": true
+					}
+				]
+			},
+			"sanitize_path"
+		]
+	}
+}

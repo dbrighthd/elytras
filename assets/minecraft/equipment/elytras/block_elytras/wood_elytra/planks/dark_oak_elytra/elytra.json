@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:elytras/block_elytras/wood_elytra/planks/dark_oak_elytra/elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+} 

@@ -1,0 +1,21 @@
+{
+	"context": "equippable",
+	"items": [
+		"minecraft:elytra"
+	],
+	"modelPrefix": "elytras/misc_elytras/low_elytra/",
+	"type": "component_data",
+	"parameters": 
+	{
+		"componentType": "custom_name",
+		"expect": "rich_text",
+		"transform": [
+			{
+				"regex": "(?i)^(?!.*\\byellow\\s+elytra\\b).*?\\blow\\s+elytra\\b.*",
+				"substitution": "elytra",
+				"matchAll": true
+			},
+			"sanitize_path"
+		]
+	}
+}

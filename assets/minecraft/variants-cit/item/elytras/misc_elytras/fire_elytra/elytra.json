@@ -1,0 +1,21 @@
+{
+	"context": "equippable",
+	"items": [
+		"minecraft:elytra"
+	],
+	"modelPrefix": "elytras/misc_elytras/fire_elytra/",
+	"type": "component_data",
+	"parameters": 
+	{
+		"componentType": "custom_name",
+		"expect": "rich_text",
+		"transform": [
+			{
+				"regex": "(?i)(?:(?!soul).)*fire elytra.*",
+				"substitution": "elytra",
+				"matchAll": true
+			},
+			"sanitize_path"
+		]
+	}
+}

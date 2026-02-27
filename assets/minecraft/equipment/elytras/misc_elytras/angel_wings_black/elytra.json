@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:elytras/misc_elytras/angel_wings_black/elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+} 

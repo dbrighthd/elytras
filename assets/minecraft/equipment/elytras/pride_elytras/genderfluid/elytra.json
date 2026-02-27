@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:elytras/pride_elytras/genderfluid/elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+} 

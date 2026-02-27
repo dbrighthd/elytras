@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:elytras/bug_elytra/butterflies/comma/elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+} 

@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:elytras/mojang_elytras/purple_heart/elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+} 

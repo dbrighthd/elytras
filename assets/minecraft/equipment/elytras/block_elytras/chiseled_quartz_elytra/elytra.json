@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:elytras/block_elytras/chiseled_quartz_elytra/elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+} 

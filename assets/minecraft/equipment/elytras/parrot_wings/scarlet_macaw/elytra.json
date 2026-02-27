@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:elytras/parrot_wings/scarlet_macaw/elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+} 

@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:elytras/modeled_elytras/redangel/elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+} 

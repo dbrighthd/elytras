@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:elytras/bug_elytra/mothwings/southernpinkmoth/elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+} 

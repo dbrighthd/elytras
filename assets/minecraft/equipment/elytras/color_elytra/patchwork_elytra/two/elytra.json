@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:elytras/color_elytra/patchwork_elytra/two/elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+} 

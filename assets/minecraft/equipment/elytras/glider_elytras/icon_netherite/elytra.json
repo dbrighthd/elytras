@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:elytras/glider_elytras/icon_netherite/elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+} 

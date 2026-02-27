@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:elytras/shulker_elytras/light_blue/elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+} 

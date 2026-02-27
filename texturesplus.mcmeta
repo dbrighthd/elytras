@@ -1,6 +1,6 @@
 {
     "required_dependencies": [
-        "entity_model_features", "entity_texture_features", "animatica"
+        "entity_model_features", "entity_texture_features", "animatica", "variants-cit"
     ],
     "optional_dependencies": 
     [

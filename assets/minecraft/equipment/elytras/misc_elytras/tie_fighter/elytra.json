@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:elytras/misc_elytras/tie_fighter/elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+} 

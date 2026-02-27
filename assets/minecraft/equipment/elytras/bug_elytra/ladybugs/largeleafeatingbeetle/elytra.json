@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:elytras/bug_elytra/ladybugs/largeleafeatingbeetle/elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+} 

@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:elytras/block_elytras/minerals/redstone/old_ore/elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+} 

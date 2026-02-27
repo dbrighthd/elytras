@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:elytras/glider_elytras/glider_wings_no_winglets/elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+} 

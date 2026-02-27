@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:elytras/block_elytras/minerals/copper/copper_deepslate/elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+} 

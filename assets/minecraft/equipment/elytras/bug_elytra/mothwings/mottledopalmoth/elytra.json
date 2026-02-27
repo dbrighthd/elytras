@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:elytras/bug_elytra/mothwings/mottledopalmoth/elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+} 

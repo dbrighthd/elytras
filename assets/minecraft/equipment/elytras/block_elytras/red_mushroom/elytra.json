@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:elytras/block_elytras/red_mushroom/elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+} 

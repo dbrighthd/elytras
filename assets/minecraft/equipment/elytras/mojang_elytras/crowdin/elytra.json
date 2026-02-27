@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:elytras/mojang_elytras/crowdin/elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+} 

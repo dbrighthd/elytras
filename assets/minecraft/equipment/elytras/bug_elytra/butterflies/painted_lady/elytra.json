@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:elytras/bug_elytra/butterflies/painted_lady/elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+} 
