@@ -1,0 +1,6 @@
+{
+    condition: "ElytrasPlus.emissiveType.default",
+    fallbacks: [
+      "assets/minecraft/textures/entity/equipment/wings/elytras/modeled_elytras/redangel/elytra_shader.png"
+    ]
+}
