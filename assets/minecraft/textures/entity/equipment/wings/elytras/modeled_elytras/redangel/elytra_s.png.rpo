@@ -1,3 +1,3 @@
 {
-    condition: "ElytrasPlus.emissiveType.shader"
+    condition: "ElytrasPlus.emissiveType.labPBR"
 }
