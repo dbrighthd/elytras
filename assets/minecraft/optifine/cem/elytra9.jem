@@ -1927,7 +1927,7 @@
 						{
 							"id": "bannerbase2",
 							"invertAxis": "xy",
-							"translate": [21.29167, 54.53333, -73],
+							"translate": [21.29167, 54.53333, 55],
 							"boxes": [
 								{
 									"coordinates": [-6.75, 0.25, -0.75, 15, 1.5, 1.5],
@@ -1962,7 +1962,7 @@
 						{
 							"id": "bannerbase3",
 							"invertAxis": "xy",
-							"translate": [-10.70833, -25.46667, -73],
+							"translate": [-10.70833, -25.46667, 55],
 							"boxes": [
 								{
 									"coordinates": [-6.75, 0.25, -0.75, 15, 1.5, 1.5],
@@ -1997,7 +1997,7 @@
 						{
 							"id": "bannerbase4",
 							"invertAxis": "xy",
-							"translate": [21.29167, -25.46667, -73],
+							"translate": [21.29167, -25.46667, 55],
 							"boxes": [
 								{
 									"coordinates": [-6.75, 0.25, -0.75, 15, 1.5, 1.5],
@@ -2032,7 +2032,7 @@
 						{
 							"id": "bannerbase5",
 							"invertAxis": "xy",
-							"translate": [-10.70833, 54.53333, -73],
+							"translate": [-10.70833, 54.53333, 55],
 							"boxes": [
 								{
 									"coordinates": [-6.75, 0.25, -0.75, 15, 1.5, 1.5],
@@ -2193,6 +2193,154 @@
 									"submodels": [
 										{
 											"id": "bannerflag9",
+											"invertAxis": "xy",
+											"translate": [-0.75, -6.75, -1.5],
+											"rotate": [0, 0, 90],
+											"boxes": [
+												{
+													"coordinates": [-22.5, -8.25, -0.75, 30, 15, 1.5],
+													"uvNorth": [0, 20, 40, 0],
+													"uvEast": [0, 0, 2, 2],
+													"uvSouth": [0, 0, 2, 2],
+													"uvWest": [0, 0, 2, 2],
+													"uvUp": [2, 2, 0, 0],
+													"uvDown": [2, 0, 0, 2]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "bone2",
+							"invertAxis": "xy",
+							"translate": [12.04167, 6.78333, -130],
+							"rotate": [0, -180, 0],
+							"submodels": [
+								{
+									"id": "bannerbase10",
+									"invertAxis": "xy",
+									"translate": [21.25, 47.75, -75],
+									"boxes": [
+										{
+											"coordinates": [-6.75, 0.25, -0.75, 15, 1.5, 1.5],
+											"uvNorth": [42, 18, 61, 20],
+											"uvEast": [40, 18, 42, 20],
+											"uvSouth": [64, 18, 84, 20],
+											"uvWest": [62, 18, 64, 20],
+											"uvUp": [62, 18, 42, 16],
+											"uvDown": [82, 16, 62, 18]
+										}
+									],
+									"submodels": [
+										{
+											"id": "bannerflag10",
+											"invertAxis": "xy",
+											"translate": [0, -5.75, -1.5],
+											"rotate": [0, 0, 90],
+											"boxes": [
+												{
+													"coordinates": [-22.5, -8.25, -0.75, 30, 15, 1.5],
+													"uvNorth": [0, 0, 40, 20],
+													"uvEast": [0, 0, 2, 2],
+													"uvSouth": [0, 0, 2, 2],
+													"uvWest": [0, 0, 2, 2],
+													"uvUp": [2, 2, 0, 0],
+													"uvDown": [2, 0, 0, 2]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "bannerbase11",
+									"invertAxis": "xy",
+									"translate": [-10.75, -32.25, -75],
+									"boxes": [
+										{
+											"coordinates": [-6.75, 0.25, -0.75, 15, 1.5, 1.5],
+											"uvNorth": [42, 18, 61, 20],
+											"uvEast": [40, 18, 42, 20],
+											"uvSouth": [64, 18, 84, 20],
+											"uvWest": [62, 18, 64, 20],
+											"uvUp": [62, 18, 42, 16],
+											"uvDown": [82, 16, 62, 18]
+										}
+									],
+									"submodels": [
+										{
+											"id": "bannerflag11",
+											"invertAxis": "xy",
+											"translate": [0, -5.75, -1.5],
+											"rotate": [0, 0, 90],
+											"boxes": [
+												{
+													"coordinates": [-22.5, -8.25, -0.75, 30, 15, 1.5],
+													"uvNorth": [0, 0, 40, 20],
+													"uvEast": [0, 0, 2, 2],
+													"uvSouth": [0, 0, 2, 2],
+													"uvWest": [0, 0, 2, 2],
+													"uvUp": [2, 2, 0, 0],
+													"uvDown": [2, 0, 0, 2]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "bannerbase12",
+									"invertAxis": "xy",
+									"translate": [21.25, -32.25, -75],
+									"boxes": [
+										{
+											"coordinates": [-6.75, 0.25, -0.75, 15, 1.5, 1.5],
+											"uvNorth": [42, 18, 61, 20],
+											"uvEast": [40, 18, 42, 20],
+											"uvSouth": [64, 18, 84, 20],
+											"uvWest": [62, 18, 64, 20],
+											"uvUp": [62, 18, 42, 16],
+											"uvDown": [82, 16, 62, 18]
+										}
+									],
+									"submodels": [
+										{
+											"id": "bannerflag12",
+											"invertAxis": "xy",
+											"translate": [0, -5.75, -1.5],
+											"rotate": [0, 0, 90],
+											"boxes": [
+												{
+													"coordinates": [-22.5, -8.25, -0.75, 30, 15, 1.5],
+													"uvNorth": [0, 20, 40, 0],
+													"uvEast": [0, 0, 2, 2],
+													"uvSouth": [0, 0, 2, 2],
+													"uvWest": [0, 0, 2, 2],
+													"uvUp": [2, 2, 0, 0],
+													"uvDown": [2, 0, 0, 2]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "bannerbase13",
+									"invertAxis": "xy",
+									"translate": [-10, 48.75, -75],
+									"boxes": [
+										{
+											"coordinates": [-7.5, -0.75, -0.75, 15, 1.5, 1.5],
+											"uvNorth": [42, 18, 61, 20],
+											"uvEast": [40, 18, 42, 20],
+											"uvSouth": [64, 18, 84, 20],
+											"uvWest": [62, 18, 64, 20],
+											"uvUp": [62, 18, 42, 16],
+											"uvDown": [82, 16, 62, 18]
+										}
+									],
+									"submodels": [
+										{
+											"id": "bannerflag13",
 											"invertAxis": "xy",
 											"translate": [-0.75, -6.75, -1.5],
 											"rotate": [0, 0, 90],
