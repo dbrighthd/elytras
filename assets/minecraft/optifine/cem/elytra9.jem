@@ -1881,12 +1881,22 @@
 						{
 							"id": "leftWingTip",
 							"invertAxis": "xy",
-							"translate": [62.04167, 0.78333, 72]
+							"translate": [30.04167, 88.78333, 72]
+						},
+						{
+							"id": "leftWingTip2",
+							"invertAxis": "xy",
+							"translate": [30.04167, -87.21667, 72]
 						},
 						{
 							"id": "rightWingTip",
 							"invertAxis": "xy",
-							"translate": [62.04167, 0.78333, -72]
+							"translate": [30.04167, 88.78333, -72]
+						},
+						{
+							"id": "rightWingTip2",
+							"invertAxis": "xy",
+							"translate": [30.04167, -87.21667, -72]
 						},
 						{
 							"id": "bannerbase1",
