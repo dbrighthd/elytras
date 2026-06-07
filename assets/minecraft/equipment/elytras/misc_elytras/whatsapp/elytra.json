@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:elytras/misc_elytras/whatsapp/elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+} 

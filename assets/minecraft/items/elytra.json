@@ -6,6 +6,24 @@
     "cases": [
       {
         "when": [
+          "Whatsapp Elytra",
+          "iregex:.*whatsapp.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/whatsapp/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/whatsapp/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
           "Lime Shulker Elytra",
           "lime shulker elytra",
           "ipattern:lime shulker elytra",
