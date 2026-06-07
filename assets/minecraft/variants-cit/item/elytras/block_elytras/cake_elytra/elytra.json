@@ -11,7 +11,7 @@
 		"expect": "rich_text",
 		"transform": [
 			{
-				"regex": "(?i).*cake elytra.*",
+				"regex": "(?i)?!(pan).*cake elytra.*",
 				"substitution": "elytra",
 				"matchAll": true
 			},
