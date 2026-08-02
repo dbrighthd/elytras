@@ -11,7 +11,7 @@
 		"expect": "rich_text",
 		"transform": [
 			{
-				"regex": "(?i).*oak wood elytra.*",
+				"regex": "(?i)(?!(dark)).*oak wood elytra.*",
 				"substitution": "elytra",
 				"matchAll": true
 			},

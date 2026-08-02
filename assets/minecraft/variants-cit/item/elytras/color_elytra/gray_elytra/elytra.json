@@ -11,7 +11,7 @@
 		"expect": "rich_text",
 		"transform": [
 			{
-				"regex": "(?i).*Gray Elytra.*",
+				"regex": "(?i)(?!(light)).*Gray Elytra.*",
 				"substitution": "elytra",
 				"matchAll": true
 			},

@@ -11,7 +11,7 @@
 		"expect": "rich_text",
 		"transform": [
 			{
-				"regex": "(?i).*birch log elytra.*",
+				"regex": "(?i)(?!(stripped)).*birch log elytra.*",
 				"substitution": "elytra",
 				"matchAll": true
 			},

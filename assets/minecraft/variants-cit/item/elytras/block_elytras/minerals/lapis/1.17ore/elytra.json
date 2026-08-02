@@ -11,7 +11,7 @@
 		"expect": "rich_text",
 		"transform": [
 			{
-				"regex": "(?i).*lapis ore elytra.*",
+				"regex": "(?i)(?!(deepslate)).*lapis ore elytra.*",
 				"substitution": "elytra",
 				"matchAll": true
 			},

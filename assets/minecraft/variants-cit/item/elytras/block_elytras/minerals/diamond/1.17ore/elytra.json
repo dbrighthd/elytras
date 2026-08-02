@@ -11,7 +11,7 @@
 		"expect": "rich_text",
 		"transform": [
 			{
-				"regex": "(?i).*diamond ore elytra.*",
+				"regex": "(?i)(?!(deepslate)).*diamond ore elytra.*",
 				"substitution": "elytra",
 				"matchAll": true
 			},

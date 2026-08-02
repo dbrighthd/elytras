@@ -11,7 +11,7 @@
 		"expect": "rich_text",
 		"transform": [
 			{
-				"regex": "(?i).*jungle log elytra.*",
+				"regex": "(?i)(?!(stripped)).*jungle log elytra.*",
 				"substitution": "elytra",
 				"matchAll": true
 			},

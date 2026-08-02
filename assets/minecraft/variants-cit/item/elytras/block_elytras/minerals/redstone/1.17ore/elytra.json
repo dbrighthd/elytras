@@ -11,7 +11,7 @@
 		"expect": "rich_text",
 		"transform": [
 			{
-				"regex": "(?i)(?:(?!(powered)).)*redstone ore elytra.*",
+				"regex": "(?i)(?!(deepslate))(?:(?!(powered)).)*redstone ore elytra.*",
 				"substitution": "elytra",
 				"matchAll": true
 			},

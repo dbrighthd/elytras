@@ -11,7 +11,7 @@
 		"expect": "rich_text",
 		"transform": [
 			{
-				"regex": "(?i).*acacia log elytra.*",
+				"regex": "(?i)(?!(stripped)).*acacia log elytra.*",
 				"substitution": "elytra",
 				"matchAll": true
 			},
