@@ -1,21 +1,30 @@
 {
-	"context": "equippable",
-	"items": [
-		"minecraft:elytra"
-	],
-	"modelPrefix": "elytras/mojang_elytras/follower/",
-	"type": "component_data",
-	"parameters": 
-	{
-		"componentType": "custom_name",
-		"expect": "rich_text",
-		"transform": [
-			{
-				"regex": "(?i).*follower.*s elytra.*",
-				"substitution": "elytra",
-				"matchAll": true
-			},
-			"sanitize_path"
-		]
-	}
+  "context": "equippable",
+  "items": [
+    "minecraft:elytra"
+  ],
+  "modelPrefix": "elytras/mojang_elytras/follower/",
+  "type": "component_data",
+  "parameters": {
+    "componentType": "custom_name",
+    "expect": "rich_text",
+    "transform": [
+      {
+        "function": "alternative",
+        "alternatives": [
+          {
+            "regex": "(?i).*follower.*s elytra.*",
+            "substitution": "elytra",
+            "matchAll": true
+          },
+          {
+            "regex": "(?i).*follower.*s cape.*",
+            "substitution": "elytra",
+            "matchAll": true
+          }
+        ]
+      },
+      "sanitize_path"
+    ]
+  }
 }

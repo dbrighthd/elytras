@@ -11,10 +11,20 @@
 		"expect": "rich_text",
 		"transform": [
 			{
-				"regex": "(?i).*Creeper Elytra.*",
-				"substitution": "elytra",
-				"matchAll": true
-			},
+        "function": "alternative",
+        "alternatives": [
+          {
+            "regex": "(?i).*Creeper Elytra.*",
+            "substitution": "elytra",
+            "matchAll": true
+          },
+          {
+            "regex": "(?i)Creeper cape.*",
+            "substitution": "elytra",
+            "matchAll": true
+          }
+        ]
+      },
 			"sanitize_path"
 		]
 	}

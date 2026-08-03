@@ -1,21 +1,30 @@
 {
-	"context": "equippable",
-	"items": [
-		"minecraft:elytra"
-	],
-	"modelPrefix": "elytras/color_elytra/rainbow_elytra/",
-	"type": "component_data",
-	"parameters": 
-	{
-		"componentType": "custom_name",
-		"expect": "rich_text",
-		"transform": [
-			{
-				"regex": "(?i).*Rainbow Elytra.*",
-				"substitution": "elytra",
-				"matchAll": true
-			},
-			"sanitize_path"
-		]
-	}
+  "context": "equippable",
+  "items": [
+    "minecraft:elytra"
+  ],
+  "modelPrefix": "elytras/color_elytra/rainbow_elytra/",
+  "type": "component_data",
+  "parameters": {
+    "componentType": "custom_name",
+    "expect": "rich_text",
+    "transform": [
+      {
+        "function": "alternative",
+        "alternatives": [
+          {
+            "regex": "(?i).*Rainbow Elytra.*",
+            "substitution": "elytra",
+            "matchAll": true
+          },
+          {
+            "regex": "(?i).*Rainbow cape.*",
+            "substitution": "elytra",
+            "matchAll": true
+          }
+        ]
+      },
+      "sanitize_path"
+    ]
+  }
 }

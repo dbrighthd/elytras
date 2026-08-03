@@ -11,9 +11,19 @@
 		"expect": "rich_text",
 		"transform": [
 			{
-				"regex": "(?i).*15 year anniversary elytra.*",
-				"substitution": "elytra",
-				"matchAll": true
+				"function": "alternative",
+				"alternatives" : [
+					{
+						"regex": "(?i).*15 year anniversary elytra.*",
+						"substitution": "elytra",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*15 year anniversary cape.*",
+						"substitution": "elytra",
+						"matchAll": true
+					}
+				]
 			},
 			"sanitize_path"
 		]
