@@ -1,21 +1,30 @@
 {
-	"context": "equippable",
-	"items": [
-		"minecraft:elytra"
-	],
-	"modelPrefix": "elytras/mojang_elytras/scrolls/",
-	"type": "component_data",
-	"parameters": 
-	{
-		"componentType": "custom_name",
-		"expect": "rich_text",
-		"transform": [
-			{
-				"regex": "(?i).*Scrolls Elytra.*",
-				"substitution": "elytra",
-				"matchAll": true
-			},
-			"sanitize_path"
-		]
-	}
+  "context": "equippable",
+  "items": [
+    "minecraft:elytra"
+  ],
+  "modelPrefix": "elytras/mojang_elytras/scrolls/",
+  "type": "component_data",
+  "parameters": {
+    "componentType": "custom_name",
+    "expect": "rich_text",
+    "transform": [
+      {
+        "function": "alternative",
+        "alternatives": [
+          {
+            "regex": "(?i).*Scrolls Elytra.*",
+            "substitution": "elytra",
+            "matchAll": true
+          },
+          {
+            "regex": "(?i).*Scrolls cape.*",
+            "substitution": "elytra",
+            "matchAll": true
+          }
+        ]
+      },
+      "sanitize_path"
+    ]
+  }
 }

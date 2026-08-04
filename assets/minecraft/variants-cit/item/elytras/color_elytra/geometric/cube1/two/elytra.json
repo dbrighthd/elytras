@@ -1,21 +1,30 @@
 {
-	"context": "equippable",
-	"items": [
-		"minecraft:elytra"
-	],
-	"modelPrefix": "elytras/color_elytra/geometric/cube1/two/",
-	"type": "component_data",
-	"parameters": 
-	{
-		"componentType": "custom_name",
-		"expect": "rich_text",
-		"transform": [
-			{
-				"regex": "(?i).*cube two elytra.*",
-				"substitution": "elytra",
-				"matchAll": true
-			},
-			"sanitize_path"
-		]
-	}
+  "context": "equippable",
+  "items": [
+    "minecraft:elytra"
+  ],
+  "modelPrefix": "elytras/color_elytra/geometric/cube1/two/",
+  "type": "component_data",
+  "parameters": {
+    "componentType": "custom_name",
+    "expect": "rich_text",
+    "transform": [
+      {
+        "function": "alternative",
+        "alternatives": [
+          {
+            "regex": "(?i).*cube two elytra.*",
+            "substitution": "elytra",
+            "matchAll": true
+          },
+          {
+            "regex": "(?i).*cube two cape.*",
+            "substitution": "elytra",
+            "matchAll": true
+          }
+        ]
+      },
+      "sanitize_path"
+    ]
+  }
 }
