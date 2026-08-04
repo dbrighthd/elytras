@@ -1,0 +1,30 @@
+{
+  "context": "equippable",
+  "items": [
+    "minecraft:elytra"
+  ],
+  "modelPrefix": "elytras/mojang_elytras/builder/",
+  "type": "component_data",
+  "parameters": {
+    "componentType": "custom_name",
+    "expect": "rich_text",
+    "transform": [
+      {
+        "function": "alternative",
+        "alternatives": [
+          {
+            "regex": "(?i).*builder elytra.*",
+            "substitution": "elytra",
+            "matchAll": true
+          },
+          {
+            "regex": "(?i).*builder cape.*",
+            "substitution": "elytra",
+            "matchAll": true
+          }
+        ]
+      },
+      "sanitize_path"
+    ]
+  }
+}

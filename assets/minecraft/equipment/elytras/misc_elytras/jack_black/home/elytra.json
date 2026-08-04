@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:elytras/misc_elytras/jack_black/home/elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+} 

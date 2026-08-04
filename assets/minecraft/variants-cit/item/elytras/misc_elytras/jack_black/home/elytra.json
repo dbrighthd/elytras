@@ -1,0 +1,31 @@
+{
+	"context": "equippable",
+	"items": [
+		"minecraft:elytra"
+	],
+	"modelPrefix": "elytras/misc_elytras/jack_black/home/",
+	"type": "component_data",
+	"parameters": 
+	{
+		"componentType": "custom_name",
+		"expect": "rich_text",
+		"transform": [
+			{
+			"function": "alternative",
+			"alternatives": [
+			{
+				"regex": "(?i).*Home But Good Elytra.*",
+				"substitution": "elytra",
+				"matchAll": true
+			},
+			{
+				"regex": "(?i).*Home But Good cape.*",
+				"substitution": "elytra",
+				"matchAll": true
+			}
+			]
+		},
+			"sanitize_path"
+		]
+	}
+}

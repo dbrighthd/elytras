@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:elytras/mojang_elytras/zombie_horse/elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+} 

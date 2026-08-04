@@ -6,6 +6,876 @@
     "cases": [
       {
         "when": [
+          "Home But Good Elytra",
+          "home but good elytra",
+          "ipattern:home but good elytra",
+          "iregex:.*home but good elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/jack_black/home/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/jack_black/home/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Home But Good Cape",
+          "home but good cape",
+          "ipattern:home but good cape*",
+          "iregex:.*home but good Cape.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/jack_black/home/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/jack_black/home/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Home But Good Cape Elytra",
+          "home but good cape elytra",
+          "ipattern:home but good cape**elytra*",
+          "iregex:.*home but good Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/jack_black/home/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/jack_black/home/elytra_broken"
+          }
+        }
+      },
+
+
+      {
+        "when": [
+          "Menace But Good Elytra",
+          "menace but good elytra",
+          "ipattern:menace but good elytra",
+          "iregex:.*menace but good elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/jack_black/menace/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/jack_black/menace/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Menace But Good Cape",
+          "menace but good cape",
+          "ipattern:menace but good cape*",
+          "iregex:.*menace but good Cape.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/jack_black/menace/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/jack_black/menace/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Menace But Good Cape Elytra",
+          "menace but good cape elytra",
+          "ipattern:menace but good cape**elytra*",
+          "iregex:.*menace but good Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/jack_black/menace/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/jack_black/menace/elytra_broken"
+          }
+        }
+      },
+
+
+      {
+        "when": [
+          "Yearn But Good Elytra",
+          "yearn but good elytra",
+          "ipattern:yearn but good elytra",
+          "iregex:.*yearn but good elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/jack_black/yearn/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/jack_black/yearn/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Yearn But Good Cape",
+          "yearn but good cape",
+          "ipattern:yearn but good cape*",
+          "iregex:.*yearn but good Cape.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/jack_black/yearn/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/jack_black/yearn/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Yearn But Good Cape Elytra",
+          "yearn but good cape elytra",
+          "ipattern:yearn but good cape**elytra*",
+          "iregex:.*yearn but good Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/jack_black/yearn/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/jack_black/yearn/elytra_broken"
+          }
+        }
+      },
+
+
+      {
+        "when": [
+          "Builder Elytra",
+          "builder elytra",
+          "ipattern:builder elytra",
+          "iregex:.*builder elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/mojang_elytras/builder/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/mojang_elytras/builder/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Builder Cape",
+          "builder cape",
+          "ipattern:builder cape*",
+          "iregex:.*builder Cape.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/builder/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/builder/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Builder Cape Elytra",
+          "builder cape elytra",
+          "ipattern:builder cape**elytra*",
+          "iregex:.*builder Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/builder/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/builder/elytra_broken"
+          }
+        }
+      },
+
+
+      {
+        "when": [
+          "Zombie Horse Elytra",
+          "zombie horse elytra",
+          "ipattern:zombie horse elytra",
+          "iregex:.*zombie horse elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/mojang_elytras/zombie_horse/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/mojang_elytras/zombie_horse/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Zombie Horse Cape",
+          "zombie horse cape",
+          "ipattern:zombie horse cape*",
+          "iregex:.*zombie horse Cape.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/zombie_horse/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/zombie_horse/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Zombie Horse Cape Elytra",
+          "zombie horse cape elytra",
+          "ipattern:zombie horse cape**elytra*",
+          "iregex:.*zombie horse Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/zombie_horse/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/zombie_horse/elytra_broken"
+          }
+        }
+      },
+
+      {
+        "when": [
+          "Copper Elytra",
+          "copper elytra",
+          "ipattern:copper elytra",
+          "iregex:.*copper elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/mojang_elytras/copper/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/mojang_elytras/copper/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Copper Cape",
+          "copper cape",
+          "ipattern:copper cape*",
+          "iregex:.*copper Cape.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/copper/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/copper/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Copper Cape Elytra",
+          "copper cape elytra",
+          "ipattern:copper cape**elytra*",
+          "iregex:.*copper Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/copper/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/copper/elytra_broken"
+          }
+        }
+      },
+
+
+
+
+      {
+        "when": [
+          "Yearn Elytra",
+          "yearn elytra",
+          "ipattern:yearn elytra",
+          "iregex:.*yearn elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/mojang_elytras/yearn/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/mojang_elytras/yearn/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Yearn Cape",
+          "yearn cape",
+          "ipattern:yearn cape*",
+          "iregex:.*yearn Cape.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/yearn/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/yearn/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Yearn Cape Elytra",
+          "yearn cape elytra",
+          "ipattern:yearn cape**elytra*",
+          "iregex:.*yearn Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/yearn/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/yearn/elytra_broken"
+          }
+        }
+      },
+
+
+
+
+      {
+        "when": [
+          "Menace Elytra",
+          "menace elytra",
+          "ipattern:menace elytra",
+          "iregex:.*menace elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/mojang_elytras/menace/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/mojang_elytras/menace/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Menace Cape",
+          "menace cape",
+          "ipattern:menace cape*",
+          "iregex:.*menace Cape.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/menace/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/menace/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Menace Cape Elytra",
+          "menace cape elytra",
+          "ipattern:menace cape**elytra*",
+          "iregex:.*menace Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/menace/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/menace/elytra_broken"
+          }
+        }
+      },
+
+
+
+      {
+        "when": [
+          "Home Elytra",
+          "home elytra",
+          "ipattern:home elytra",
+          "iregex:.*home elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/mojang_elytras/home/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/mojang_elytras/home/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Home Cape",
+          "home cape",
+          "ipattern:home cape*",
+          "iregex:.*home Cape.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/home/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/home/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Home Cape Elytra",
+          "home cape elytra",
+          "ipattern:home cape**elytra*",
+          "iregex:.*home Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/home/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/home/elytra_broken"
+          }
+        }
+      },
+
+
+      {
+        "when": [
+          "Mojang Office Elytra",
+          "mojang office elytra",
+          "ipattern:mojang office elytra",
+          "iregex:.*mojang office elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/mojang_elytras/mojang_office/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/mojang_elytras/mojang_office/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Mojang Office Cape",
+          "mojang office cape",
+          "ipattern:mojang office cape*",
+          "iregex:.*mojang office Cape.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/mojang_office/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/mojang_office/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Mojang Office Cape Elytra",
+          "mojang office cape elytra",
+          "ipattern:mojang office cape**elytra*",
+          "iregex:.*mojang office Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/mojang_office/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/mojang_office/elytra_broken"
+          }
+        }
+      },
+
+
+
+
+      {
+        "when": [
+          "MCC 15th Year Elytra",
+          "mcc 15th year elytra",
+          "ipattern:mcc 15th year elytra",
+          "iregex:.*mcc 15th year elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/mojang_elytras/mcc_15th_year/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/mojang_elytras/mcc_15th_year/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "MCC 15th Year Cape",
+          "mcc 15th year cape",
+          "ipattern:mcc 15th year cape*",
+          "iregex:.*mcc 15th year Cape.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/mcc_15th_year/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/mcc_15th_year/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "MCC 15th Year Cape Elytra",
+          "mcc 15th year cape elytra",
+          "ipattern:mcc 15th year cape**elytra*",
+          "iregex:.*mcc 15th year Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/mcc_15th_year/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/mcc_15th_year/elytra_broken"
+          }
+        }
+      },
+
+
+      {
+        "when": [
+          "Crafter Elytra",
+          "crafter elytra",
+          "ipattern:crafter elytra",
+          "iregex:.*crafter elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/mojang_elytras/crafter/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/mojang_elytras/crafter/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Crafter Cape",
+          "crafter cape",
+          "ipattern:crafter cape*",
+          "iregex:.*crafter Cape.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/crafter/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/crafter/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Crafter Cape Elytra",
+          "crafter cape elytra",
+          "ipattern:crafter cape**elytra*",
+          "iregex:.*crafter Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/crafter/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/crafter/elytra_broken"
+          }
+        }
+      },
+
+
+      {
+        "when": [
+          "Moonlight Trail Elytra",
+          "moonlight trail elytra",
+          "ipattern:moonlight trail elytra",
+          "iregex:.*moonlight trail elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/mojang_elytras/moonlight_trail/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/mojang_elytras/moonlight_trail/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Moonlight Trail Cape",
+          "moonlight trail cape",
+          "ipattern:moonlight trail cape*",
+          "iregex:.*moonlight trail Cape.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/moonlight_trail/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/moonlight_trail/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Moonlight Trail Cape Elytra",
+          "moonlight trail cape elytra",
+          "ipattern:moonlight trail cape**elytra*",
+          "iregex:.*moonlight trail Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/moonlight_trail/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/moonlight_trail/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Minecraft Experience Elytra",
+          "minecraft experience elytra",
+          "ipattern:minecraft experience elytra",
+          "iregex:.*minecraft experience elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/mojang_elytras/minecraft_experience/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/mojang_elytras/minecraft_experience/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Minecraft Experience Cape",
+          "minecraft experience cape",
+          "ipattern:Minecraft Experience cape*",
+          "iregex:.*Minecraft Experience Cape.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/minecraft_experience/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/minecraft_experience/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Minecraft Experience Cape Elytra",
+          "minecraft experience cape elytra",
+          "ipattern:Minecraft Experience cape**elytra*",
+          "iregex:.*Minecraft Experience Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/minecraft_experience/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/minecraft_experience/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
           "Common Elytra",
           "common elytra",
           "ipattern:common elytra",
