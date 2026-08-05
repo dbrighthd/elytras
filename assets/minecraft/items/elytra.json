@@ -36,11 +36,19 @@
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
+<<<<<<< HEAD
             "model": "minecraft:item/elytras/misc_elytras/jack_black/home/cape"
           },
           "on_true": {
             "type": "minecraft:model",
             "model": "minecraft:item/elytras/misc_elytras/jack_black/home/cape_broken"
+=======
+            "model": "minecraft:item/elytras/modeled_elytras/capes/jack_black/home/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/jack_black/home/elytra_broken"
+>>>>>>> 7c7f0dc97bab222391dff9b3faf1b46ec6b61e57
           }
         }
       },
@@ -56,11 +64,19 @@
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
+<<<<<<< HEAD
             "model": "minecraft:item/elytras/misc_elytras/jack_black/home/cape"
           },
           "on_true": {
             "type": "minecraft:model",
             "model": "minecraft:item/elytras/misc_elytras/jack_black/home/cape_broken"
+=======
+            "model": "minecraft:item/elytras/modeled_elytras/capes/jack_black/home/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/jack_black/home/elytra_broken"
+>>>>>>> 7c7f0dc97bab222391dff9b3faf1b46ec6b61e57
           }
         }
       },
@@ -98,11 +114,19 @@
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
+<<<<<<< HEAD
             "model": "minecraft:item/elytras/misc_elytras/jack_black/menace/cape"
           },
           "on_true": {
             "type": "minecraft:model",
             "model": "minecraft:item/elytras/misc_elytras/jack_black/menace/cape_broken"
+=======
+            "model": "minecraft:item/elytras/modeled_elytras/capes/jack_black/menace/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/jack_black/menace/elytra_broken"
+>>>>>>> 7c7f0dc97bab222391dff9b3faf1b46ec6b61e57
           }
         }
       },
@@ -118,11 +142,19 @@
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
+<<<<<<< HEAD
             "model": "minecraft:item/elytras/misc_elytras/jack_black/menace/cape"
           },
           "on_true": {
             "type": "minecraft:model",
             "model": "minecraft:item/elytras/misc_elytras/jack_black/menace/cape_broken"
+=======
+            "model": "minecraft:item/elytras/modeled_elytras/capes/jack_black/menace/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/jack_black/menace/elytra_broken"
+>>>>>>> 7c7f0dc97bab222391dff9b3faf1b46ec6b61e57
           }
         }
       },
@@ -160,11 +192,19 @@
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
+<<<<<<< HEAD
             "model": "minecraft:item/elytras/misc_elytras/jack_black/yearn/cape"
           },
           "on_true": {
             "type": "minecraft:model",
             "model": "minecraft:item/elytras/misc_elytras/jack_black/yearn/cape_broken"
+=======
+            "model": "minecraft:item/elytras/modeled_elytras/capes/jack_black/yearn/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/jack_black/yearn/elytra_broken"
+>>>>>>> 7c7f0dc97bab222391dff9b3faf1b46ec6b61e57
           }
         }
       },
@@ -180,11 +220,19 @@
           "property": "minecraft:broken",
           "on_false": {
             "type": "minecraft:model",
+<<<<<<< HEAD
             "model": "minecraft:item/elytras/misc_elytras/jack_black/yearn/cape"
           },
           "on_true": {
             "type": "minecraft:model",
             "model": "minecraft:item/elytras/misc_elytras/jack_black/yearn/cape_broken"
+=======
+            "model": "minecraft:item/elytras/modeled_elytras/capes/jack_black/yearn/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/jack_black/yearn/elytra_broken"
+>>>>>>> 7c7f0dc97bab222391dff9b3faf1b46ec6b61e57
           }
         }
       },
