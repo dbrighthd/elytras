@@ -6,6 +6,66 @@
     "cases": [
       {
         "when": [
+          "Oxeye Elytra",
+          "oxeye elytra",
+          "ipattern:oxeye elytra",
+          "iregex:.*oxeye elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/mojang_elytras/oxeye/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/mojang_elytras/oxeye/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Oxeye Cape",
+          "oxeye cape",
+          "ipattern:oxeye cape*",
+          "iregex:.*oxeye Cape.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/oxeye/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/oxeye/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
+          "Oxeye Cape Elytra",
+          "oxeye cape elytra",
+          "ipattern:oxeye cape**elytra*",
+          "iregex:.*oxeye Cape Elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/oxeye/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/modeled_elytras/capes/mojang/oxeye/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
           "Home But Good Elytra",
           "home but good elytra",
           "ipattern:home but good elytra",
