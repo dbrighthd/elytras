@@ -6,6 +6,26 @@
     "cases": [
       {
         "when": [
+          "hide Elytra",
+          "hide elytra",
+          "ipattern:hide elytra",
+          "iregex:.*hide elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/hide/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/hide/elytra_broken"
+          }
+        }
+      },
+      {
+        "when": [
           "Blueprint Elytra",
           "blueprint elytra",
           "ipattern:blueprint elytra",
