@@ -6,6 +6,66 @@
     "cases": [
 {
         "when": [
+          "Cherry Wood Elytra",
+          "cherry wood elytra",
+          "ipattern:cherry wood elytra",
+          "iregex:.*cherry wood elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/planks/cherry_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/planks/cherry_elytra/elytra_broken"
+          }
+        }
+      },
+{
+        "when": [
+          "Stripped Cherry Log Elytra",
+          "stripped cherry log elytra",
+          "ipattern:stripped cherry log elytra",
+          "iregex:.*stripped cherry log elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/cherry/stripped/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/cherry/stripped/elytra_broken"
+          }
+        }
+      },
+{
+        "when": [
+          "Cherry Log Elytra",
+          "cherry log elytra",
+          "ipattern:cherry log elytra",
+          "iregex:.*cherry log elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/cherry/log/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/cherry/log/elytra_broken"
+          }
+        }
+      },
+{
+        "when": [
           "Pale Oak Wood Elytra",
           "pale oak wood elytra",
           "ipattern:pale oak wood elytra",
