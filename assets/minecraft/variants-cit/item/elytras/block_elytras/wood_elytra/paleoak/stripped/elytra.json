@@ -3,7 +3,7 @@
 	"items": [
 		"minecraft:elytra"
 	],
-	"modelPrefix": "elytras/block_elytras/wood_elytra/planks/oak_elytra/",
+	"modelPrefix": "elytras/block_elytras/wood_elytra/paleoak/stripped/",
 	"type": "component_data",
 	"parameters": 
 	{
@@ -11,7 +11,7 @@
 		"expect": "rich_text",
 		"transform": [
 			{
-				"regex": "(?i)(?!(dark|pale)).*oak wood elytra.*",
+				"regex": "(?i).*Stripped Pale Oak Log elytra.*",
 				"substitution": "elytra",
 				"matchAll": true
 			},

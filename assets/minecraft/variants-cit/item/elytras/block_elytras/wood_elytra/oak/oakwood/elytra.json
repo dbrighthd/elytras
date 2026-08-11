@@ -11,7 +11,7 @@
 		"expect": "rich_text",
 		"transform": [
 			{
-				"regex": "(?i)(?!(stripped))(?:(?!(dark)).)*oak log elytra.*",
+				"regex": "(?i)(?!(stripped))(?:(?!(dark|pale)).)*oak log elytra.*",
 				"substitution": "elytra",
 				"matchAll": true
 			},

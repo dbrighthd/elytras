@@ -4,6 +4,66 @@
     "property": "minecraft:component",
     "component": "minecraft:custom_name",
     "cases": [
+{
+        "when": [
+          "Pale Oak Wood Elytra",
+          "pale oak wood elytra",
+          "ipattern:pale oak wood elytra",
+          "iregex:.*pale oak wood elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/planks/pale_oak_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/planks/pale_oak_elytra/elytra_broken"
+          }
+        }
+      },
+{
+        "when": [
+          "Stripped Pale Oak Log Elytra",
+          "stripped pale oak log elytra",
+          "ipattern:stripped pale oak log elytra",
+          "iregex:.*stripped pale oak log elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/paleoak/stripped/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/paleoak/stripped/elytra_broken"
+          }
+        }
+      },
+{
+        "when": [
+          "Pale Oak Log Elytra",
+          "pale oak log elytra",
+          "ipattern:pale oak log elytra",
+          "iregex:.*pale oak log elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/paleoak/log/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/paleoak/log/elytra_broken"
+          }
+        }
+      },
       {
         "when": [
           "hide Elytra",
