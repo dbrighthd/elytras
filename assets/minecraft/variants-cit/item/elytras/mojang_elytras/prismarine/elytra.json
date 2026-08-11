@@ -13,12 +13,12 @@
         "function": "alternative",
         "alternatives": [
           {
-            "regex": "(?i).*Prismarine Elytra.*",
+            "regex": "(?i)(?!(animated)).*Prismarine Elytra.*",
             "substitution": "elytra",
             "matchAll": true
           },
           {
-            "regex": "(?i).*Prismarine cape.*",
+            "regex": "(?i)(?!(animated)).*Prismarine cape.*",
             "substitution": "elytra",
             "matchAll": true
           }
