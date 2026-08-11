@@ -6,10 +6,90 @@
     "cases": [
 {
         "when": [
-          "Cherry Wood Elytra",
-          "cherry wood elytra",
-          "ipattern:cherry wood elytra",
-          "iregex:.*cherry wood elytra.*"
+          "Bamboo Planks Elytra",
+          "bamboo planks elytra",
+          "ipattern:bamboo planks elytra",
+          "iregex:.*bamboo (Wood|Planks) elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/planks/bamboo_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/planks/bamboo_elytra/elytra_broken"
+          }
+        }
+      },
+{
+        "when": [
+          "Bamboo Mosaic Elytra",
+          "bamboo mosaic elytra",
+          "ipattern:bamboo mosaic elytra",
+          "iregex:.*bamboo mosaic elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/bamboo/mosaic/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/bamboo/mosaic/elytra_broken"
+          }
+        }
+      },
+{
+        "when": [
+          "Stripped Bamboo Elytra",
+          "stripped bamboo elytra",
+          "ipattern:stripped bamboo elytra",
+          "iregex:.*stripped bamboo elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/bamboo/stripped/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/bamboo/stripped/elytra_broken"
+          }
+        }
+      },
+{
+        "when": [
+          "Bamboo Log Elytra",
+          "bamboo log elytra",
+          "ipattern:bamboo log elytra",
+          "iregex:.*bamboo log elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/bamboo/log/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/bamboo/log/elytra_broken"
+          }
+        }
+      },
+{
+        "when": [
+          "Cherry Planks Elytra",
+          "cherry planks elytra",
+          "ipattern:cherry planks elytra",
+          "iregex:.*cherry (Wood|Planks) elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
@@ -66,10 +146,10 @@
       },
 {
         "when": [
-          "Pale Oak Wood Elytra",
-          "pale oak wood elytra",
-          "ipattern:pale oak wood elytra",
-          "iregex:.*pale oak wood elytra.*"
+          "Pale Oak Planks Elytra",
+          "pale oak planks elytra",
+          "ipattern:pale oak planks elytra",
+          "iregex:.*pale oak (Wood|Planks) elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
@@ -5933,10 +6013,10 @@
       },
       {
         "when": [
-          "Spruce Wood Elytra",
-          "spruce wood elytra",
-          "ipattern:spruce wood elytra",
-          "iregex:.*Spruce Wood Elytra.*"
+          "Spruce Planks Elytra",
+          "spruce planks elytra",
+          "ipattern:spruce planks elytra",
+          "iregex:.*Spruce (Wood|Planks) Elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
@@ -5953,10 +6033,10 @@
       },
       {
         "when": [
-          "Crimson Wood Elytra",
-          "crimson wood elytra",
-          "ipattern:crimson wood elytra",
-          "iregex:.*Crimson Wood Elytra.*"
+          "Crimson Planks Elytra",
+          "crimson planks elytra",
+          "ipattern:crimson planks elytra",
+          "iregex:.*Crimson (Wood|Planks) Elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
@@ -5973,10 +6053,10 @@
       },
       {
         "when": [
-          "Jungle Wood Elytra",
-          "jungle wood elytra",
-          "ipattern:jungle wood elytra",
-          "iregex:.*Jungle Wood Elytra.*"
+          "Jungle Planks Elytra",
+          "jungle planks elytra",
+          "ipattern:jungle planks elytra",
+          "iregex:.*Jungle (Wood|Planks) Elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
@@ -5993,10 +6073,10 @@
       },
       {
         "when": [
-          "Mangrove Wood Elytra",
-          "mangrove wood elytra",
-          "ipattern:mangrove wood elytra",
-          "iregex:.*Mangrove Wood Elytra.*"
+          "Mangrove Planks Elytra",
+          "mangrove planks elytra",
+          "ipattern:mangrove planks elytra",
+          "iregex:.*Mangrove (Wood|Planks) Elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
@@ -6013,10 +6093,10 @@
       },
       {
         "when": [
-          "Acacia Wood Elytra",
-          "acacia wood elytra",
-          "ipattern:acacia wood elytra",
-          "iregex:.*Acacia Wood Elytra.*"
+          "Acacia Planks Elytra",
+          "acacia planks elytra",
+          "ipattern:acacia planks elytra",
+          "iregex:.*Acacia (Wood|Planks) Elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
@@ -6033,10 +6113,10 @@
       },
       {
         "when": [
-          "Birch Wood Elytra",
-          "birch wood elytra",
-          "ipattern:Birch wood elytra",
-          "iregex:.*Birch Wood Elytra.*"
+          "Birch Planks Elytra",
+          "birch planks elytra",
+          "ipattern:Birch planks elytra",
+          "iregex:.*Birch (Wood|Planks) Elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
@@ -6053,10 +6133,10 @@
       },
       {
         "when": [
-          "Warped Wood Elytra",
-          "warped wood elytra",
-          "ipattern:warped wood elytra",
-          "iregex:.*Warped Wood Elytra.*"
+          "Warped Planks Elytra",
+          "warped planks elytra",
+          "ipattern:warped planks elytra",
+          "iregex:.*Warped (Wood|Planks) Elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
@@ -6073,10 +6153,10 @@
       },
       {
         "when": [
-          "Dark Oak Wood Elytra",
-          "dark oak wood elytra",
-          "ipattern:dark oak wood elytra",
-          "iregex:.*Dark Oak Wood Elytra.*"
+          "Dark Oak Planks Elytra",
+          "dark oak planks elytra",
+          "ipattern:dark oak planks elytra",
+          "iregex:.*Dark Oak (Wood|Planks) Elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",
@@ -9492,10 +9572,10 @@
       },
       {
         "when": [
-          "Oak Wood Elytra",
-          "oak wood elytra",
-          "ipattern:oak wood elytra",
-          "iregex:.*Oak Wood Elytra.*"
+          "Oak Planks Elytra",
+          "oak planks elytra",
+          "ipattern:oak planks elytra",
+          "iregex:.*Oak (Wood|Planks) Elytra.*"
         ],
         "model": {
           "type": "minecraft:condition",

@@ -11,7 +11,7 @@
 		"expect": "rich_text",
 		"transform": [
 			{
-				"regex": "(?i).*mangrove wood elytra.*",
+				"regex": "(?i).*mangrove (Wood|Planks) elytra.*",
 				"substitution": "elytra",
 				"matchAll": true
 			},

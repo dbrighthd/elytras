@@ -3,7 +3,7 @@
 	"items": [
 		"minecraft:elytra"
 	],
-	"modelPrefix": "elytras/block_elytras/wood_elytra/planks/acacia_elytra/",
+	"modelPrefix": "elytras/block_elytras/wood_elytra/bamboo/stripped/",
 	"type": "component_data",
 	"parameters": 
 	{
@@ -11,7 +11,7 @@
 		"expect": "rich_text",
 		"transform": [
 			{
-				"regex": "(?i).*.*acacia (Wood|Planks) elytra.*.*",
+				"regex": "(?i).*Stripped Bamboo elytra.*",
 				"substitution": "elytra",
 				"matchAll": true
 			},
