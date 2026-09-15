@@ -6,6 +6,66 @@
     "cases": [
 {
         "when": [
+          "Poplar Planks Elytra",
+          "poplar planks elytra",
+          "ipattern:poplar planks elytra",
+          "iregex:.*poplar planks elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/planks/poplar_elytra/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/planks/poplar_elytra/elytra_broken"
+          }
+        }
+      },
+{
+        "when": [
+          "Stripped Poplar Log Elytra",
+          "stripped poplar log elytra",
+          "ipattern:stripped poplar log elytra",
+          "iregex:.*stripped poplar log elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/poplar/stripped/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/poplar/stripped/elytra_broken"
+          }
+        }
+      },
+{
+        "when": [
+          "Poplar Log Elytra",
+          "poplar log elytra",
+          "ipattern:poplar log elytra",
+          "iregex:.*poplar log elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/poplar/log/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/wood_elytra/poplar/log/elytra_broken"
+          }
+        }
+      },
+{
+        "when": [
           "Bamboo Planks Elytra",
           "bamboo planks elytra",
           "ipattern:bamboo planks elytra",
