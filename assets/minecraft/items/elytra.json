@@ -6,6 +6,286 @@
     "cases": [
 {
         "when": [
+          "Yellow Poplar Leaves Elytra",
+          "yellow poplar leaves elytra",
+          "ipattern:yellow poplar leaves elytra",
+          "iregex:.*yellow poplar leaves elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/leaves/yellow_poplar/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/leaves/yellow_poplar/elytra_broken"
+          }
+        }
+      },
+{
+        "when": [
+          "Orange Poplar Leaves Elytra",
+          "orange poplar leaves elytra",
+          "ipattern:orange poplar leaves elytra",
+          "iregex:.*orange poplar leaves elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/leaves/orange_poplar/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/leaves/orange_poplar/elytra_broken"
+          }
+        }
+      },
+{
+        "when": [
+          "Red Poplar Leaves Elytra",
+          "red poplar leaves elytra",
+          "ipattern:red poplar leaves elytra",
+          "iregex:.*red poplar leaves elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/leaves/red_poplar/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/leaves/red_poplar/elytra_broken"
+          }
+        }
+      },
+{
+        "when": [
+          "Flowering Azalea Leaves Elytra",
+          "flowering azalea leaves elytra",
+          "ipattern:flowering azalea leaves elytra",
+          "iregex:.*flowering azalea leaves elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/leaves/flowering_azalea/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/leaves/flowering_azalea/elytra_broken"
+          }
+        }
+      },
+{
+        "when": [
+          "Azalea Leaves Elytra",
+          "azalea leaves elytra",
+          "ipattern:azalea leaves elytra",
+          "iregex:.*azalea leaves elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/leaves/azalea/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/leaves/azalea/elytra_broken"
+          }
+        }
+      },
+{
+        "when": [
+          "Pale Oak Leaves Elytra",
+          "pale oak leaves elytra",
+          "ipattern:pale oak leaves elytra",
+          "iregex:.*pale oak leaves elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/leaves/pale_oak/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/leaves/pale_oak/elytra_broken"
+          }
+        }
+      },
+{
+        "when": [
+          "Cherry Leaves Elytra",
+          "cherry leaves elytra",
+          "ipattern:cherry leaves elytra",
+          "iregex:.*cherry leaves elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/leaves/cherry/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/leaves/cherry/elytra_broken"
+          }
+        }
+      },
+{
+        "when": [
+          "Mangrove Leaves Elytra",
+          "mangrove leaves elytra",
+          "ipattern:mangrove leaves elytra",
+          "iregex:.*mangrove leaves elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/leaves/mangrove/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/leaves/mangrove/elytra_broken"
+          }
+        }
+      },
+{
+        "when": [
+          "Dark Oak Leaves Elytra",
+          "dark oak leaves elytra",
+          "ipattern:dark oak leaves elytra",
+          "iregex:.*dark oak leaves elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/leaves/dark_oak/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/leaves/dark_oak/elytra_broken"
+          }
+        }
+      },
+{
+        "when": [
+          "Acacia Leaves Elytra",
+          "acacia leaves elytra",
+          "ipattern:acacia leaves elytra",
+          "iregex:.*acacia leaves elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/leaves/acacia/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/leaves/acacia/elytra_broken"
+          }
+        }
+      },
+{
+        "when": [
+          "Jungle Leaves Elytra",
+          "jungle leaves elytra",
+          "ipattern:jungle leaves elytra",
+          "iregex:.*jungle leaves elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/leaves/jungle/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/leaves/jungle/elytra_broken"
+          }
+        }
+      },
+{
+        "when": [
+          "Birch Leaves Elytra",
+          "birch leaves elytra",
+          "ipattern:birch leaves elytra",
+          "iregex:.*birch leaves elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/leaves/birch/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/leaves/birch/elytra_broken"
+          }
+        }
+      },
+{
+        "when": [
+          "Spruce Leaves Elytra",
+          "spruce leaves elytra",
+          "ipattern:spruce leaves elytra",
+          "iregex:.*spruce leaves elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/leaves/spruce/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/leaves/spruce/elytra_broken"
+          }
+        }
+      },
+{
+        "when": [
+          "Oak Leaves Elytra",
+          "oak leaves elytra",
+          "ipattern:oak leaves elytra",
+          "iregex:.*oak leaves elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/leaves/oak/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/block_elytras/leaves/oak/elytra_broken"
+          }
+        }
+      },
+{
+        "when": [
           "Poplar Planks Elytra",
           "poplar planks elytra",
           "ipattern:poplar planks elytra",

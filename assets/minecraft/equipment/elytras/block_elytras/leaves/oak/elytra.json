@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "minecraft:elytras/block_elytras/leaves/oak/elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+} 
