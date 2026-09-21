@@ -1,0 +1,60 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 32],
+	"models": [
+		{
+			"part": "right_wing",
+			"id": "right_wing",
+			"invertAxis": "xy",
+			"translate": [-5, 0, 0],
+			"boxes": [
+				{
+					"coordinates": [-5, -20, 0, 10, 20, 2],
+					"uvNorth": [34, 2, 24, 22],
+					"uvEast": [36, 2, 34, 22],
+					"uvSouth": [46, 2, 36, 22],
+					"uvWest": [24, 2, 22, 22],
+					"uvUp": [24, 2, 34, 0],
+					"uvDown": [34, 0, 44, 2],
+					"sizeAdd": 1
+				}
+			],
+			"animations": [
+				{
+					"varb.is_twirling": "twirl_state > 0 && twirl_state < 1",
+					"var.cooldown_max": "0.4",
+					"varb.should_play_sound": "var.currCooldown < 0 && varb.is_twirling",
+					"var.currCooldown": "if(varb.is_twirling, var.cooldown_max, var.currCooldown - frame_time)",
+					"var.twirl_index": "if(varb.should_play_sound,var.twirl_index + 1, var.twirl_index)",
+					"var.sound_amount": "7",
+					"varb.did_play_sound": "playsound(elytras:tricks.trick1, varb.should_play_sound && (var.twirl_index%var.sound_amount == 0), 10, 1, 1, 100)",
+					"varb.did_play_sound2": "playsound(elytras:tricks.trick2,varb.should_play_sound && (var.twirl_index%var.sound_amount == 1), 10, 1, 1, 100)",
+					"varb.did_play_sound3": "playsound(elytras:tricks.trick3, varb.should_play_sound && (var.twirl_index%var.sound_amount == 2), 10, 1, 1, 100)",
+					"varb.did_play_sound4": "playsound(elytras:tricks.trick4, varb.should_play_sound && (var.twirl_index%var.sound_amount == 3), 10, 1, 1, 100)",
+					"varb.did_play_sound5": "playsound(elytras:tricks.trick5,varb.should_play_sound && (var.twirl_index%var.sound_amount == 4), 10, 1, 1, 100)",
+					"varb.did_play_sound6": "playsound(elytras:tricks.trick6, varb.should_play_sound && (var.twirl_index%var.sound_amount == 5), 10, 1, 1, 100)",
+					"varb.did_play_sound7": "playsound(elytras:tricks.trick7,varb.should_play_sound && (var.twirl_index%var.sound_amount == 6), 10, 1, 1, 100)",
+					"varb.did_play_sound8": "playsound(elytras:tricks.trick8, varb.should_play_sound && (var.twirl_index%var.sound_amount == 7), 10, 1, 1, 100)"
+				}
+			]
+		},
+		{
+			"part": "left_wing",
+			"id": "left_wing",
+			"invertAxis": "xy",
+			"translate": [5, 0, 0],
+			"boxes": [
+				{
+					"coordinates": [-5, -20, 0, 10, 20, 2],
+					"uvNorth": [24, 2, 34, 22],
+					"uvEast": [22, 2, 24, 22],
+					"uvSouth": [36, 2, 46, 22],
+					"uvWest": [34, 2, 36, 22],
+					"uvUp": [34, 2, 24, 0],
+					"uvDown": [44, 0, 34, 2],
+					"sizeAdd": 1
+				}
+			]
+		}
+	]
+}

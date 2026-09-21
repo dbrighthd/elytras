@@ -1,0 +1,74 @@
+{
+  "tricks.trick1": {
+    "sounds": [
+		{
+			"name": "trick/trick1",
+			"volume": 1.0,
+			"weight": 1
+		}
+	]
+    },
+    "tricks.trick2": {
+    "sounds": [
+		{
+			"name": "trick/trick2",
+			"volume": 1.0,
+			"weight": 1
+		}
+	]
+    },
+    "tricks.trick3": {
+    "sounds": [
+		{
+			"name": "trick/trick3",
+			"volume": 1.0,
+			"weight": 1
+		}
+	]
+    },
+    "tricks.trick4": {
+    "sounds": [
+		{
+			"name": "trick/trick4",
+			"volume": 1.0,
+			"weight": 1
+		}
+	]
+    },
+    "tricks.trick5": {
+    "sounds": [
+		{
+			"name": "trick/trick5",
+			"volume": 1.0,
+			"weight": 1
+		}
+	]
+    },
+    "tricks.trick6": {
+    "sounds": [
+		{
+			"name": "trick/trick6",
+			"volume": 1.0,
+			"weight": 1
+		}
+	]
+    },
+    "tricks.trick7": {
+    "sounds": [
+		{
+			"name": "trick/trick7",
+			"volume": 1.0,
+			"weight": 1
+		}
+	]
+    },
+    "tricks.trick8": {
+    "sounds": [
+		{
+			"name": "trick/trick8",
+			"volume": 1.0,
+			"weight": 1
+		}
+	]
+    }
+}
