@@ -6,6 +6,26 @@
     "cases": [
 {
         "when": [
+          "Fantasy Elytra",
+          "fantasy elytra",
+          "ipattern:fantasy elytra",
+          "iregex:.*fantasy elytra.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/fantasy/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytras/misc_elytras/fantasy/elytra_broken"
+          }
+        }
+      },
+{
+        "when": [
           "Yellow Poplar Leaves Elytra",
           "yellow poplar leaves elytra",
           "ipattern:yellow poplar leaves elytra",
